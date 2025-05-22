@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 import os
 import json
 import fitz  # PyMuPDF

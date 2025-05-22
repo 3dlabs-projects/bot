@@ -1,0 +1,502 @@
+{
+    "course_name": "INTRODUCTION TO STORAGE TANK & IT'S DESIGN",
+    "total_slides": 64,
+    "slides": [
+        {
+            "slide_number": 1,
+            "page_content": "Slide 1",
+            "text": "",
+            "images": [
+                "slide_1_img_1.png",
+                "slide_1_img_2.jpeg"
+            ]
+        },
+        {
+            "slide_number": 2,
+            "page_content": "Slide 2",
+            "text": "1 | P a g e",
+            "images": [
+                "slide_2_img_1.jpeg"
+            ]
+        },
+        {
+            "slide_number": 3,
+            "page_content": "Slide 3",
+            "text": "2 | P a g e  \n \nWHAT IS STORAGE TANK? \n \nStorage tanks are containers that hold liquids, compressed gases (gas tank) or \nmediums used for the short- or long-term storage of heat or cold. \nThis chapter contains information about aboveground tanks, with special reference \nto tanks made of carbon steel materials. \nStorage tanks are available in many shapes: vertical and horizontal cylindrical; \nopen top and closed top; flat bottom, cone bottom, slope bottom and dish bottom. Large \ntanks tend to be vertical cylindrical, to easier withstand hydraulic & hydrostatically \ninduced pressure of contained liquid. Most container tanks for handling liquids during \ntransportation are designed to handle varying degrees of pressure. \n2.  FLUIDS STORED IN STEEL TANKS \n \nTanks can be full or empty at the moment of failure during events of natural \nhazards. The content of these tanks is very important because it can avoid extreme failure \nof the shell depending on the quantity and on the physical properties of the liquid. \n \nDensity and specific gravity: \nThe density of the liquid is its mass per unit volume. Water has a density of 1 \ngm/cm3 at 4\u00b0C. The density of a liquid plays an important role in the design of a tank, \nbecause larger densities require thicker shells. \nSpecific gravity is another important physical property of the liquid stored. It is a \nmeasure of the relative weight of one liquid compared to water. Specifically it is the ratio \nof the density of the liquid divided by the density of the water at 15.5\u00b0C. For example, \npetroleum oil, kerosene and gasoline have a specific gravity of 0.82, 0.80 and 0.70 \nrespectively. \nCare must be exercised if there is a significant increase in the specific gravity of \nthe new liquid because the effective hydrostatic pressure acting on the tank walls will be \ngreater if the design level is not reduced, and could cause damage on the cylindrical shell. \n \nVapor pressure and boiling point: \n \nThe vapor pressure of a pure liquid is the pressure of the vapor space above the \nLiquid in a closed container, and increases with increasing temperature. It is an important \nconsideration in order to select the type of tank and its roof and is crucial for the purpose \nof characterizing fire hazardousness.",
+            "images": []
+        },
+        {
+            "slide_number": 4,
+            "page_content": "Slide 4",
+            "text": "3 | P a g e  \n \n \nThe boiling point is also important. It is necessary to know the temperatures at \nwhich some liquids should be stored, always below its boiling point.  \n \nPressure: \nPressure is defined as force per unit area. In the United States, the engineers \nworking in this field commonly use inches of water column or ounces per square inches \nto express the value of pressure or vacuum in the vapor space of a tank, because the \npressures are usually very low relative to atmospheric pressure. \nAccording to this pressure the designer should determine the strength and thus \nthickness of the tank. For both cylindrical and spherical shells, the most complex part of \nthe tank to design is the junction between the roof and the cylinder because several \nconditions may occur:  \n(a) When the pressures dominate on the cylinder, the roof deflects to accompany \nthe lower shell; \n  (b) When there is an internal pressure that exceeds the weight of the plates and \nframing of the roof, this junction tends to separate from the shell. \nThis area is the first to show damage. Both external pressures due to wind loads, \nand internal negative pressure can cause similar damage to the structure. \nThe difference of pressure between the inside of the tank, its vapor space, and the \nlocal barometric pressure (atmospheric pressure) is called the internal pressure. \nWhen this pressure is negative, it is called a vacuum.To measure this pressure, it \nis necessary to read it at the top of the liquid in the tank, because the liquid itself exerts \nhydrostatic pressure, which increases to a maximum value at the base of the tank. \nIf a tank has an internal pressure exceeding the value of 100 kN/m2 relative to \natmospheric pressure, they are classified as pressure vessels and are covered by the \ncode for Boiler and pressure Vessels\u201d of ASME (American Society of Mechanical \nEngineers). Such cases are beyond the scope of this work. \nAn external pressure implies that the pressure on the outside of the tank or vessel \nis larger than that on its interior, such the wind pressure due to a hurricane. For an \natmospheric tank, the development of a vacuum in the interior also results in external \npressure. External pressures can be extremely damaging to tanks because their surface \nareas are large and this generates very high forces. The excessive external pressure \nresults in buckling of the shell walls or total collapse.",
+            "images": []
+        },
+        {
+            "slide_number": 5,
+            "page_content": "Slide 5",
+            "text": "4 | P a g e  \n \n \n3. TYPES OF TANKS \n \n3.1 Based on the placement of tank \n \nThere are many different forms to classify storage tanks. The most fundamental \nclassification is based upon whether they are above or belowground. \n \n\uf0b7 Underground storage tanks \n\uf0b7 Aboveground storage tanks \n \n3.1.1 Underground storage tanks \n \nAn underground storage tank system (UST) is a tank and any underground piping \nconnected to the tank that has at least 10 percent of its combined volume underground. \nThe federal UST regulations apply only to UST systems storing either petroleum or certain \nhazardous substances. \nUnderground tanks have less capacity than aboveground tanks and are usually \nlimited to between 20,000 and 75,000 liters (5,000 and 20,000 gal) with most being less \nthan 45,000 liters (12,000 gal). They require special considerations for the earth loads to \nwhich they are subjected, because of their contents. Underground tanks store fuels as \nwell as a variety of chemicals. Another aspect to consider is buoyancy, because they are \nanchored into the ground, they should not be able to pop out during periods when ground \nwater surrounds the tank. In addition, because they are underground, they may be \nsubjected to severe corrosion.",
+            "images": []
+        },
+        {
+            "slide_number": 6,
+            "page_content": "Slide 6",
+            "text": "5 | P a g e  \n \n                     \n \nFigure 1 Underground storage tank installation \n                       \n \n \n \n      \n \nFigure 2 A horizontal cylindrical steel tank with a factory applied coating and galvanic anodes prior to installation \nunderground.",
+            "images": [
+                "slide_6_img_1.jpeg",
+                "slide_6_img_2.jpeg"
+            ]
+        },
+        {
+            "slide_number": 7,
+            "page_content": "Slide 7",
+            "text": "6 | P a g e  \n \n \n \n3.1.2 Aboveground storage tanks \n \nAboveground storage tanks (ASTs) used for the store of petroleum products and \nChemicals and Edible oil and Fresh water etc. Nowadays most of the industries uses AST \ntanks for their easy maintenance and replacement facility.  \n \n \n  \n               \n \nFigure 3 Above ground petroleum storage tanks under construction",
+            "images": [
+                "slide_7_img_1.jpeg"
+            ]
+        },
+        {
+            "slide_number": 8,
+            "page_content": "Slide 8",
+            "text": "7 | P a g e  \n \n                                   \n \n \nFigure 4 Above ground water storage tank.",
+            "images": [
+                "slide_8_img_1.jpeg"
+            ]
+        },
+        {
+            "slide_number": 9,
+            "page_content": "Slide 9",
+            "text": "8 | P a g e  \n \n \n \n \n \n                    \n \nFigure 5 Above ground oil storage tanks in a petroleum refinery unit. \n \nThe aboveground tanks have almost all their structure exposed. The bottom part \nof these tanks is placed directly over soil or on a concrete foundation. The majority of the \nsteel tanks were built on concrete foundations. \n \nIn some cases they are placed on a grillage, formed by structural members or \nheavy screens, so that the bottom of the tank can be inspected from the underside. \nAdvantages of this type of tank includes that they are easier to construct, can be built in \nfar larger capacities than Underground storage tank, and costs less than those built \nunderground.",
+            "images": [
+                "slide_9_img_1.jpeg"
+            ]
+        },
+        {
+            "slide_number": 10,
+            "page_content": "Slide 10",
+            "text": "9 | P a g e  \n \n \n3.2 Classification based on the internal pressure \n \nIn the case that an internal pressure acts on the tank during storage, it is possible \nto classify these tanks based on this level of pressure. This pressure effect depends \ndirectly of the size of the tank. The larger the tank, the more severe effect of pressure is \non the structure. This classification is commonly employed by codes, standards and \nRegulations all over the world. \n \n \n\uf0b7 Atmospheric tanks \n\uf0b7 Low-pressure tanks \n\uf0b7 Pressure vessels (high-pressure tanks) \n \n3.2.1 Atmospheric tanks \n \nThese tanks are the most common. Although they are called atmospheric, they are \nusually operated at internal pressure slightly above atmospheric pressure. The fire codes \ndefine an atmospheric tank as operating from atmospheric up to 3.5 kN/m2 above \natmospheric pressure. \n \n3.2.2 Low-pressure tanks \n \nWithin the context of tanks, low pressure means that tanks are designed for a \npressure higher than atmospheric tanks. This also means that these tanks are relatively \nhigh-pressure tanks. Tanks of this type are designed to operate from atmospheric \npressure up to about 100 kN/m2. \n \n3.2.3 Pressure vessels (high-pressure tanks) \n \nSince high-pressure tanks are really pressure vessels, the term high-pressure tank \nis not frequently used; instead they are called only vessels. Because these kinds of tanks \nare usually built underground, they are not included in this work and they are not covered \nin detail in this discussion. \nHowever, they are treated separately from other tanks by all codes, standards, and \nregulations.",
+            "images": []
+        },
+        {
+            "slide_number": 11,
+            "page_content": "Slide 11",
+            "text": "10 | P a g e  \n \n \n3.3 Classification of major tank components \n \nThere is no simple way to classify tanks based upon a single criterion such as its \nshape or roof or bottom. But this criterion is easier than any other one because tanks are \nclassified only by visual observation. The shape is usually determined by the contents. \nThe vapor pressure of the substance stored or internal design pressure is the broadest \nand most widely used method adopted by codes, standards and regulations, as explained \nabove. For this reason, the vapor pressure determines the shape and, consequently, the \ntype of tank used.  \n\uf0b7 classification based on roof \n\uf0b7 classification based on shell type \n\uf0b7 classification based on bottom \n3.3.1 Classification based on roof \nThe shape of the roof is useful indicator of the type of a tank because it is \nselfexplanatory to tank designer, fabricator and erector. \nFixed-roof tanks: \nMost aboveground tanks have cylindrical shapes on the part that contains \nfluids.The cylinder is an economical, easily fabricated shape for pressure containment. \nAn important feature of such cylindrical tanks is that the top end must be closed. As \ndiscussed before, the relatively flat roof and bottom or closures of tanks do not lend \nthemselves to much internal pressures. As internal pressure increases, the tank \ndesigners use domes or spherical caps. \nFrangible roof: \nRoof plates shall be attached to the top angle of the tank with a continuous fillet \nweld on the top side only. The roof to shell \njoint failed in the event of excessive internal \npresure before the the tank shell to bottom \nor shell joints fails. \n \n \n \n \n \n \nConical roof: \nFigure 6 Fixed roof tank",
+            "images": [
+                "slide_11_img_1.jpeg"
+            ]
+        },
+        {
+            "slide_number": 12,
+            "page_content": "Slide 12",
+            "text": "11 | P a g e  \n \nCone-roof tanks have also cylindrical shells in the lower part. These are the most \nwidely used tanks for storage of relatively large quantities of fluid. They are economical \nto build. Cone-roof tanks typically have roof rafters and support columns except in very \nsmall-diameters tanks. \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nUmbrella-roof tanks: \nFigure 7 to calculate the pie cut angle \nFigure 8 cone roof tank",
+            "images": [
+                "slide_12_img_1.png",
+                "slide_12_img_2.jpeg"
+            ]
+        },
+        {
+            "slide_number": 13,
+            "page_content": "Slide 13",
+            "text": "12 | P a g e  \n \nThey are very similar to cone-roof tanks, but the roof looks like an umbrella. They \nare usually constructed with diameters not much larger than 20 m. Another difference is \nthat the umbrella-roof does not have to be supported by columns to the bottom of the \ntank, so that they can be a self-supporting structure. \n \n \n                 Figure 9 Umbrella roof tank \nDome-roof tanks: \nThis type has almost the same shape of the umbrella type except that the dome \napproximates a spherical surface more closely than the segmented sections of an \numbrella-roof, see Figure 9. There are several ways to fabricate such tanks. One of them \nis known as the tank \nairlift \nmethod, \n\u201cin \nwhich the roof and \nthe upper course of \nshell are fabricated \nfirst, then lifted by air \nthat is blown into the \ntanks \nas \nthe \nremaining \nlower \ncourses of steel shell \nare \nwelded \ninto \nplace. \n \n \n \n \nFigure 10 Dome roof erection work",
+            "images": [
+                "slide_13_img_1.jpeg",
+                "slide_13_img_2.jpeg"
+            ]
+        },
+        {
+            "slide_number": 14,
+            "page_content": "Slide 14",
+            "text": "13 | P a g e  \n \n \n \n \nAluminum geodesic dome-roof tanks: \nAlthough most tanks are made of steel, some fixed-roof tanks have aluminum \ngeodesic dome-roof. Some advantages include that they have a superior corrosion \nresistance for a wide range of conditions compared with steel tanks. Also they are often \nan economical choice and are clear-span structures that do not require internal supports. \nThey can also be built to virtually any required diameter. \n \n \n \n \n \n \n \n \n \n \n \n \nFigure 11 Aluminum geodesic dome-roof tanks",
+            "images": [
+                "slide_14_img_1.jpeg"
+            ]
+        },
+        {
+            "slide_number": 15,
+            "page_content": "Slide 15",
+            "text": "14 | P a g e  \n \n \n \nFloating-roof tanks: \nThese tanks have a cover that floats on the surface of the liquid. The floating cover \nor roof is a disk structure that has sufficient buoyancy to ensure that the roof will float \nunder all expected conditions, even if leaks develop in the roof. They are frequently used \nin large diameter tanks to prevent the evaporation of volatile fluids.The disk is built with \napproximately 200 mm gap between the roof and the shell, avoiding contact between \nboth elements as the roof moves up and down with the liquid level. A \u201crim seal\u201d seals the \ngap between the floating roof and the shell, as shown in Figure 12. \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nExternal Floating Roof Tank: \nA typical external floating roof tank consists of an open-topped cylindrical steel \nshell equipped with a roof that floats on the surface of the stored liquid, rising and falling \nwith the liquid level. The floating roof is comprised of a deck, fittings, and rim seal system. \nFloating roof decks are constructed of welded steel plates and are of three general types: \npan, pontoon, and double deck. Although numerous pan-type decks are currently in use, \nthe present trend is toward pontoon and double-deck type floating roofs. \n \n \n \nFigure 12 Details of a flexible seal employed for floating roof",
+            "images": [
+                "slide_15_img_1.jpeg"
+            ]
+        },
+        {
+            "slide_number": 16,
+            "page_content": "Slide 16",
+            "text": "15 | P a g e  \n \n \nExternal floating roof tanks are equipped with a rim seal system, which is attached \nto the roof perimeter and contacts the tank wall. The rim seal system slides against the \ntank wall as the roof is raised and lowered. The floating deck is also equipped with fittings \nthat penetrate the deck and serve operational functions. The external floating roof design \nis such that evaporative losses from the stored liquid are limited to losses from the rim \nseal system and deck fittings (standing storage loss) and any exposed liquid on the tank \nwalls (withdrawal loss). \n \n \n \n \n \n \n \n \nFigure 13 External floating roof",
+            "images": [
+                "slide_16_img_1.png"
+            ]
+        },
+        {
+            "slide_number": 17,
+            "page_content": "Slide 17",
+            "text": "16 | P a g e  \n \n \n \n \nInternal Floating Roof Tank: \nThat tanks has both, a permanent fixed roof and a floating roof inside. There are \ntwo basic types of internal floating roof tanks: \n \n\uf0b7 tanks in which the fixed roof is supported by vertical columns within the tank \n\uf0b7 tanks with a selfsupporting fixed roof and no internal support columns \n \nThe fixed roof is not necessarily free of openings but does span the entire open \nplan area of the vessel. Fixed roof tanks that have been retrofitted to employ an internal \nfloating roof are typically of the first type, while external floating roof tanks that have been \nconverted to an internal floating roof tank typically have a self-supporting roof. \nTanks initially constructed with both a fixed roof and an internal floating roof may be of \neither type. An internal floating roof tank has both a permanently affixed roof and a roof \nthat floats inside the tank on the liquid surface (contact deck) or is supported on pontoons \nseveral inches above the liquid surface (noncontact deck). The internal floating roof rises \nand falls with the liquid level. \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nFigure 14 Internal floating roof with fixed cone roof",
+            "images": [
+                "slide_17_img_1.jpeg"
+            ]
+        },
+        {
+            "slide_number": 18,
+            "page_content": "Slide 18",
+            "text": "17 | P a g e  \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n3.3.2 Classification based on shell type \n \n \nThese are most commenly used shell types for a storage tank. \nCylindrical shell tank: \nMost tanks have a cylindrical body, which is used as storage volume. Some are \nformed by a cylinder, such as in Figures 1 and 4. The walls may have a constant thickness \nor a tapered wall with different values of the thickness at different elevations.The \noutersurface of the tank is smooth and it is the inner surface where the thickness changes \nare observed. The maximum thickness is governed by the internal pressures and may be \nas high as 40 mm; however, in most tanks it is of the order of 10 mm. \n \nFigure 15 Internal floating roof with fixed dome roof",
+            "images": [
+                "slide_18_img_1.jpeg"
+            ]
+        },
+        {
+            "slide_number": 19,
+            "page_content": "Slide 19",
+            "text": "18 | P a g e  \n \nThe cylinder itself is formed by curved plates that are welded. The quality of the \nwelds is very important for the integrity of the shell, and several failures have been \nreported that initiated at welds in the lower part of the shell. \n \nSome tanks without a roof have a wind girder ring welded on the outside; a girder \nmay have a thickness of the order of 7 mm with a width that may range between 100 and \n200 mm. Other tanks have a stiffening ring to prevent local buckling of the shell under \nwind pressures, as shown in Figure 9. \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nSpherical tank(vessel): \nThis type of vessel is preferred for storage of high pressure fluids. A sphere is a \nvery strong structure. The even distribution of stresses on the sphere's surfaces, both \ninternally and externally, generally means that there are no weak points. Spheres \nhowever, are much more costly to manufacture than cylindrical vessels. \n \nStorage Spheres need ancillary equipment similar to tank storage - e.g. Access \nmanholes, Pressure / Vacuum vent that is set to prevent venting loss from boiling and \nbreathing loss from daily temperature or barometric pressure changes, Access ladders, \nEarthing points, etc. \n \n \n \nFigure 16 Cylindrical shell with wind grider",
+            "images": [
+                "slide_19_img_1.jpeg"
+            ]
+        },
+        {
+            "slide_number": 20,
+            "page_content": "Slide 20",
+            "text": "19 | P a g e  \n \nAn advantage of spherical storage vessels is, that they have a smaller surface area \nper unit volume than any other shape of vessel. This means, that the quantity of heat \ntransferred from warmer surroundings to the liquid in the sphere, will be less than that for \ncylindrical or rectangular storage vessels. \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nFigure 17 Spherical tank \nFigure 18 Spherical tank form",
+            "images": [
+                "slide_20_img_1.jpeg",
+                "slide_20_img_2.jpeg"
+            ]
+        },
+        {
+            "slide_number": 21,
+            "page_content": "Slide 21",
+            "text": "20 | P a g e  \n \nRectangular tank: \n \n \nThe rectangular design comprising a primary storage tank without internal \nstructure to enable ease of internal inspection and cleaning. \n \n \nThe space required to install the tank is minimum.Usually rectangular \nstorage tanks are in compact sizes.  \n \n  \n           Rectangular tanks are most often used in conjunction with protected tanks \nor workbench lube oil applications. They are typically smaller capacity (5000 gal or less) \nbecause a cylindrical tank design is considerably more economical in larger sizes.  \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nFigure 19 rectangular storage tank",
+            "images": [
+                "slide_21_img_1.png"
+            ]
+        },
+        {
+            "slide_number": 22,
+            "page_content": "Slide 22",
+            "text": "21 | P a g e  \n \n3.3.3 Classification based tank bottom \n \nAnother important component of tank are the bottoms made of welded steel plates. \nIn the analysis, tanks are usually modeled as fixed to the ground, so that it is not a problem \nto know exactly the shape of the bottom. But for the designer this aspect is very important \nbecause of the varying conditions to which a tank bottom may be subjected. A tank bottom \nmay be broadly classified as flat bottom or conical. \n \n \n \n \n(i)Flat bottom: \nThey are the most common end closures of tanks. These tanks appear flat but \nusually have a small designed slope and shape. These tanks are subclassified according \nto the following categories: \nFlat:  \nFor tanks less than about 6-9 m in diameter, the flat-bottom tank is used. The \ninclusion of a small slope as describe above does not provide any substantial benefit, so \nthey are fabricated as close to flat as possible. \nCone up: \nThese bottoms are built with a high point in the center of the tank. Crowning the \nfoundation and constructing the tank on the crown accomplish this. The slope is limited \nto about 25 to 50 mm per 3 m run. \nCone down: \nThe cone-down design slopes toward the center of the tank. Usually, there is a \ncollection sump at the center. It is very effective for water removal from tanks. This design \nis inherently more complex because it requires a sump, underground piping, and an \nexternal sump outside the tank. \nSingle slope: \nThis design uses a planar bottom but it is tilted slightly to one side. This allows for \ndrainage to be directed to the low point on the perimeter, where it may be effectively \ncollected. Since there is a constant rise across the diameter of the tank, the difference in \nelevation from one side to the other can be quite large. Therefore, this design is usually \nlimited to about 30 m. \n \n(ii)Conical bottom: \nThe second type is the conical bottom. The designers often use it to provide a \ncomplete drainage or even removal of solids. Since these types of tanks are more costly, \nthey are limited to the smaller sizes and are often found in the chemical industry or in \nprocessing plants.",
+            "images": []
+        },
+        {
+            "slide_number": 23,
+            "page_content": "Slide 23",
+            "text": "22 | P a g e  \n \n4. FOUNDATIONS OF TANKS \n \nThis section applies to the tanks considered in this study, i.e. cylindrical tanks with \nuniformly supported flat bottoms. A geotechnical study of the site is required in the design \nof the foundation; however, in many cases (especially for tanks located in coastal areas) \nthe soils are susceptible to have uniform or differential settlements. The buckling of the \nshell due to the foundation settlement is considered in detail in one of the chaptersof this \nreport. \n \nWhile it is difficult to classify all possible foundation types for storage tanks, some \ngeneral types have proved to be most common for specific applications. Foundation types \nmay be broken into several classifications in generally increasing order of costs: \n \nCompact soil foundations: \n \nThese foundations can be used where the soil quality and bearing capacity are \ngood. Generally, the top 7 to 15 cm of soil is removed and replaced with a sand or granular \nbackfill. These are often called sand pad foundations, laid directly on earth. The \nadvantage of this type of foundation is the relatively low cost. \n \nCrushed-stone ringwall foundations: \n \nThis design happens to incorporate a leak detection system. While it costs less \nthan the concrete ringwall, it has many of the advantage of the concrete ringwall. It \nprovides uniform support of the tank bottom by dissipating concentrated loads in a \ngranular pattern. Catastrophic failure of the bottom is possible if a leak starts and washes \nout the underlying support. \n \nConcrete ringwall foundations: \n \nThe concrete ringwall foundation is so called because of its appearance. It is used \nin foundations for tanks of a diameter of at least 10 m or more. Some of the tanks with \nroof studied in this report are made. In the large-diameter tanks this is usually the most \ncost-effective reinforced concrete foundation, with many advantages such as reducing \nthe probabilities of settlements failures. Slab foundations: The concrete slab foundation \nhas the advantages of the concrete ringwall but is usually limited to tanks with diameters \nless than 10 m.Often the edge of the slab will be sufficiently thick to provide for anchorage. \nA slab foundation is very versatile, but its high cost limits it to use in small tanks. The slab \nprovides a level and plane-working surface that facilitates rapid field erection.",
+            "images": []
+        },
+        {
+            "slide_number": 24,
+            "page_content": "Slide 24",
+            "text": "23 | P a g e  \n \nPile-supported foundations: \n \nThe pile-supported foundation is usually found where the soil bearing pressures \nare very low. Examples might be river deltas and land adjacent to bays. They are also \nused where high foundation uplift forces are encountered resulting from internal pressure \nor seismic loading. The tank shown in Figure 20 has a concrete slab and 432 piles \nsupporting it. \n \n \n \n \n \n \n \n \n \n \n \n \nFigure 20. New tank constructed in 2000 at Craney Island, VA. Diameter 45.7 m, height 15.9 m, there is a ring stiffener \nat 10.5 m. (R/L=1.44). This tank stores up to 6.3 million gallons of jet fuel and can have a Weight of 50 million pounds.",
+            "images": [
+                "slide_24_img_1.jpeg"
+            ]
+        },
+        {
+            "slide_number": 25,
+            "page_content": "Slide 25",
+            "text": "24 | P a g e  \n \n5. MATERIALS \nTanks are constructed from a number of different materials based upon the \navailability and cost of the material, ease of fabrication, resistance to corrosion, \ncompatibility with the fluid stored. Sometimes specialized composites and techniques are \nused in tank construction, but these are the exception. \n \n \n \n \nCarbon steel: \n \nCarbon steel, or mild steel, is by far the most common material for tank \nconstruction.This material is readily available, and because of the ease with which it is \nfabricated, machined, formed, and welded, it results in low overall costs. The material \nproperties most commonly assumed for modeling are a modulus of elasticity of 2.068 x \n1011 N/m2, Poisson\u2019s ratio of 0.3, mass density of 7849.7 kg/m3, and yield strength of \n2.156 x 108 N/m2. \n \nStainless steel: \n \nStainless steel, usually the austenitic group of stainless steels, is an important \nmaterial used for storage of corrosive liquids. Although the material cost is significantly \nmore than that of steel, it has the same ease of availability as carbon steel. \n \nFiberglass reinforced polymers: \n \nFiberglass reinforced polymers (FRP) tanks are noted for their resistance to \nchemicals where stainless steel or aluminum tanks are not acceptable. However, the \nfabrication and construction techniques are somewhat more specialized than those for \nmetals fabrication. \n \nAluminum: \n \nAluminum tanks are suitable for a limited number of materials. It is the less \ncommon metal used to build tanks. These tanks remain ductile at temperatures much \nlower than those of carbon steel. However, nickel steels and stainless steels have largely \nsupplanted the market for aluminum tanks. \n \nThe principles of material selection are subdivided in the following engineering \nconsiderations, such as experience, code requirements, brittle fracture and corrosion.  \nLocal engineers experience is very important at the time of choosing the material \nto design the tank. Probably it is the most common way of selecting steel that is \nappropriate for the tank and its service conditions is to rely on past experience with similar \nconditions.",
+            "images": []
+        },
+        {
+            "slide_number": 26,
+            "page_content": "Slide 26",
+            "text": "25 | P a g e  \n \n \n \n \nCode requirements that govern tank designs often have very specific material \nselection requirements and limitations. Most modern codes include provisions in the \nmaterial selection criteria that ensure materials with sufficient toughness under the \nservice conditions to prevent brittle fracture. \n \n \n\uf0b7 The susceptibility of the material to brittle fracture is also one of the most important \nmaterial selection considerations. Brittle fracture is the tensile failure of a material \nshowing little deformation or yielding. Brittle fractures typically start at a flaw and \ncan propagate at high speeds, resulting in catastrophic failures. \n \n\uf0b7  Corrosive effects in tanks may be divided into internal and external ones. The \nmost common is the external corrosion that is usually minimized by the used of \ncoatings for carbon steel tanks. \n \n \n\uf0b7 The selection of a design metal temperature is important in ensuring that materials \nare selected which are tough enough to prevent brittle fractures under the service \nconditions. \n \n\uf0b7 Ensuring a material with adequate toughness. One way to ensure that a selected \nsteel has adequate toughness for the design metal temperature of the tank is to \nproof-test each plate by impact toughness testing samples at or below the design \nmetal temperature (DMT). \n \n6. CODES AND DESIGN CONSIDERATIONS \n \nIndustry standards and codes have been developed primarily on a voluntary basis \nby national standards-setting bodies by industries affected by them. Because the \nstandardssetting bodies in most cases represent the interests of all parties, they must be \nconsensus standards. The purpose of this standards and codes has been to provide \nacceptable, practical, and useful standards that ensure quality, safety, and reliability in \nequipment, practices, operations, or designs.  \n \nMost of the organizations produce different levels of standards, which can be \ngeneralized into the following basic categories:",
+            "images": []
+        },
+        {
+            "slide_number": 27,
+            "page_content": "Slide 27",
+            "text": "26 | P a g e  \n \nStandards: \n \nThese are considered to be mandatory practices that must be complied with, so \nthat the equipment manufactured may be considered in compliance or may be marked as \ncomplying with the standard. Standards are also often called codes. \n \nRecommended Practices: \n \nThese are advisory documents that provide technological background and \npractices, which may be useful for the specific application at hand. They are not \nmandatory. \n \n \nSpecifications: \n \nThey are considered interchangeable with standards. Specifications may also be \na component of standards or codes. \n \nMany organizations have contributed in some way to storage tank technology. The \nmost important ones are: \n \n\uf0b7 The American Petroleum Institute (API). \n\uf0b7 American Society of Mechanical Engineers (ASME). \n\uf0b7 The fire protection organizations and codes (application and jurisdiction of U.S. fire \ncodes): Uniform Fire Code (UFC) and National Fire Protection Association (NFPA). \n \n7. STORAGE TANK DESIGN \n \nThe design of a stoarage tank must solve the following questions, \n \n\uf0b7 How thick do the walls and floors of these structures have to be?  \n\uf0b7 Why are some tanks bolted down to the ground and others are not?  \n\uf0b7 What internal support structures are needed if the tank has a fixed roof?  \n\uf0b7 What happens to a tank during a hurricane or earthquake? \n \nThe most commonly used codes and standards are, \n \n\uf0b7 American Petroleum Institute (API) 650  \n\uf0b7 BS EN 14015:2004  \n\uf0b7 API 620.",
+            "images": []
+        },
+        {
+            "slide_number": 28,
+            "page_content": "Slide 28",
+            "text": "27 | P a g e  \n \n \n \nAPI 650: \n \nThe API 650 code is entitled Welded Steel Tanks for Oil Storage. At the time of \nthis, the latest edition is the 12th, addendum 2, January 2016.This code can be used for \ndesigns where the internal pressure is less than or equal to 2.5 psig. These tanks have \nhistorically been used to house petroleum for use by chemical plants and power \nproduction facilities, as well as basic and strategic reserves. \n \n A group of dedicated individuals meet on a regular basis to maintain and update \nthe 650 code. These sessions typically involve lengthy discussions of various agenda \nitems that are important to the refinement and development of the code. As one would \nexpect, all aspects of the code, both analytical and nonanalytical, are addressed in the \nmeetings. \n \nBut getting back to one of the previous questions, how do we decide how thick the \nwall of the tank should be? The answer can be found in section 5.6, Shell Design. In this \nsection, there are two methods for consideration: \n\uf0b7 5.6.3 Calculation of Thickness by the 1-Foot Method  \n\uf0b7 5.6.4 Calculation of Thickness by the Variable Point Method. \n \nThe 1-foot method computes the required plate thickness at a distance of one foot \nabove the bottom of each shell course and is applicable to tanks 200ft (61m) and less in \ndiameter. The basic equation in US customary units looks something like this: \n \n \n \n \nThe variable point method is an alternative to the 1-foot method and can be used \nfor tanks in excess of 200ft in diameter. The variable point equation in US units is as \nfollows: \n \n \nWhere:  \no H is the design fluid height in feet.  \no D is the nominal tank diameter in feet.  \no G is the specific gravity of the contents.  \no S is the tank wall material allowable tensile stress for the operating or test    \ncondition.  \no CA is the corrosion allowance, if any",
+            "images": [
+                "slide_28_img_1.png",
+                "slide_28_img_2.png"
+            ]
+        },
+        {
+            "slide_number": 29,
+            "page_content": "Slide 29",
+            "text": "28 | P a g e  \n \nAPI 650 storage tanks are often designed to work at temperatures of up to 500\u00baF \n(260\u00baC). For these higher temperature designs, the allowable stress of the material \ndecreases. As a result, the required wall thickness increases in a linear fashion when \nusing the 1-foot method and in a slightly non-linear fashion when using the variable point \nmethod. \n \nIn addition to causing hoop stress and longitudinal stress in the tank wall, the slight \ninternal pressure causes a tensile force (pressure \u00d7 area) to be produced. This force pulls \nupward on the tank wall. This positive upward force is countered by the weight of the tank \nand roof (if not column-supported). If the net force is upward in any case or condition, the \ntank must be held down by anchor bolts.  \n \nThe basic internal pressure case is just one example. There are several other uplift \nformulas in Tables 5.21a (metric) and 5.21b (imperial), which must also be considered. \n \nThe net uplift due to design pressure formula from Table 5.21b in API 650 12th \nEdition, Addendum 2 is as follows: \n \n \n \n \n \nWhere:  \no Pi is the design internal pressure in inches of water.  \no D is the nominal diameter in feet.  \no W1 is the static weight of the tank components in pounds force, which resist \nthe pressure/force uplift effect. \n \n \n \nBS EN 14015:2004 \n \nBS EN 14015:2004 is the European design and analysis code for tanks. Its \ndescriptive title is Specification for the design and manufacture of site built, vertical, \ncylindrical, flat bottomed, above ground, welded, steel tanks for the storage of liquids at \nambient temperature and above. \n \nThis EN code shares some similarities with the API 650 code. Like API 650, EN \n14015 computes the shell course required thickness via a fairly straightforward equation \nas shown here:",
+            "images": [
+                "slide_29_img_1.png"
+            ]
+        },
+        {
+            "slide_number": 30,
+            "page_content": "Slide 30",
+            "text": "29 | P a g e  \n \n \n \n \n \nWhere:  \n\uf076 c is the corrosion allowance in millimetres. \n\uf076 D is the tank diameter in metres.  \n\uf076 e is the required thickness in millimetres. \n\uf076 Hc is the distance from the bottom of the shell course under consideration as \ndefined in 9.2.1. P is the design pressure at the top of the tank in mbar.  \n\uf076 S is the allowable stress for the appropriate condition in N/mm2. \n\uf076 W is the density of the liquid under consideration in kg/l. \n \nIt is interesting to note that the maximum design pressure for 14015 designs is 500 \nmbar or about 7.25 psig. This is well beyond the maximum of 2.5 psig allowed by API \n650. \n \nAPI 620 \n \nNow that we have a couple of answers to our questions, let us ask the next big \none: what is API 620 and how does it differ from API 650?  \nThe API 620 code is entitled Design and Construction of Large, Welded, Low-\nPressure Storage Tanks. After a quick review of this code, it is readily apparent that API \n620 is a bit more technologically advanced than its close cousin API 650. The main \ndifference, as mentioned earlier, is that this code has a higher range of design pressure \n(up to 15 psig). \n \nAPI 620 is different from API 650 in a number of other ways. For example,  \nAPI 620: \n \n\uf076 Supports more varied types of geometries (not just flat bottomed tanks). \n\uf076  Analyses a larger number of types of components (like elliptical heads and \nexchanger components).  \n\uf076 Accommodates a maximum design temperature of 250\u02daF.  \n\uf076 Supports specific calculations for openings in shells.  \n\uf076 Offers different MDMT rules.   \n\uf076 Provides an explicit design methodology for the consideration of both tensile and \ncompressive stresses on tank elements",
+            "images": [
+                "slide_30_img_1.png"
+            ]
+        },
+        {
+            "slide_number": 31,
+            "page_content": "Slide 31",
+            "text": "30 | P a g e  \n \nThis final point really complicates matters. In the normal operation of a low \npressure API 620 tank, it is easily conceivable that the stress in the hoop direction is \ntensile while the axial or longitudinal stress is compressive. \n \nAnother scenario might be that the tank is under a slight vacuum. This case would \ngenerate a compressive stress in both the hoop and longitudinal directions. \n \nBecause this represents a potentially more severe condition, the allowable \ncompressive stress must be computed at each point of concern and compared to the \nactual compressive stress. Then the required thickness due to this condition can be \ndetermined. \n \nSo, depending on the mode in which the tank is operating, the wall could be fully \nunder compression in both directions, fully under tension in both directions, or under a \ncombination of tension and compression. \n \nAPI 620 computes and labels these unit forces as T1 and T2. When T1 and T2 are \nboth in tension, the required thickness is fairly straightforward to compute. It is just the \nmaximum of the two values, divided by the material allowable stress, multiplied by the \njoint efficiency. Of course, the corrosion allowance must be added to the final required \nthickness, if there is one. \n \nWhen T1 and T2 are both compressive, the analysis quickly becomes complex. In \nthis case, the tank wall is subject to buckling. The allowable buckling stress must be \ncalculated and is a function of the thickness to radius ratio. \n \nFor API 620 designs, it is often required to determine the maximum allowable \nworking pressure for both the internal and external pressure cases. This involves \niteratively changing the pressure until the given wall thickness is insufficient. Not only do \nthe shell courses and roof all have to be checked, but the roof to shell junction must be \nanalysed as well. This process is tedious and time-consuming, not to mention error-prone \nif you are performing these calculations by hand.",
+            "images": []
+        },
+        {
+            "slide_number": 32,
+            "page_content": "Slide 32",
+            "text": "31 | P a g e  \n \n7.3.1 Storage tank design using AME TANK with example \n \nHere we are going to see about the stoege tank design with example using AME \nTANK design software. \nThe following describes how AME Tank works for tank design. \nInput: \n \nHere we have a data sheet for a storage tank. Refer annex L in API 650 for data \nsheet preparations. \n \nThe Data Sheet shall be part of a complete tank specification. The Data Sheet \nprovides space for defining specific technical information such as geometry, design loads, \nmaterials, and appurtenances, as well as an outline sketch of the tank. The Data Sheet \nmay be used as part of the Owner\u2019s permanent record describing the tank. Because some \ninformation on the Data Sheet may be determined by the Manufacturer, the Data Sheet \nmay also be used to facilitate gathering of the complete design requirements.",
+            "images": []
+        },
+        {
+            "slide_number": 33,
+            "page_content": "Slide 33",
+            "text": "32 | P a g e  \n \n \nFigure 21 Data sheet 2/7",
+            "images": [
+                "slide_33_img_1.png"
+            ]
+        },
+        {
+            "slide_number": 34,
+            "page_content": "Slide 34",
+            "text": "33 | P a g e  \n \n \n \n \nFigure 22  Data sheet 3/7",
+            "images": [
+                "slide_34_img_1.jpeg"
+            ]
+        },
+        {
+            "slide_number": 35,
+            "page_content": "Slide 35",
+            "text": "34 | P a g e  \n \n \n \n \nFigure 23  Data sheet 4/7",
+            "images": [
+                "slide_35_img_1.jpeg"
+            ]
+        },
+        {
+            "slide_number": 36,
+            "page_content": "Slide 36",
+            "text": "35 | P a g e  \n \n \n \n \n \n \n \n \n \nFigure 24  Data sheet 5/7",
+            "images": [
+                "slide_36_img_1.jpeg"
+            ]
+        },
+        {
+            "slide_number": 37,
+            "page_content": "Slide 37",
+            "text": "36 | P a g e  \n \n \n \n \n \n \n \n \nFigure 25  Data sheet 6/7",
+            "images": [
+                "slide_37_img_1.png"
+            ]
+        },
+        {
+            "slide_number": 38,
+            "page_content": "Slide 38",
+            "text": "37 | P a g e  \n \n \n \nFigure 26  Data sheet 7/7",
+            "images": [
+                "slide_38_img_1.png"
+            ]
+        },
+        {
+            "slide_number": 39,
+            "page_content": "Slide 39",
+            "text": "38 | P a g e  \n \n \nThe above figures are the data sheets of a storage tank.Based on the datasheet \nwe are going to design a tank in AME TANK sofware. \n \nStep-1: (open the AME TANK ME application) \n \nOpen AME Tank ME \n \nNew \n \nSelect the required code from the available list \n\uf0b7 Tank model API 650 U.S unit \n\uf0b7 Tank model API 650 S.I unit \n\uf0b7 Tank model API 620 U.S unit \n\uf0b7 Tank model AWWA  \n \n \n \n \n \n \n \n \nFigure 27 Create a new tank design model",
+            "images": [
+                "slide_39_img_1.png",
+                "slide_39_img_2.png"
+            ]
+        },
+        {
+            "slide_number": 40,
+            "page_content": "Slide 40",
+            "text": "39 | P a g e  \n \nStep-2: (General design parameters) \n \n \nTo edit the model, the top level node in the model tree should be selected using \nthe mouse left button. A menu will pop up as shown in Figure 28. This is the general menu \nthat is used for creating or editing the components and the features of the tank. At any \nstage, if this menu is closed, it can be reopened by editing (using the mouse left button; \nnote that the left button action is set to the edit mode) the top level node from the model \ntree. This form is organized with a number of tabs as depicted Figure 28. \n \n \n \nThe Tank Design Parameters form is organized in different areas labeled \nDimensions, Operating Conditions, Design Standards, Capacities and Weights. \nFigure 28 General design inputs tab",
+            "images": [
+                "slide_40_img_1.png"
+            ]
+        },
+        {
+            "slide_number": 41,
+            "page_content": "Slide 41",
+            "text": "40 | P a g e  \n \n \n \nFigure 29 General design parameter input tab",
+            "images": [
+                "slide_41_img_1.png"
+            ]
+        },
+        {
+            "slide_number": 42,
+            "page_content": "Slide 42",
+            "text": "41 | P a g e  \n \nStep-3: (wind and seismic design data) \n \nAfter filling the tank parameters and then we need to fill the seismic and wind \ndesign data.The figure 30 shows the form for wind and seismic inputs. \n \n \nWe have to click the apply button for filling each and every data. \nStep-4: (Roof design) \n \nThe figure 31 shows the tank roof design form.Fill the details in the form using the \ndata sheet and roof standard drawings from the client end. \nThe roof design tab also having rows and Top member, seal and drip plates, Kick \nplate, Agitator Bridge, Venting options. \nDesign the top member as per the requirement and model sketch in data \nsheet.This tank not having seal and drip plates, Kick plate, Agitator Bridge. \nUsing the option rows we can rearrange the roof plate series or change the sizes \nof plates. \nFigure 30 Wind and seismic input form",
+            "images": [
+                "slide_42_img_1.png"
+            ]
+        },
+        {
+            "slide_number": 43,
+            "page_content": "Slide 43",
+            "text": "42 | P a g e",
+            "images": [
+                "slide_43_img_1.png"
+            ]
+        },
+        {
+            "slide_number": 44,
+            "page_content": "Slide 44",
+            "text": "43 | P a g e  \n \n \nFigure 31 Top member design",
+            "images": [
+                "slide_44_img_1.png"
+            ]
+        },
+        {
+            "slide_number": 45,
+            "page_content": "Slide 45",
+            "text": "44 | P a g e  \n \n \nStep-5: (Shell course design) \n \n \nFigure 32 Tank Shell design",
+            "images": [
+                "slide_45_img_1.png"
+            ]
+        },
+        {
+            "slide_number": 46,
+            "page_content": "Slide 46",
+            "text": "45 | P a g e  \n \n \n \nThe important thing in this step is to select the shell thickness calculation \nmethod.Here we select the one foot method for shell thickness calculation. \nTo manage the shell course length and thickness for this tank, just click on the \nshell course data table option (refer figure 32&33). \n \n \nStep-6: (Bottom plate design) \n \nBottom plate design form used to design the bottom plate type and construction \ntype and foundation type. \nThe bottom design tab having another two options, one is row and another one is \nAnnular ring and painters lug. This tank not having annular ring. \n \n \nFigure 33 Shell course data table",
+            "images": [
+                "slide_46_img_1.png"
+            ]
+        },
+        {
+            "slide_number": 47,
+            "page_content": "Slide 47",
+            "text": "46 | P a g e  \n \n \nFigure 34 bottom plate design form",
+            "images": [
+                "slide_47_img_1.png"
+            ]
+        },
+        {
+            "slide_number": 48,
+            "page_content": "Slide 48",
+            "text": "47 | P a g e  \n \nStep-7: (Roof structure design) \n \n \nThe roof is self supported conical roof and the diameter of the tank is only 4.7m, so need \nof roof structure. \nStep-8: (Access structure design) \n \nAccess structure option (refer figure 35) is used to design the required access \nstructure for the tank like stairway , ladder , roof handrail ,roof platform , roof walkways , \nshell platforms , wind griders. \nThis tank having a ladder and roof handrail arrangement.Filling the required details \nby using ladder and roof platform standard drawings in the access structure form. \n \nFigure 35 Access structure design tab",
+            "images": [
+                "slide_48_img_1.png"
+            ]
+        },
+        {
+            "slide_number": 49,
+            "page_content": "Slide 49",
+            "text": "48 | P a g e  \n \nStep-9: (Appurtenances design) \n \nThe roof, shell nozzles and bottom sump and other appurtenances like manway, \nvent, cleanouts and anchor chairs etc\u2026 are designed by using the Appurtenances \noption. \nThe figure 36 shows the available options for appurtanences design from that we \ncan design required components. \n         This tank having roof & shell nozzles and manways and roof vents and gauge \nhatches.And also having the bottom sump. \nFigure 36 shows the options roof app, shell app, bottom app, supports are for \ndesigning the appurtenances individualy for roof, shell and bottom of the tank. \nAnd the option support is for design the anchor, lug, leg, davit etc\u2026refer fig 36. \nFigure 36 Appurtenances design tab",
+            "images": [
+                "slide_49_img_1.png"
+            ]
+        },
+        {
+            "slide_number": 50,
+            "page_content": "Slide 50",
+            "text": "49 | P a g e  \n \n \nFigure 38 Appurtenances design tab with Roof appurtenances option is on \nFigure 37 Appurtenances design tab with Bottom appurtenances option is on",
+            "images": [
+                "slide_50_img_1.png",
+                "slide_50_img_2.png"
+            ]
+        },
+        {
+            "slide_number": 51,
+            "page_content": "Slide 51",
+            "text": "50 | P a g e  \n \n \n \n \nFigure 39 Appurtenances design tab with Shell appurtenances option is on",
+            "images": [
+                "slide_51_img_1.png"
+            ]
+        },
+        {
+            "slide_number": 52,
+            "page_content": "Slide 52",
+            "text": "51 | P a g e  \n \nStep-10: (Check and clear design warnings) \n \nAfter designing the tank, we have to check the tank design warnings.The design \nis accepted atonce the warnings were cleared. \n \nFigure 40 check design warnings",
+            "images": [
+                "slide_52_img_1.png"
+            ]
+        },
+        {
+            "slide_number": 53,
+            "page_content": "Slide 53",
+            "text": "52 | P a g e  \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n7.3.2 Storage tank Drafting \n \nHere we are going to see the drawings of the above designed tank.We can get \nauto cad drawing from the AME Tank software itself. \nBy using the MODEL tree option refer fig 42. In the model tree select the drawing \noption and then select the required drawing option like roof layout, at once a new \ntab(drawing data tab) opened (refer figure 43) and then click the save drawing option in \nthat tab.after this the selected drawing file is released as cad file from the software. \n \n \nFigure 41 WARNINGS DIALOUGE BOX",
+            "images": [
+                "slide_53_img_1.png"
+            ]
+        },
+        {
+            "slide_number": 54,
+            "page_content": "Slide 54",
+            "text": "53 | P a g e  \n \n \nFigure 42 model tree",
+            "images": [
+                "slide_54_img_1.png"
+            ]
+        },
+        {
+            "slide_number": 55,
+            "page_content": "Slide 55",
+            "text": "54 | P a g e  \n \n \nFigure 43 Drawing data tab (by using this tab we generate the cad drawing for the selected components.) \n \nWe have another way to produce drawings i.e normal drafting in Autocad.A skilled \ndetailing engineer is always preferable for making fabrication drawings because he only \ncan deliver the drawings as per the required standard. \n \nThe following drawings are delivered to get approval for fabricating the tank from \nthe client end.",
+            "images": [
+                "slide_55_img_1.png"
+            ]
+        },
+        {
+            "slide_number": 56,
+            "page_content": "Slide 56",
+            "text": "55 | P a g e  \n \n \nGeneral Arrangement drawing: \nThis is the drawing which reflects the overall design and components of a tank.We \nneed to submit G.A drawings along with design calculation for getting approval for furthur \nprocedence. \n \n \nFigure 44 General arrangement drawing for diesel bulk storage tank",
+            "images": [
+                "slide_56_img_1.png"
+            ]
+        },
+        {
+            "slide_number": 57,
+            "page_content": "Slide 57",
+            "text": "56 | P a g e  \n \nA G.A drawing must have nozzle orientaion (plan) and elevation and design datas, \nmaterial of construction, nozzle table, general notes.",
+            "images": [
+                "slide_57_img_1.png"
+            ]
+        },
+        {
+            "slide_number": 58,
+            "page_content": "Slide 58",
+            "text": "57 | P a g e",
+            "images": [
+                "slide_58_img_1.png"
+            ]
+        },
+        {
+            "slide_number": 59,
+            "page_content": "Slide 59",
+            "text": "58 | P a g e  \n \nDetailed fabrication drawing: \nAfter approval of the General Arrangement Drawing the fabricator or designer have \nto submit the each components fabrication drawing to client for getting approval for \nconstructing the tank. \nHere we are going to see some important detail drawings, \nRoof layout: \n \nThe below drawing shows the roof layout and plate shapes and cutting plan. \n \n \n \n \n \nFigure 45 Roof layout",
+            "images": [
+                "slide_59_img_1.png"
+            ]
+        },
+        {
+            "slide_number": 60,
+            "page_content": "Slide 60",
+            "text": "59 | P a g e  \n \n \nBottom layout: \nThe below drawing shows the bottom layout and plate shapes and cutting plan. \n \n \n \n \n \n \n \nFigure 46 Bottom layout",
+            "images": [
+                "slide_60_img_1.png"
+            ]
+        },
+        {
+            "slide_number": 61,
+            "page_content": "Slide 61",
+            "text": "60 | P a g e  \n \nShell layout: \n \n \nThe below drawing shows the Shell layout and plate shapes and \nattachments which are in the shell. \n \n \n \n \n \n \n \nFigure 47 Shell layout",
+            "images": [
+                "slide_61_img_1.png"
+            ]
+        },
+        {
+            "slide_number": 62,
+            "page_content": "Slide 62",
+            "text": "61 | P a g e  \n \nRoof nozzle detail drawing: \n \n \nThe roof nozzle details are important to fabricate and fix nozzle elevation in \nthe roof of the tank. \n \n \n \n \n \n \n \n \nFigure 48 Roof nozzle detail drawing",
+            "images": [
+                "slide_62_img_1.png"
+            ]
+        },
+        {
+            "slide_number": 63,
+            "page_content": "Slide 63",
+            "text": "62 | P a g e  \n \nShell nozzle detail drawing: \n \nThe shell nozzle details are important to fabricate and locate nozzle \nelevation in the shell of the tank. \n \n \n \n \n \n \n \nFigure 49  Shell nozzles detail drawing",
+            "images": [
+                "slide_63_img_1.png"
+            ]
+        },
+        {
+            "slide_number": 64,
+            "page_content": "Slide 64",
+            "text": "63 | P a g e  \n \n8. CONCLUSION \n \n \nIn this article, we have briefly discussed the tank types and three different \ntank design codes, reviewed some basic equations for internal pressure design and done \na little comparison.",
+            "images": []
+        }
+    ]
+}

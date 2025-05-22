@@ -1,0 +1,20 @@
+{
+    "6694915001": {
+        "approved_courses": [
+            "Piping book",
+            "ANSYS",
+            "PIPING STRESS ANALYSIS USING CAESAR-II"
+        ],
+        "current_slide": 0,
+        "current_course": "PIPING STRESS ANALYSIS USING CAESAR-II",
+        "slide_index": 4,
+        "awaiting_test_completion": true,
+        "quiz_answers": [],
+        "current_question_index": 0
+    },
+    "8026174258": {
+        "course": "Piping book",
+        "slide_index": 15,
+        "pending_course": "STAAD PRO. REPORT"
+    }
+}

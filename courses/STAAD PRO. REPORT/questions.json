@@ -1,0 +1,304 @@
+{
+  "questions": [
+    {
+      "question": "What is the main purpose of AutoCAD in engineering?",
+      "options": {
+        "A": "Writing technical reports",
+        "B": "Creating 2D/3D drawings and blueprints",
+        "C": "Conducting structural analysis",
+        "D": "Simulating fluid flow"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "question": "Which of the following is NOT a typical paper size mentioned in CADWorx setup?",
+      "options": {
+        "A": "A0",
+        "B": "A3",
+        "C": "A5",
+        "D": "A1"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "question": "What does the ‘L’ command do in AutoCAD?",
+      "options": {
+        "A": "Lists all objects",
+        "B": "Draws a line",
+        "C": "Launches layer settings",
+        "D": "Locks a drawing"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "question": "In which format are units like mm, cm, and m categorized?",
+      "options": {
+        "A": "Engineering",
+        "B": "Architectural",
+        "C": "Decimal",
+        "D": "Scientific"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "question": "Which of these layer types is NOT listed in the manual's main layers section?",
+      "options": {
+        "A": "Hatch",
+        "B": "Hidden",
+        "C": "Grid",
+        "D": "Border"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "question": "What is the first step to launch CADWorx Plant?",
+      "options": {
+        "A": "Run the Windows command cadstart",
+        "B": "Click the CADWorx shortcut icon on the desktop",
+        "C": "Open AutoCAD and load CADWorx manually",
+        "D": "Insert the CADWorx installation CD"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "question": "In the CADWorx Setup panel, which file type is used for template selection?",
+      "options": {
+        "A": ".dwg",
+        "B": ".spec",
+        "C": ".dat",
+        "D": ".cfg"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "question": "Which drawing mode provides the most visual detail in 3D modeling?",
+      "options": {
+        "A": "Single Line",
+        "B": "Socket",
+        "C": "2D Wireframe",
+        "D": "3D Enhanced"
+      },
+      "correct_answer": "D"
+    },
+    {
+      "question": "Where is the Specification Directory typically located?",
+      "options": {
+        "A": "C:\\Program Files\\AutoCAD\\Templates",
+        "B": "D:\\CADSetup\\Specs",
+        "C": "C:\\cadworx 2014\\Plant\\System\\Metric.cfg",
+        "D": "C:\\Windows\\CADWorx\\Config\\Default"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "question": "What does the Configuration Layer allow users to do?",
+      "options": {
+        "A": "Create new piping designs",
+        "B": "Modify background color",
+        "C": "Set unit preferences",
+        "D": "Edit or use default layer settings"
+      },
+      "correct_answer": "D"
+    },
+    {
+      "question": "What is the purpose of ‘Piping Rules’ in CADWorx?",
+      "options": {
+        "A": "To color-code the pipes",
+        "B": "To organize drawing layers",
+        "C": "To prevent design errors and ensure correct connections",
+        "D": "To calculate material cost"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "question": "Which rule inserts gaskets automatically between flange connections?",
+      "options": {
+        "A": "Apply Pipe Healing Rule",
+        "B": "Apply Gasket Insertion Rule",
+        "C": "Apply Trimmed Elbow Rule",
+        "D": "Apply Branch Table Rule"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "question": "In the Spec View palette, what does a red-colored component typically indicate?",
+      "options": {
+        "A": "Optional component",
+        "B": "Main size component",
+        "C": "Error in specification",
+        "D": "Hidden element"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "question": "What must be done to show threaded components in the Spec View?",
+      "options": {
+        "A": "Turn off the Show Socket Weld option",
+        "B": "Change drawing template",
+        "C": "Switch to imperial units",
+        "D": "Set the routing mode to Single Line"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "question": "How are fittings placed into the drawing from the Spec View palette?",
+      "options": {
+        "A": "Right-click to generate them",
+        "B": "Use the Insert command",
+        "C": "Click and drag or double-click the fitting",
+        "D": "Type the fitting code manually"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "question": "Which CADWorx tool is used to begin the piping route from a P&ID inlet?",
+      "options": {
+        "A": "PipeBuilder",
+        "B": "AutoRoute",
+        "C": "RoutePath",
+        "D": "FlowConnect"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "question": "What symbol appears after a component is placed to continue routing?",
+      "options": {
+        "A": "Red arrow",
+        "B": "Green check",
+        "C": "Blue addition symbol",
+        "D": "Yellow square"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "question": "How can you change the direction of a tee during pipe routing?",
+      "options": {
+        "A": "Press “R” for Rotate",
+        "B": "Click and drag",
+        "C": "Type “C”",
+        "D": "Double-click the tee"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "question": "What should be matched when connecting a component to a pipe using a flange?",
+      "options": {
+        "A": "Component color",
+        "B": "Flange rating",
+        "C": "Drawing layer",
+        "D": "Pipe diameter"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "question": "How are gaskets and bolts inserted during flange-to-flange connections?",
+      "options": {
+        "A": "Manually after routing",
+        "B": "Only through Spec Editor",
+        "C": "Automatically if rules are set",
+        "D": "Added in a separate session"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "question": "Which branch connection uses a welded outlet at 90° to the pipe?",
+      "options": {
+        "A": "Threadolet",
+        "B": "Elbolet",
+        "C": "Weldolet",
+        "D": "Nipolet"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "question": "What distinguishes a Threadolet from a Weldolet?",
+      "options": {
+        "A": "Threadolet uses a flanged end",
+        "B": "Threadolet is longer",
+        "C": "Threadolet has a female threaded connection",
+        "D": "Threadolet connects at 45°, not 90°"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "question": "Which branch connection is commonly used to connect pressure indicators?",
+      "options": {
+        "A": "Elbolet",
+        "B": "Threadolet",
+        "C": "Weldolet",
+        "D": "Latrolet"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "question": "What does a 10x6 Weldolet indicate?",
+      "options": {
+        "A": "A 10-inch pipe with a 6-inch reducer",
+        "B": "A tee fitting size",
+        "C": "A 10-inch run pipe with a 6-inch branch",
+        "D": "A 6-inch flange welded to a 10-inch cap"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "question": "Which of the following is NOT a type of branch connection in CADWorx?",
+      "options": {
+        "A": "Socolet",
+        "B": "Elbolet",
+        "C": "Taplet",
+        "D": "Latrolet"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "question": "What does CADWorx Plant Structural Steel primarily help in?",
+      "options": {
+        "A": "Electrical wiring layouts",
+        "B": "HVAC system simulation",
+        "C": "3D structural design of steel frameworks",
+        "D": "Software programming"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "question": "What feature allows automatic calculations like center of gravity in CADWorx Steel?",
+      "options": {
+        "A": "AutoRoute",
+        "B": "Structural Analyzer",
+        "C": "Steel Professional",
+        "D": "Gravity Mapper"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "question": "What are the key elements included in CADWorx Structural Steel?",
+      "options": {
+        "A": "Floor plans only",
+        "B": "Windows and doors",
+        "C": "Stairs, ladders, and handrails",
+        "D": "Electrical switches"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "question": "What must be known before drawing a skid structure in CADWorx?",
+      "options": {
+        "A": "Pipe material type",
+        "B": "Space allocation dimensions",
+        "C": "Number of welds",
+        "D": "Pressure drop values"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "question": "What tool in CADWorx is used to draw the base of a skid frame?",
+      "options": {
+        "A": "AutoLine",
+        "B": "FrameCreator",
+        "C": "Rectangle Tool",
+        "D": "Hatch Maker"
+      },
+      "correct_answer": "C"
+    }
+  ]
+}

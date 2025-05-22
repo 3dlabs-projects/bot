@@ -1,0 +1,384 @@
+{
+  "questions": [
+    {
+      "question": "What is the main function of stress analysis in piping systems?",
+      "options": {
+        "A": "To increase fluid velocity",
+        "B": "To ensure proper insulation",
+        "C": "To verify system integrity under various load conditions",
+        "D": "To reduce pipe material cost"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "question": "CAESAR II is primarily used for:",
+      "options": {
+        "A": "Corrosion analysis",
+        "B": "Piping stress analysis",
+        "C": "Pipeline welding inspection",
+        "D": "Fluid flow simulations"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "question": "Which standard is frequently referenced in piping stress analysis?",
+      "options": {
+        "A": "ASME B16.5",
+        "B": "API 650",
+        "C": "ASME B31.3",
+        "D": "ASTM A106"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "question": "Which of the following is NOT a typical loading considered in stress analysis?",
+      "options": {
+        "A": "Thermal expansion",
+        "B": "Seismic loading",
+        "C": "Lightning strike",
+        "D": "Dead weight"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "question": "What is one of the key inputs required in CAESAR II for stress analysis?",
+      "options": {
+        "A": "Material color",
+        "B": "Pipe wall thickness",
+        "C": "Paint type",
+        "D": "Bolt torque"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "question": "What does the SIF (Stress Intensification Factor) represent in pipe stress analysis?",
+      "options": {
+        "A": "The pipe's corrosion allowance",
+        "B": "The expansion coefficient of a pipe",
+        "C": "Ratio of maximum stress intensity to nominal stress",
+        "D": "Allowable tensile strength of pipe material"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "question": "According to ASME B31.3, sustained stress should not exceed:",
+      "options": {
+        "A": "The corrosion allowance",
+        "B": "The sum of hoop and shear stresses",
+        "C": "Sh × W",
+        "D": "Ultimate tensile strength"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "question": "Which of the following is a self-limiting type of stress?",
+      "options": {
+        "A": "Weight stress",
+        "B": "Pressure stress",
+        "C": "Expansion stress",
+        "D": "Wind load stress"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "question": "What is the correct equation to calculate thermal expansion in a pipe?",
+      "options": {
+        "A": "ΔL = L × α × ΔT",
+        "B": "ΔL = α / L × ΔT",
+        "C": "ΔT = ΔL / (α × L)",
+        "D": "ΔL = α + ΔT / L"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "question": "Which code appendix contains the Stress Intensification Factors (SIFs)?",
+      "options": {
+        "A": "Appendix A",
+        "B": "Appendix B",
+        "C": "Appendix C",
+        "D": "Appendix D"
+      },
+      "correct_answer": "D"
+    },
+    {
+      "question": "What is considered as a dynamic load in a piping system?",
+      "options": {
+        "A": "Dead weight",
+        "B": "Internal pressure",
+        "C": "Wind gust",
+        "D": "Valve weight"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "question": "Which of the following defines basic allowable stress according to ASME B31.3?",
+      "options": {
+        "A": "1/2 of Yield Strength at operating temperature",
+        "B": "1/3 of Ultimate Tensile Strength or 2/3 of Yield Strength",
+        "C": "100% of Yield Strength",
+        "D": "1/5 of Ultimate Strength"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "question": "Which load is not categorized as a static load?",
+      "options": {
+        "A": "Pressure",
+        "B": "Temperature",
+        "C": "Weight",
+        "D": "Hanger load"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "question": "Which figure in the document shows examples of dynamic loads?",
+      "options": {
+        "A": "Fig. 4a",
+        "B": "Fig. 5a",
+        "C": "Fig. 6a",
+        "D": "Fig. 7a"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "question": "Which type of analysis method is typically used for highly critical lines?",
+      "options": {
+        "A": "Visual Inspection",
+        "B": "Manual Calculation",
+        "C": "Computer Analysis",
+        "D": "Empirical Formula"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "question": "What is the first step in modeling a piping system in CAESAR-II?",
+      "options": {
+        "A": "Assign node numbers",
+        "B": "Input temperature and pressure",
+        "C": "Open the software and configure units",
+        "D": "Select material and insulation"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "question": "What coordinate system is used in CAESAR-II to define component position?",
+      "options": {
+        "A": "Polar",
+        "B": "Cylindrical",
+        "C": "DX, DY, DZ (Cartesian)",
+        "D": "Axial-rotational"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "question": "In CAESAR-II, node numbers must be:",
+      "options": {
+        "A": "Alphabetical only",
+        "B": "Alphanumeric",
+        "C": "Predefined from database",
+        "D": "Numeric between 1 to 32000"
+      },
+      "correct_answer": "D"
+    },
+    {
+      "question": "What input is essential in defining pipe parameters in CAESAR-II?",
+      "options": {
+        "A": "Valve rating",
+        "B": "Paint thickness",
+        "C": "Pipe schedule (wall thickness)",
+        "D": "Color code"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "question": "Which data table in CAESAR-II is used to input design and operating temperatures and pressures?",
+      "options": {
+        "A": "Stress Table",
+        "B": "Node Summary",
+        "C": "Classic Input",
+        "D": "Temperature & Pressure Input Table"
+      },
+      "correct_answer": "D"
+    },
+    {
+      "question": "In CAESAR-II, what is the purpose of assigning insulation/cladding details in the material input section?",
+      "options": {
+        "A": "To determine paint type",
+        "B": "For corrosion resistance",
+        "C": "To accurately calculate weight and thermal effects",
+        "D": "For documentation only"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "question": "What does the ‘Classic Piping Input’ interface allow you to do in CAESAR-II?",
+      "options": {
+        "A": "Perform fluid dynamics simulation",
+        "B": "Model piping components and input physical properties",
+        "C": "Design structural beams",
+        "D": "Create electrical layouts"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "question": "How can a user model a bend in CAESAR-II?",
+      "options": {
+        "A": "By using the flange option",
+        "B": "By entering bend length in DX field only",
+        "C": "By selecting the bend tool and defining geometry in the auxiliary dialogue box",
+        "D": "By enabling the “arc” checkbox in settings"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "question": "Which piping component is modeled by breaking a pipe and assigning a new node in CAESAR-II?",
+      "options": {
+        "A": "Elbow",
+        "B": "Reducer",
+        "C": "Rigid",
+        "D": "Tee"
+      },
+      "correct_answer": "D"
+    },
+    {
+      "question": "How is a valve typically modeled in CAESAR-II?",
+      "options": {
+        "A": "Only as a flange",
+        "B": "As a bend with offset",
+        "C": "As a rigid with defined length and weight or using the valve flange database",
+        "D": "By entering gasket pressure rating"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "question": "What are restraints in CAESAR-II terminology?",
+      "options": {
+        "A": "Pipe color coding standards",
+        "B": "Insulation types for high temp lines",
+        "C": "Supports that restrict movement of the piping system",
+        "D": "Safety valves for overpressure protection"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "question": "Which of the following is NOT a valid use of a restraint in CAESAR-II?",
+      "options": {
+        "A": "Imposed displacements",
+        "B": "Flexible nozzles",
+        "C": "Spring hangers",
+        "D": "Pipe bends"
+      },
+      "correct_answer": "D"
+    },
+    {
+      "question": "What is the maximum number of restraints that can be defined per element in the restraints dialog box?",
+      "options": {
+        "A": "2",
+        "B": "3",
+        "C": "4",
+        "D": "6"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "question": "Which of the following is true regarding displacements in CAESAR-II?",
+      "options": {
+        "A": "They are used to define corrosion rates",
+        "B": "They are treated as dynamic loads",
+        "C": "They are imposed movements at specific nodes",
+        "D": "They are not considered in piping stress analysis"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "question": "What is the primary purpose of spring hangers in piping systems?",
+      "options": {
+        "A": "To support vertical uplift and allow flexibility",
+        "B": "To insulate piping from heat loss",
+        "C": "To resist seismic forces",
+        "D": "To add weight to the system"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "question": "What is the purpose of the flange check in CAESAR-II?",
+      "options": {
+        "A": "To select proper flange material",
+        "B": "To determine flange leakage under load",
+        "C": "To measure flange diameter",
+        "D": "To calculate wall thickness"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "question": "Flange evaluation in CAESAR-II is based on:",
+      "options": {
+        "A": "Hydro test pressure only",
+        "B": "Design code limits",
+        "C": "Specific load case temperature",
+        "D": "Gasket thickness"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "question": "What does the nozzle limit check in CAESAR-II help identify?",
+      "options": {
+        "A": "The nozzle’s internal coating type",
+        "B": "The best vendor for nozzle material",
+        "C": "Whether actual nozzle loads exceed allowable values",
+        "D": "The diameter of nozzle threads"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "question": "Nozzle flexibilities in CAESAR-II can be calculated based on which of the following standards?",
+      "options": {
+        "A": "ASME B16.9",
+        "B": "WRC 297, API 650, BS 5500",
+        "C": "API 520",
+        "D": "ASTM A53"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "question": "When using nozzle flex, is it necessary to model the entire vessel or tank?",
+      "options": {
+        "A": "Yes, always",
+        "B": "No, nozzle flex can be defined directly",
+        "C": "Only for horizontal vessels",
+        "D": "Only for heat exchangers"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "question": "What are occasional loads in piping stress analysis?",
+      "options": {
+        "A": "Loads acting continuously throughout plant operation",
+        "B": "Loads due to maintenance personnel",
+        "C": "Short-duration loads like wind, seismic, or PSV discharge",
+        "D": "Loads from vibration analysis"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "question": "In CAESAR-II, which auxiliary tab is used to input Forces & Moments?",
+      "options": {
+        "A": "Load Case Editor",
+        "B": "Classic Piping Input",
+        "C": "Auxiliary database for Forces & Moments",
+        "D": "Stress Iso Generator"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "question": "What is the purpose of Uniform Loads in CAESAR-II analysis?",
+      "options": {
+        "A": "To distribute forces across elbows",
+        "B": "To simulate vibration",
+        "C": "To apply seismic or snow loads across the piping system",
+        "D": "To calculate corrosion rates"
+      },
+      "correct_answer": "C"
+    }
+  ]
+}

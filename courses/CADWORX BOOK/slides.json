@@ -1,0 +1,251 @@
+{
+    "course_name": "CADWORX BOOK",
+    "total_slides": 29,
+    "slides": [
+        {
+            "slide_number": 1,
+            "page_content": "Slide 1",
+            "text": "3D-LABS \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nDocument number: 3DL-CWPRM-01 \nRev: 01 \nPrepared by: Shiek Abdulla  \nCompany: 3d-labs  \nApproved by: Abdul Khader \nDate: 30-09-17",
+            "images": [
+                "slide_1_img_1.jpeg"
+            ]
+        },
+        {
+            "slide_number": 2,
+            "page_content": "Slide 2",
+            "text": "1 | P a g e  \n \n \n \n \n3D-LABS",
+            "images": [
+                "slide_2_img_1.jpeg"
+            ]
+        },
+        {
+            "slide_number": 3,
+            "page_content": "Slide 3",
+            "text": "2 | P a g e  \n \nCADWORX PLANT REFERENCE MANUAL \n \n1.0 INTRODUCTION \n \nAutoCAD is a 2-D and 3-D computer-aided drafting software application used in \narchitecture, construction, and manufacturing to assist in the preparation of blueprints and \nother engineering plans. It is also used to create blueprints for buildings, bridges, and \ncomputer chips, among other things. Discover how AutoCAD is used by drafters and other \nprofessionals like CAD Drafting and Design Technology. \n \nCADWorx is an AutoCAD-based system, CADWorx is the next generation software \nsolution, providing intelligent drawing/database connectivity, advanced levels of automation, \neasy-to-use drafting tools and the world's only intelligent link between CAD and pipe stress \nanalysis. It increases accuracy and improves the quality of deliverables for both designers and \nengineers. Compared to every other 3D plant design tool on the market, CADWorx lets you \nget more done in less time - period. \n             \n \n \n  \n1.1 AUTOCAD & CADWORX COMMANDS YOU SHOULD KNOW \n \n \nIn the commands list of AutoCAD, I have tried to include some of the most \nuseful commands which every AutoCAD user must know which is also suitable for \nCADWorx. Some of the commands in this list are very basic commands which are used very \nfrequently and also there are commands which are not often used despite their great features. \n \n1.2 PAGE SETUP \n \n1.   File \n \n \n \n- \nNew, open, save, save as \n2.   Limits \n \n \n \n- \nPaper sizes \u2013 A4, A3, A2, A1, A0 \n                                                     \n  \n(Display paper) \n3.   Zoom all and               \n \n-         Key board and mouse handling \n4.   Esc, Space bar \n \n \n \n5.   Units \n \n \n \n- \nDecimal         -    mm, m, cm \n                                                 \n \nArchitecture   -    Inches, feet \n6.   Draw \n \n \n \n- \nLine \n7.   Main layers \n \n \n- \n(Center, hidden, faint, object, hatch, \n                                                  \n \nText, heading, border, dimension) \n8.   Paper size  \n \n \n- \nA4   -   210 x 297 \n                         \n \n \n \nA3   -   297 x 420 \n \n \n \n \n \n \nA2   -   420 x 594 \n \n \n \n \n \n \nA1   -   594 x 841 \n \n \n \n \n \n \nA0   -   841 x 1189 (Show a sample Paper)  \n9.    1m           \n \n \n=    \n1000mm    \n=   100cm \n       25.4mm       \n \n \n=    \n1 inch   \n       12 inch    \n \n \n=    \n1 feet    \n=   30.48cm",
+            "images": []
+        },
+        {
+            "slide_number": 4,
+            "page_content": "Slide 4",
+            "text": "3 | P a g e  \n \n1.3 BASIC COMMANDS \n \n01.  Line \n \n \n \n- \n(L) \nTo draw a line     \n02.  RAY \n \n \n \n- \n(RAY) Infinite line in one direction \n03.  Construction line  \n \n- \n(XL) Infinite line in both directions \n04.  Multiline  \n \n \n- \n(ML) Multiple lines                                                                 \n05.  Poly line  \n \n \n- \n(PL)    Arc (Width-Used for isometric piping) \n06.  List \n \n \n \n- \n(LI)     To List the properties of an object \n07.  Polygon  \n \n \n- \n(P)       Inside, circum (ex: circle) \n08.  Rectangle  \n \n \n- \n(REC) Chamfer, fillet, thickness, width \n09.  Snap settings \n \n \n- \nSNAP Memorize all symbol, purpose, functions                         \n10.  Arc \n \n \n \n- \n(A)   \nAll (to make an arc) \n11.  Circle \n \n \n \n- \n(C)   \nAll (to make a circle) \n12.  Donut \n \n \n \n- \n(DO) Purpose \n \n13.  Spline \n \n \n \n- \n(SPL) Without Radius \n14.  Ellipse \n \n \n \n- \n(EL) \nAll (to make a ellipse) \n15.  Block \n \n \n \n- \n(B) \nMake, base \n16.  Point \n \n \n \n- \n(P) \nAll (format-point style, divide, \n                                                 \n \n \nMeasure, single, multiple) \n17.  Hatch \n \n \n \n- \n(H) \nAll (material purpose)  \n18.  Region \n \n \n \n- \n(REG) Separate Lines to region \n \n \n \n19.  Wipe out  \n \n \n- \n(WIP) Hide  \n20.  Revision cloud   \n \n- \n(REV) Drawing details and any doubt  \n21.  Text \n \n \n \n- \n(T) \nAll (short key diameter underline, \n                                                  \n \n \nPlus / Minus, Degrees, other symbol)  \n \n1.4 TO MODIFY \n22.  Match Properties  \n \n- \n(MA) To Copy a style, text, size  \n23.  Erase \n \n \n \n- \n(E) \nSelection (Window, cross) add, Remove \n24.  Copy \n \n \n \n- \n(CO) Multiple \n25.  Mirror \n \n \n \n- \n(MI) \nAngle \n26.  Offset \n \n \n \n- \n(O) \nNormal, Distance \n27.  Array \n \n \n \n- \n(AR) Rectangular array, Polar array  \n                                                        \n \n \n(Preview must) \n28.  Move \n \n \n \n- \n(M) \nBase point to base point \n29.  Rotate \n \n \n \n- \n(R) \nAngle \n30.  Scale \n \n \n \n- \n(SC) \n1:5\u2026 length (reference) on book \n31.  Stretch \n \n \n \n- \n(S) \nSelection \u2013 add, remove \n32.  Lengthen  \n \n \n- \n(LEN) All \n33.  Trim \n \n \n \n- \n(TR) \nExtend, No Extend (fence selection) \n34.  Break \n \n \n \n- \n(BR) to break an object into two or more  \n35.  Chamfer  \n \n \n- \n(CHA) Distance, angle, trim, multiple \n36.  Fillet \n \n \n \n- \n(F) \nRadius, Trim, Multiple \n37.  Dimensions \n \n \n- \n(D) \nAll \n38.  Purge \n \n \n \n- \n(PU) \nto remove all unused objects from dwg \n39.  Flatshot  \n \n \n- \n(FL) \nto create 2D views from a 3D solid \n40.  Layer \n \n \n \n- \n(LA) to view all layers list",
+            "images": []
+        },
+        {
+            "slide_number": 5,
+            "page_content": "Slide 5",
+            "text": "4 | P a g e  \n \n1.5 P&ID FOR SKID MODELLING \n \n\uf0b7 A piping and instrumentation diagram (P&ID) is a drawing in the process industry. A \nP&ID shows all piping, including the \u201cphysical sequence of branches, reducers, \nvalves, equipment, instrumentation and control interlocks.  \n\uf0b7 INPUT and OUTPUT parameters will also be provided in the P&ID of a skid as per \nthe requirements and flow of the fluids. \n\uf0b7 We have to prepare a complete skid package out of it by considering the parameters \nsuch as height, man accessing level and valve accessing without causing any \ndisturbance to piping systems. \n\uf0b7 Now let us see how a skid is to be modelled in CADWorx for the P&ID shown below \n \n \n \nFig: 1 \n \n\uf0b7 A Step by step procedure of modelling process in CADWorx is given below:",
+            "images": [
+                "slide_5_img_1.png"
+            ]
+        },
+        {
+            "slide_number": 6,
+            "page_content": "Slide 6",
+            "text": "5 | P a g e  \n \n2.0 CADWORX PLANT PIPING \n \n2.1 SETUP SETTINGS \n \n01. Use right click & open or Double-click the CADWorx plant shortcut icon on your \ndesktop to launch the program, \nFig: 2 \n \n02. Depending on the version of AutoCAD and the version of CADWorx running on your \nsystem, its interface could look different. The layout for CADWorx looks the same. We \nhave a ribbon along the top: refer fig:3 \nFig: 3 \n \n03. We have CADWorx Plant I, Plant II, CADWorx Steel and \nCADWorx HVAC in the Menu bar.  \n \n04. In some versions CADWorx Steel and CADWorx HVAC is \nhidden. Clicking the arrow at the side of CADWorx Plant II \nthen the CADWorx Steel and CADWorx HVAC will                       \nmake it appear. \n \n \n \n \n \n \n \n         Fig:4",
+            "images": [
+                "slide_6_img_1.png",
+                "slide_6_img_2.jpeg",
+                "slide_6_img_3.png"
+            ]
+        },
+        {
+            "slide_number": 7,
+            "page_content": "Slide 7",
+            "text": "6 | P a g e  \n \n05. In the CADWorx Plant I tab we have panels. \nThese panels allow easy access for many of the \nfeatures in CADWorx. \n \nWe have a section for setting up the size and \nthe specifications. \n \n \n \n    Fig:5 \n \n \n Fig: 5 \n \n \n06. Likewise we have a section for palettes, so we can use some of these options. We have a \nspec view tool palette, an insulation view palette, and line number views palette, as well \nas a few others.  \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n                                                              Fig: 6 \n \n \n \n \n07. Click New \n to start a new drawing. \n \n \n08. When you start a drawing in CADWorx, make sure you are using a template. For this \nexample, we are going to use the Metric template. Select Metric, and then click Open. \n \n \n \n   Spec view \nInsulation view \n    PID view \n  Dis continuity view \nPipe support modeler  \n    Assembly view \n    Line view \nPipe support modeler \n  Clash view",
+            "images": [
+                "slide_7_img_1.png",
+                "slide_7_img_2.png",
+                "slide_7_img_3.png"
+            ]
+        },
+        {
+            "slide_number": 8,
+            "page_content": "Slide 8",
+            "text": "7 | P a g e  \n \n \nFig: 7 \n \n \n09. You can run CADWorx in feet and inches, millimeters, or metric/inch. Metric/Inch runs \nthe software with the pipe bore diameters in inches and the lengths in millimeters. That's \nhow we are going to do in this example. Later, you can run in any unit\u2019s version you \nwould like. \n \n2.1.1 CURRENT DRAWING \n \n10. Click Setup on the Setup Size/Spec panel, \nThe CADWorx plant setup dialogue box will \nbe displayed on the screen. \n \n11. Select the 3D Enhanced on the current \ndrawing. \n  \n        Fig: 8",
+            "images": [
+                "slide_8_img_1.png",
+                "slide_8_img_2.png"
+            ]
+        },
+        {
+            "slide_number": 9,
+            "page_content": "Slide 9",
+            "text": "8 | P a g e  \n \n \n \nFig: 9 \n \n2.1.2 CONFIGURATION SETTING \n \n12.  Then click the Configuration Settings, you can see the Drawing Prototype set to \nMetric/Metric. \n \n \n13. If it's not shown as metric, then set it. You can click the drop-down to change it based \nupon your requirements. If you want to run in Inches, Metric/Inch, or Metric, Set it to \nMetric/Metric and notice you should have a metric configuration file set as indicated \nabove. \n \n \n14. Scroll down and check the Specification Directory. \nThis configuration setting is pointing to C:\\cadworx 2014\\Plant\\System\\Metric.cfg",
+            "images": [
+                "slide_9_img_1.png"
+            ]
+        },
+        {
+            "slide_number": 10,
+            "page_content": "Slide 10",
+            "text": "9 | P a g e  \n \n \n \nFig: 10 \n     \n         \n2.1.3 SPECIFICATION / SIZE \n \n15. Click the specification / Size and set the project to Metric Specs.prj to set it to imperial \nor metric. Click Open.     \n \n \n16. Select the Rating of the pipes in the Specifications box. Then the Nominal and Actual \npipe sizes appears on the Main/Reduction size column, Select the pipe sizes as per the \nrequirements.",
+            "images": [
+                "slide_10_img_1.png"
+            ]
+        },
+        {
+            "slide_number": 11,
+            "page_content": "Slide 11",
+            "text": "10 | P a g e  \n \n \nFig: 11 \n \n2.1.4 CONFIGURATION LAYER \n \n17. Click Configuration Layer. These are standard settings which are present in the system for \nlayers. You can edit these layers and set up your own system as per your requirements or use \nthe default layers.  \nFig: 12",
+            "images": [
+                "slide_11_img_1.png",
+                "slide_11_img_2.png"
+            ]
+        },
+        {
+            "slide_number": 12,
+            "page_content": "Slide 12",
+            "text": "11 | P a g e  \n \n2.1.5 PIPING RULES \n \n18. We have another section to look at, called Piping Rules. These are built-in rules in the system \nwhich prevent errors and make things connecting up properly. \n \n19. There are a variety of rules in Piping Rules as shown below. \n \n \n   \n   Fig: 13 \n \n \n20. You have been provided settings on these so that you can set to No, Automatic, or Show Options, \nwhich shows you the different options based on your actions in the software.  \n \n21. Likewise the Gasket Insertion rule, this rule place a gasket in automatically when needed, such as \nwith a flange set. The same thing goes for bolts as well. \n \n22. Finally Click Apply and Close, appearing at the bottom of the CADWorx plant setup dialogue \nbox. \n \n2.2 SPEC FITTING COMPONENTS \n \n01. On the Palettes panel, different icons available. However the icon \nindicated below and you see that it\u2019s the Spec View tool pallet. Click \nSpec View. \n \n02. In the Spec View palette display, you can see it is set as 2-inch size, and \nspec is 600_MM. When you see the _MM, it means that's going to be \nall in metric. Click the drop- down arrow to set the main and reduction \nsize.  \n \n03. Some fittings listed below in spec. There are some components in red \nand some components in blue which represents the main size, optional \nsize, reducing size, reducing optional size, etc.     \n      \n \n \n        Fig:14",
+            "images": [
+                "slide_12_img_1.png",
+                "slide_12_img_2.png"
+            ]
+        },
+        {
+            "slide_number": 13,
+            "page_content": "Slide 13",
+            "text": "12 | P a g e  \n \n04. Well, let's say that we wanted to see threaded. Here the spec might have butt weld, flange, \nthreaded, socket weld. To show more fittings in the Spec View pallet, go to Settings & Click the \nSettings tab. \n \n05. Then select the Show Threaded. For clarity, let\u2019s turn off the Show Socket weld check box. Click \nShow Threaded and clear Show Socket Weld. \n \n06. We are able to use that fitting components directly by double click or dragging it to the screen. \n \n                                 Fig: 15 \n \n \n \n \n \n        Fig: 16 \n \n2.3 PIPING ROOTING \n \n01. Various kinds of routing available on the CADWorx Plant I ribbon. \n \n02. Now we\u2019re going to start from the inlet which is given in the P&ID. \n \n03. Click the AUTOROUTE symbol to start piping. \n \n04. Click a point on the screen, drag out to the left or in right direction,  \nRight click             component list               flange                 weld neck \nAs per P&ID we need a 600# weld neck flange hence we select \nWeld neck, we can choose any the flanges as per the requirement.       \nFig: 17",
+            "images": [
+                "slide_13_img_1.png",
+                "slide_13_img_2.png",
+                "slide_13_img_3.png"
+            ]
+        },
+        {
+            "slide_number": 14,
+            "page_content": "Slide 14",
+            "text": "13 | P a g e  \n \n \n                          \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nFig: 18 \n \n05. Likewise we can select the tees, reducers, pipes, elbows, couplings, caps, etc. Click the 2\u201d \ntee to use the tee. The tee will be placed on the piping, which breaks the pipe into two pieces \nor it mates the two pipes into a single pipe. To change the tee direction type \u201cC\u201d to change \nthe direction of tee. \n \n06. If we need to bend a pipe we shall use the elbows option. \n \n07. After the completion of each part, there will be a small addition symbol appears in blue color \nwhich helps us to drag the pipe routing further or to add a new component. \n \n          \n \n \n \n \n \n \n \n \n \n \n \n \n \n0 \n    Fig: 19",
+            "images": [
+                "slide_14_img_1.png",
+                "slide_14_img_2.png"
+            ]
+        },
+        {
+            "slide_number": 15,
+            "page_content": "Slide 15",
+            "text": "14 | P a g e  \n \n2.3.1 COMPONENTS ATTACHMENTS \n \n01. Each company will have a specific standard and specifications for their components, \nfittings and instruments. \n \n02. In the CADWorx spec, dimensions of some components and instruments are schematic only. \nAs for the companies they might follow certain standards, hence we should model those \ncomponents as per their standards using modelling software such as Solidworks, Inventor, \nCatia, Creo, etc. \n \n03. After the completion of modelling process, those components has to be imported into \nCADWorx and fixed in their respective positions. See Fig:20  \n \n04. We should bend the pipes without causing any disturbance to other components. \n            \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n          \n \nFig: 20 \n \n05. The modelling components are fitted to the piping by flange connections. The component \nflange ratings and pipe flange ratings should be the same for bolting one another. \n \n06. While establishing flange to flange connections the bolts shall be added automatically, if we \nset automatic in the Apply bolt insertion rule. \n \n07. Similar process shall also be applied for gasket, if we set automatic in the Apply gasket \ninsertion rule. \n \n2.3.2 BRANCH CONNECTIONS                                                                               \n\uf0b7 ELO \n- Elbolet \n\uf0b7 LOL \n- Latrolet \n\uf0b7 SOL \n- Socolet \n\uf0b7 TOL \n- Threadolet \n\uf0b7 WOL - Weldolet \n\uf0b7 NOL - Nipolet",
+            "images": [
+                "slide_15_img_1.png"
+            ]
+        },
+        {
+            "slide_number": 16,
+            "page_content": "Slide 16",
+            "text": "15 | P a g e  \n \n    Fig: 21 \n2.3.3 WELDOLET \n \n \nA Weldolet makes a 90\u00b0 branch connection which comes in full or reduced size for a straight \npiece of pipe. A weldolet is designated by the run length by the branch length. For example a 6-inch \nweldolet on a 10-inch pipe would be designated as 10x6 Weldolet. A weldolet is designed to \nminimize stress concentrations and provide integral reinforcement thus eliminating the need for \nreinforcing the weld. \n \n2.3.4 THREADOLET \n \nA Threadolet is the same basic design as a \"weldolet.\" However the main difference is the \nfitting has a female threaded connection to mate to the branch connection. This makes a 90\u00b0 branch \nand comes in full or reduced size for a straight piece of pipe. \n \n\uf0b7 In the P&ID, some branch connections were present to monitor the pressure of flowing fluids \nin the pipe from the inlet. \n \n\uf0b7 The pressure indicator is mounted on the threadolet 2\u201dx1/2\u201d then the valve & Pressure \nindicator is connection in the branch connection. \n \n\uf0b7 The same procedure followed for the branch connection in manifold & PIT connections. \n \n  \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n      Fig: 22",
+            "images": [
+                "slide_16_img_1.jpeg",
+                "slide_16_img_2.png"
+            ]
+        },
+        {
+            "slide_number": 17,
+            "page_content": "Slide 17",
+            "text": "16 | P a g e  \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n                   Fig: 23 \n \n \n \n        \n \n \n \n  Fig: 24",
+            "images": [
+                "slide_17_img_1.png",
+                "slide_17_img_2.png"
+            ]
+        },
+        {
+            "slide_number": 18,
+            "page_content": "Slide 18",
+            "text": "17 | P a g e  \n \n3.0 CADWORX PLANT STRUCTURAL STEEL \n \n \nIt includes the most complete range of tools for efficient plant design. It is a 3D steel \nstructure design package that has the necessary tools and international steel catalogue needed for \ntoday's industrial applications. Like CADWorx Plant, CADWorx Structure gives simplicity and \nefficiency in design thus providing a good reduction in modeling time. \n \n\uf0b7 3D Structural Design \n\uf0b7 Easily modified \n\uf0b7 Easy-to-Place Assemblies \n\uf0b7 Drawings \n\uf0b7 Bills of Material \n\uf0b7 Centre of gravity \n\uf0b7 Creation of stairs, ladders \n \n \n \n \n \n \n \n \n Fig: 25 \n \n3.1 CADWORX STEEL \n \nCADWorx steel professionals makes the creation of complex 3D steel structures into simple. Multi-\nlevel frames with vertical or sloped sides can be combined to create intricate layouts that allow the \neasy placement of steel members by the picking of single or multiple frame lines. \n \n\uf0b7 CADWorx steel professional allows structural designers and engineers to create user shapes \nthat can be made up of plates or derived from any extruded profile. \n \n\uf0b7 Here it is easily modified. Functionality also exists that allows the automatic coping of \nmembers against one another. Members can be cut, trimmed and also joined to other \nmembers. It allowing design modifications without remodeling. \n \n\uf0b7 The steel professional has a full library of international steel shapes in both imperial and \nmetric units. Metric or imperial shapes can be placed in either environment without \nmodifying their underlying data files. \n \n\uf0b7 Center-of-gravity calculations are automatically created and can be shown on-screen, in \ndrawings or in detailed reports. User-configurable bills of material are available directly \nfrom the model or from the external database. \n \n\uf0b7 In this steel professional includes routines for the parametric creation of stairs, ladders (both \ncaged and un-caged) and hand railings. Any attribute of these items can be modified at any \ntime instantly updating the model. \n \n\uf0b7",
+            "images": [
+                "slide_18_img_1.png"
+            ]
+        },
+        {
+            "slide_number": 19,
+            "page_content": "Slide 19",
+            "text": "18 | P a g e  \n \n3.2 STRUCTURE ROOTING \n \n\uf0b7 Skid coverage area shall be provided by the client based on their space allocation. \n\uf0b7 Here the given area of the skid is 7500 mm length x 1600 mm width. \n\uf0b7 To form a structure, draw a rectangle with the above dimensions.  \n\uf0b7 Then assign a suitable member size to it (beam, channel, angle, etc.) \n\uf0b7 Likewise to model a complete structure of skid, the whole process shall be repeated \naccordingly  \n \n3.2.1 STEEL SHAPES \n \n\uf0b7 On Clicking the CADWorx steel / HVAC, the structural ribbon appears. It consists of  steel \nshapes, steel draw, steel edit, steel BOM / DB, HVAC draw / BOM / DB. \n \n\uf0b7 In the steel shapes we can choose steel shapes and assemblies from a library of steel \nstandards and templates. \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nFig: 26 \n \n \n \n \n \n \n \n  \n   \n \n \n \n \n \n \n \n \n \n \n  Fig: 27 \n \n \n\uf0b7 The steel shapes contains a number of shapes like wide flange, Channels, Angles, Tee, \nStructural pipes, Structural tubing, Flat bar, Round bar, lip, etc\u2026",
+            "images": [
+                "slide_19_img_1.jpeg",
+                "slide_19_img_2.png"
+            ]
+        },
+        {
+            "slide_number": 20,
+            "page_content": "Slide 20",
+            "text": "19 | P a g e  \n \n\uf0b7 We can choose from the ribbon or dialogue box. \n \n\uf0b7 Click any shapes in the dialogue box  \n \nOpen then choose the type of shape from the select type. \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nFig: 28 \n \n \n\uf0b7 In the side of the dialogue box we have to select the centerline location by using scroll \nbuttons up and down. \n \n\uf0b7 While selecting the centerline whether it is top, bottom or center of the member which is used \nto mate the materials one another. \n \n\uf0b7 We can also change the angle of rotation in degrees as per the requirements. In some places \nthe angle or a channel connected to the beam in some degrees there we using the angle of \nrotation. \n \n\uf0b7 In the same dialogue box click the data file library. It has a full library of international steel \nshapes in both imperial and metric units. \n \n\uf0b7 The imperial system uses yards, feet, inches, etc. to measure length. It was developed over \nhundreds of years in the UK, then the French developed the metric system like meters in \n1670, which soon spread through Europe. \n \n\uf0b7 In the library of international steel shapes it consists of many international standards \ngenerally we following a European standards for skid, so click the European standards in \nthe Data file.",
+            "images": [
+                "slide_20_img_1.png"
+            ]
+        },
+        {
+            "slide_number": 21,
+            "page_content": "Slide 21",
+            "text": "20 | P a g e  \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nFig: 29 \n \n \n3.2.2 FACTORS NEEDS TO BE CONSIDERED WHILE SELECTING THE MEMBERS \n \nWe have to select the members for the material by taking some factors into consideration \nwhich are given below:- \n \n\uf0b7 Based on availability \n\uf0b7 Based on cost \n\uf0b7 Based on load withstanding capacity \n\uf0b7 Based on standards \n\uf0b7 Based on corrosion \n \n \n \n \n \n             \nFig: 30",
+            "images": [
+                "slide_21_img_1.png",
+                "slide_21_img_2.jpeg"
+            ]
+        },
+        {
+            "slide_number": 22,
+            "page_content": "Slide 22",
+            "text": "21 | P a g e  \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nFig: 31 \n \n \n3.2.3 STEEL DRAW \n \n\uf0b7 With the help of steel draw it is easy to use tools capable of laying out complex steel \nstructures, including modelling stairs, ladder and handrail. \n \n\uf0b7 The structural library contains a variety of international steel shapes and it can be modified to \ninclude any project requirements. \n \n\uf0b7 All structural entities created with CADWorx plant professional from wide flanges to base \nplates and bolts.  \n \n\uf0b7 The frame creator tool allows simple creation of complex 3D steel structures and parametric \ntools allows the rapid creation of stairs, ladders and handrails. \n \n\uf0b7 Generally it comes with complete toolset for modelling intelligent structural shapes.",
+            "images": [
+                "slide_22_img_1.png"
+            ]
+        },
+        {
+            "slide_number": 23,
+            "page_content": "Slide 23",
+            "text": "22 | P a g e  \n \n \n \n \n \n \n \n \n \n \n \n \n \n   Fig: 32 \n \n\uf0b7 With the help of a steel draw we can model plates with standard hole sizes. \n \n\uf0b7 We can set the components with various beam sizes with the help of a set size by component. \nWe can able to attaches the information to any generic components. \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n        Fig: 33 \n \n\uf0b7 Set up the dimensions as per your requirements to get a complete structure of a stair, caged \nladder, ladder without cage and handrails. \n \n3.2.4 STEEL COPING \n \n\uf0b7 After setting up the material click the select line box present at the bottom of the dialogue \nbox. \n \n\uf0b7 Now select the line which you have already drawn for the skid, then press enter to change the \nline to the required material.",
+            "images": [
+                "slide_23_img_1.png",
+                "slide_23_img_2.png"
+            ]
+        },
+        {
+            "slide_number": 24,
+            "page_content": "Slide 24",
+            "text": "23 | P a g e  \n \n \n       Fig: 34 \n \n\uf0b7 Now base frame is created from the given dimension, but at the ends of the frames the webs \nextends throughout the end of the frame. \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n  \n \n \n \n \n \n            Fig: 35 \n \n\uf0b7 The extended solid shall be removed by using steel coping. Click cope option in the steel \nedit. \n \n\uf0b7 Select the object or beam to be removed from the frame. Press the enter button then select the \nobject or beam which is stable and press enter. \n \n\uf0b7 Now the beam splits from two pieces, so that we can remove the unwanted one easily. Same \nprocedure shall be followed for the sides. Refer Fig: 32, 33, and 34.  \n \n\uf0b7 Here we are using wide flanges, but we shall also use channels, angles, double angles, tee, \nlips, etc.",
+            "images": [
+                "slide_24_img_1.png",
+                "slide_24_img_2.png"
+            ]
+        },
+        {
+            "slide_number": 25,
+            "page_content": "Slide 25",
+            "text": "24 | P a g e  \n \n \n \n \n \n \n \n \n \n \n     Fig: 36 \n \n\uf0b7 Once the base frame has been completed, then intermediate frames shall be modelled. \n  \n\uf0b7 Depending upon pipe elevations, pipe supports shall be introduced as well. Due to the flow of \noil or gas in the pipes, deflection will arise in pipes. \n \n\uf0b7 To avoid such defects, deflections & damages, additional pipe supports shall be added to hold \nthe pipes. \n \n\uf0b7 Pipe hanger is a designed element which transfers the load from the pipe to the supporting \nstructures.  \n \n\uf0b7 The load includes the weight of the pipe, the content the pipe carries, all the pipe fittings \nattached to pipe, and the pipe covering such as insulation. \n \n\uf0b7 The supported frames also to be selected as per requirements and material availability. \n \n\uf0b7 In pipe supports, the pipes are held by supports like u-clamps, guide support, anchor support, \nhanger support, etc. \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nFig: 37",
+            "images": [
+                "slide_25_img_1.png",
+                "slide_25_img_2.png"
+            ]
+        },
+        {
+            "slide_number": 26,
+            "page_content": "Slide 26",
+            "text": "25 | P a g e  \n \n \n \n    \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nFig: 38",
+            "images": [
+                "slide_26_img_1.png"
+            ]
+        },
+        {
+            "slide_number": 27,
+            "page_content": "Slide 27",
+            "text": "26 | P a g e  \n \n \n3.3 P&ID SAMPLES",
+            "images": [
+                "slide_27_img_1.png"
+            ]
+        },
+        {
+            "slide_number": 28,
+            "page_content": "Slide 28",
+            "text": "27 | P a g e",
+            "images": [
+                "slide_28_img_1.png"
+            ]
+        },
+        {
+            "slide_number": 29,
+            "page_content": "Slide 29",
+            "text": "28 | P a g e",
+            "images": [
+                "slide_29_img_1.png"
+            ]
+        }
+    ]
+}

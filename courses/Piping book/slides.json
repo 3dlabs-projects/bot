@@ -1,0 +1,374 @@
+{
+    "course_name": "Piping book",
+    "total_slides": 35,
+    "slides": [
+        {
+            "slide_number": 1,
+            "page_content": "Slide 1",
+            "text": "0 | P a g e\nPIPING COURSE" ,
+            "images": [
+                "slide_1_img_1.jpeg"
+            ]
+        },
+        {
+            "slide_number": 2,
+            "page_content": "Slide 2",
+            "text": "1 | P a g e \nIndex ",
+            "images": [
+                "slide_2_img_1.jpeg"
+            ]
+        },
+        {
+            "slide_number": 3,
+            "page_content": "Slide 3",
+            "text": "2 | P a g e  \n \nPIPING BOOK \nPipes are used to transfer the fluids from one place to another. For example, pipes are used to \ncarry gas and water in household works. \n Application of pipes and its usage in factories, large scale industries are shown below. \n \n \n \n \n \n \n \n \n \n \n \n \nPipe Material  \n  Many types of pipe materials are available like stainless steel, carbon steel, chrome steel, \nvitrified clay, cast iron, plastic, glass etc. From the above materials, stainless steel, carbon steel, \nplastics are mostly used in pipes. \n \n \n \n \n \n \n \n   \n \n \n \n    Stainless Steel          Carbon Steel             Chrome Steel                   Iron \n \n \n \n \n \n \n \n \n \n \n             Vitrified Clay                           Plastic \n                    Glass",
+            "images": [
+                "slide_3_img_1.jpeg",
+                "slide_3_img_2.jpeg",
+                "slide_3_img_3.jpeg",
+                "slide_3_img_4.jpeg",
+                "slide_3_img_5.jpeg",
+                "slide_3_img_6.jpeg",
+                "slide_3_img_7.jpeg",
+                "slide_3_img_8.jpeg",
+                "slide_3_img_9.jpeg",
+                "slide_3_img_10.jpeg"
+            ]
+        },
+        {
+            "slide_number": 4,
+            "page_content": "Slide 4",
+            "text": "3 | P a g e  \n \nPipe Sizes \nPipe sizes depends upon the fluid pressure, temperature and its velocity. As the fluid \ntemperature, pressure & velocity are very low, small size pipes like 1/2\", 3/4\" diameter are moslty used \nfor carrying water and gas in household usage. These pipes are connected by screwed fittings.. \nRefineries, power plant etc. uses large size pipes like 24\u201d, 42\u201d diameter. Here, the pipes are \njoined using welded connections. In these pipes, fluid pressure and temperature are very high so we \ncannot use screwed fittings.  \nAs mentioned above, pipe sizes are determined by the fluid pressure, temperature and its \nvelocity. Pipe thickness are mainly concerned with fluid pressure. Because pipes may explode if the \nfluid pressure exceeds its allowable limit. In order to prevent such accidents, large thickness pipes are \nused. \nGenerally, Standards are followed in manufacturing processes to determine the sizes and \nmaterials of the pipes. Standard pipes are manufactured using dies. If the required pipe size is larger \nthan the available standard size, plates with required thickness are rolled to make those pipes.  \n \n Types of Fittings \nSome of the pipe fittings are shown below",
+            "images": [
+                "slide_4_img_1.jpeg"
+            ]
+        },
+        {
+            "slide_number": 5,
+            "page_content": "Slide 5",
+            "text": "4 | P a g e  \n \nReducer \nA reducer is the component in a pipeline that reduces the pipe size from a larger to a smaller \nbore (inner diameter) and vice versa. As there is change in pipe sizes due to its usage, thus fluid \npressure increases or decreases. \n \n \n \n \n \n \n \n                                                  \n                                                            Types of Reducer  \n \nConcentric Reducer \n Eccentric Reducer \nThere are two main types of reducers i.e, concentric and eccentric. As the eccentric reducer \ncost is high, concentric reducer should be used whenever possible.  \n \nFlanges \nA flange is a method of connecting pipes, valves, pumps and other equipment to form a piping \nsystem. It also provides easy access for cleaning, inspection or modification. Flanges are usually \nwelded or screwed. Flanged joints are made by bolting together two flanges with a gasket between \nthem to provide a seal.",
+            "images": [
+                "slide_5_img_1.jpeg",
+                "slide_5_img_2.jpeg",
+                "slide_5_img_3.jpeg"
+            ]
+        },
+        {
+            "slide_number": 6,
+            "page_content": "Slide 6",
+            "text": "5 | P a g e  \n \n \n \n           \n \n \n \n      \n \n                       \n                            \n \n                           \n                                     \n \n                               \n \n                                     \n \n \n \n \n                                                           \n                                                           Types of Flanges",
+            "images": [
+                "slide_6_img_1.png",
+                "slide_6_img_2.png",
+                "slide_6_img_3.png",
+                "slide_6_img_4.png",
+                "slide_6_img_5.png",
+                "slide_6_img_6.png",
+                "slide_6_img_7.png",
+                "slide_6_img_8.png",
+                "slide_6_img_9.png",
+                "slide_6_img_10.png",
+                "slide_6_img_11.png",
+                "slide_6_img_12.png",
+                "slide_6_img_13.png",
+                "slide_6_img_14.png"
+            ]
+        },
+        {
+            "slide_number": 7,
+            "page_content": "Slide 7",
+            "text": "6 | P a g e  \n \n \n \n \n \n \n \n \n \n \nNipple \nA nipple is a fitting, consisting of a short piece of pipe, usually provided with a male pipe \nthread at each end, for connecting two other fittings. \n \n \n \n    \n \n \n \n                                                                                                                                  \nCoupling \n A coupling (or coupler) is a very short length of pipe or tube, with a socket at one or both ends \nthat allows two pipes or tubes to be joined together.",
+            "images": [
+                "slide_7_img_1.jpeg",
+                "slide_7_img_2.jpeg",
+                "slide_7_img_3.png",
+                "slide_7_img_4.jpeg",
+                "slide_7_img_5.jpeg",
+                "slide_7_img_6.png"
+            ]
+        },
+        {
+            "slide_number": 8,
+            "page_content": "Slide 8",
+            "text": "7 | P a g e  \n \nValves \n A valve is a device that regulates, directs or controls the flow of a fluid (gases, liquids, \nfluidized solids, or slurries) by opening, closing, or partially obstructing various passageways.There \nare many types of valves are shown below. \n \nTypes of valves \n1. Gate valve \n2. Globe valve \n3. Relief valve \n4. Control valve \n5. Butterfly valve \n6. Check valve \n7. Plug valve \n8. Diaphragm valve",
+            "images": [
+                "slide_8_img_1.png",
+                "slide_8_img_2.png"
+            ]
+        },
+        {
+            "slide_number": 9,
+            "page_content": "Slide 9",
+            "text": "8 | P a g e  \n \n1. Gate valve \nGate valves are primarily designed to start or stop flow, and when a straight-line flow of fluid \nand minimum flow restriction are needed. In service, these valves generally are either fully open or \nfully closed.  \nIt functions by lifting a rectangular or circular gate out of the path of the fluid. When the valve \nis fully open, gate valves are full bore, meaning there is nothing to obstruct the flow because the gate \nand pipeline diameter have the same opening. \n \n \n \n \n \n \n \n \n \n \n2. Globe valve \nA globe valve regulates flow in a pipeline. It is used to control or stop the flow of liquid or gas \nthrough a pipe. Globe valves are named for their spherical body shape with the two halves of the body \nbeing separated by an internal baffle. Globe valves are also known as throttle valves. \n \n \n \n \n \n \n \n \n \n \n \n3. Relief valve and safety valve \nPressure relief valves (safety relief valves) are designed to open at a preset pressure and \ndischarge fluid until pressure drops to acceptable levels.",
+            "images": [
+                "slide_9_img_1.jpeg",
+                "slide_9_img_2.jpeg",
+                "slide_9_img_3.jpeg",
+                "slide_9_img_4.jpeg",
+                "slide_9_img_5.jpeg",
+                "slide_9_img_6.jpeg",
+                "slide_9_img_7.jpeg",
+                "slide_9_img_8.jpeg",
+                "slide_9_img_9.jpeg"
+            ]
+        },
+        {
+            "slide_number": 10,
+            "page_content": "Slide 10",
+            "text": "9 | P a g e  \n \n4. Control valve \n A control valve is a valve used to control fluid flow by varying the size of the flow passage as \ndirected by a signal from a controller. This enables the direct control of flow rate and the consequential \ncontrol of process quantities such as pressure, temperature, and liquid level. \n \n \n \n \n \n \n \n \n \n \n5. Plug valve \nPlug valves are valves with cylindrical or conically tapered \"plugs\" which can be rotated inside \nthe valve body to control flow through the valve. The plugs in plug valves have one or more hollow \npassageways going sideways through the plug, so that fluid can flow through the plug when \nthe valve is open.  \n \n \n \n \n \n \n \n \n6. Ball valve \nA ball valve is a form of quarter-turn valve which uses a hollow, perforated and pivoting ball to \ncontrol flow through it. It is open when the ball's hole is in line with the flow and closed when it is \npivoted 90-degrees by the valve handle.",
+            "images": [
+                "slide_10_img_1.jpeg",
+                "slide_10_img_2.jpeg",
+                "slide_10_img_3.jpeg",
+                "slide_10_img_4.jpeg",
+                "slide_10_img_5.jpeg",
+                "slide_10_img_6.jpeg",
+                "slide_10_img_7.jpeg",
+                "slide_10_img_8.jpeg",
+                "slide_10_img_9.jpeg",
+                "slide_10_img_10.jpeg"
+            ]
+        },
+        {
+            "slide_number": 11,
+            "page_content": "Slide 11",
+            "text": "10 | P a g e  \n \n7. Check valve  \nA check valve is a flow-monitoring device typically used in pipeline systems to allow a fluid to \nflow in only one direction and prevent backflow or backwash. \n  \n \n \n \n \n      Swing Check \n \n \n \nPiston Check Valve \n \n \n \n \n \n \n                                                                                                \nBall Check                                 Butterfly Check \n                                           Valve \n                                        Valve \n \n8. Butterfly valve \nA butterfly valve is a valve that isolates or regulates the flow of a fluid. The closing mechanism \nis a disk that rotates. \n \n \n \n \n \n \n \n \n \nCaps \nCaps are used to close the end of the pipes. Size of the caps depends on the pipe size.",
+            "images": [
+                "slide_11_img_1.jpeg",
+                "slide_11_img_2.jpeg",
+                "slide_11_img_3.png",
+                "slide_11_img_4.jpeg",
+                "slide_11_img_5.jpeg",
+                "slide_11_img_6.jpeg",
+                "slide_11_img_7.jpeg",
+                "slide_11_img_8.jpeg",
+                "slide_11_img_9.jpeg",
+                "slide_11_img_10.jpeg",
+                "slide_11_img_11.jpeg"
+            ]
+        },
+        {
+            "slide_number": 12,
+            "page_content": "Slide 12",
+            "text": "11 | P a g e  \n \nSupports \nA pipe support or pipe hanger is a designed element that transfer the load from a pipe to the \nsupporting structures. Eg: clamp, saddle, lug etc.    \n \n \n \n \n \n \n \n \n \n  \n \n \n                          Saddle \nPipe Fitting symbols",
+            "images": [
+                "slide_12_img_1.png",
+                "slide_12_img_2.png",
+                "slide_12_img_3.png",
+                "slide_12_img_4.png",
+                "slide_12_img_5.png",
+                "slide_12_img_6.jpeg",
+                "slide_12_img_7.jpeg",
+                "slide_12_img_8.png"
+            ]
+        },
+        {
+            "slide_number": 13,
+            "page_content": "Slide 13",
+            "text": "12 | P a g e  \n \nWelding \nWelding is the process of joining together two pieces of metal by heating the surfaces to the \npoint of melting so that bonding takes place at their original boundary surfaces.  \n                                                                                                \n \n \n \n \n \n \n \n \n \n \nTypes of Weld Symbols",
+            "images": [
+                "slide_13_img_1.png",
+                "slide_13_img_2.jpeg"
+            ]
+        },
+        {
+            "slide_number": 14,
+            "page_content": "Slide 14",
+            "text": "13 | P a g e  \n \nTypes and position of welds \n \n \n \n            \n \n \n \n \n \n \n \n \n \n \nTypes of Fillet Welds",
+            "images": [
+                "slide_14_img_1.png",
+                "slide_14_img_2.png"
+            ]
+        },
+        {
+            "slide_number": 15,
+            "page_content": "Slide 15",
+            "text": "14 | P a g e",
+            "images": [
+                "slide_15_img_1.png",
+                "slide_15_img_2.png"
+            ]
+        },
+        {
+            "slide_number": 16,
+            "page_content": "Slide 16",
+            "text": "15 | P a g e",
+            "images": [
+                "slide_16_img_1.png",
+                "slide_16_img_2.png"
+            ]
+        },
+        {
+            "slide_number": 17,
+            "page_content": "Slide 17",
+            "text": "16 | P a g e  \n \nPIPING ROUTING \n2D-View \nA Drawing which shows only one view of an object is called 2D view. It is composed of only \ntwo dimensions. Eg: length and width but no depth. \nIsometric view \n A Drawing which shows all the three views of an object. All the vertical lines are drawn \nvertically but all horizontal lines should be drawn at 30 degrees to the base line. This degree is also \ncalled as Isometric Degree (30\u00b0).",
+            "images": [
+                "slide_17_img_1.png",
+                "slide_17_img_2.png"
+            ]
+        },
+        {
+            "slide_number": 18,
+            "page_content": "Slide 18",
+            "text": "17 | P a g e  \n \nRouting  \nPipe routing is the planning of pipeline layout, which includes considerations of neatness, \neconomy, and safety. \nTypes of routing \n1. Clockwise  \n2. Anti- Clockwise \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nPlan = Top View \nElevation = Front View",
+            "images": [
+                "slide_18_img_1.png",
+                "slide_18_img_2.png"
+            ]
+        },
+        {
+            "slide_number": 19,
+            "page_content": "Slide 19",
+            "text": "18 | P a g e  \n \n      \nModel Drawing \n1. \n \n \n \n2.",
+            "images": [
+                "slide_19_img_1.png",
+                "slide_19_img_2.png"
+            ]
+        },
+        {
+            "slide_number": 20,
+            "page_content": "Slide 20",
+            "text": "19 | P a g e  \n \n   3.",
+            "images": [
+                "slide_20_img_1.png",
+                "slide_20_img_2.png"
+            ]
+        },
+        {
+            "slide_number": 21,
+            "page_content": "Slide 21",
+            "text": "20 | P a g e  \n \nDRAWING PRACTICE",
+            "images": [
+                "slide_21_img_1.png"
+            ]
+        },
+        {
+            "slide_number": 22,
+            "page_content": "Slide 22",
+            "text": "21 | P a g e  \n \nHatch \nHatches on isometric drawings are applied, to indicate that a pipe runs at a certain \nangle and in which direction the pipe runs.  \nThis certain angle is mentioned as slope & it is of two types. \n i.e, Horizontal slope and Vertical slope. \n \nHorizontal slope \n                 When the horizontal pipe runs at a certain angle, then the hatch used is called as \nhorizontal slope.  \n \n \n \n \nVertical slope \n                When the vertical pipe runs at a certain angle, then the hatch used is called as \nvertical slope.",
+            "images": [
+                "slide_22_img_1.png",
+                "slide_22_img_2.png"
+            ]
+        },
+        {
+            "slide_number": 23,
+            "page_content": "Slide 23",
+            "text": "22 | P a g e  \n \n \nHorizontal and Vertical Slope \n \n \nZ- Axis (Slope Direction) \n \nModel Drawing",
+            "images": [
+                "slide_23_img_1.png",
+                "slide_23_img_2.png",
+                "slide_23_img_3.png"
+            ]
+        },
+        {
+            "slide_number": 24,
+            "page_content": "Slide 24",
+            "text": "23 | P a g e  \n \n \nDrawing Practice",
+            "images": [
+                "slide_24_img_1.png"
+            ]
+        },
+        {
+            "slide_number": 25,
+            "page_content": "Slide 25",
+            "text": "24 | P a g e  \n \nRouting  \n \nI) \nDrawing Practice:-",
+            "images": [
+                "slide_25_img_1.png",
+                "slide_25_img_2.png",
+                "slide_25_img_3.png"
+            ]
+        },
+        {
+            "slide_number": 26,
+            "page_content": "Slide 26",
+            "text": "25 | P a g e  \n \n \n \n \n \nII.) \nDrawing Practice:-",
+            "images": [
+                "slide_26_img_1.png",
+                "slide_26_img_2.png",
+                "slide_26_img_3.png"
+            ]
+        },
+        {
+            "slide_number": 27,
+            "page_content": "Slide 27",
+            "text": "26 | P a g e",
+            "images": [
+                "slide_27_img_1.png",
+                "slide_27_img_2.png"
+            ]
+        },
+        {
+            "slide_number": 28,
+            "page_content": "Slide 28",
+            "text": "27 | P a g e  \n \nDrawing Details \nDrawing Sheet \n \n \n \nNTS: (Not to scale) \n \nIf a drawing is drawn roughly to fit into the given sheet size and the dimensions are \nedited manually, then it denotes that the drawing is in NTS. In other words, NTS indicates \nthat the drawing is not present in its original dimensions. \n  \nNotes     \n \nIn the drawing, the following note is given whether in notes section or in any other \ncorner                                                \n \n \n \n \n     All dimension in MM \n                                                     All dimension in M \n                                                                (OR) \n                                                     NTS is noted on title block \nThe drawing should be in any one of the above mentioned units (MM, M, NTS)",
+            "images": [
+                "slide_28_img_1.png"
+            ]
+        },
+        {
+            "slide_number": 29,
+            "page_content": "Slide 29",
+            "text": "28 | P a g e  \n \nIsometric \n Isometric projection is a method for visually representing three-dimensional objects \nin two dimensions  \nPline \n  \nIn isometric drawing, pline (polyline) command is used to specify the pipe routing. To \ndifferentiate the pipe sizes, width option in polyline command is used.               \nFillet \n Fillet command is used to show the bends present in the piping. \n \n                                              \n \nDotted line \n Faint line or object should be shown in dotted lines \nConnected pieces and maximum pipe length \n As it is quite difficult to carry huge length pipes to fit in the sites, such pipes are \nmade into pieces of standard length. Such cut pieces are known as connected pieces and each \npiece having the standard length known as maximum pipe length. \nInlet and outlet \nStarting point of the pipe in which the fluid enters is called Inlet. Ending point of the \npipe in which the fluid exits is called outlet. Their symbols are shown below \n     \n                          \n \n          Isometric view                                        Symbol",
+            "images": [
+                "slide_29_img_1.png",
+                "slide_29_img_2.png",
+                "slide_29_img_3.png"
+            ]
+        },
+        {
+            "slide_number": 30,
+            "page_content": "Slide 30",
+            "text": "29 | P a g e  \n \nThreaded union \nA union, similar to a coupling, allows the convenient future disconnection of pipes for \nmaintenance or fixture replacement. \n \nInch Dia  \nThe inch dia can be calculated by the length & diameter of the pipe. This is used \ndifferently in different countries. But generally, if a welder is contracted to do say 100 weld \njoints, of a 1\" pipe, then the total work involved is 100\" dia welding work. If 100 weld joints \nof a 2\" pipe is 200 weld work and so on. \n \n       \n                                              Eg:                                 \n  \n \n               Generally in plants and industries, the pipes used varies in their sizes depending \nupon the processes, so as to differentiate between the pipe sizes, polyline width and colours \nare used in cad drawings.   \nPiping Legend",
+            "images": [
+                "slide_30_img_1.png",
+                "slide_30_img_2.png"
+            ]
+        },
+        {
+            "slide_number": 31,
+            "page_content": "Slide 31",
+            "text": "30 | P a g e  \n \nContinuation symbol \n \n   \n \n \n1. Match A-A/SYSTEM WD 001 \n   REFER DRAWING 02 SHEET 02           -   the Symbol represents the continuation of \none sheet to another sheet  \n2. \n \n             -   the Symbol represents Continuation of the \ntwo pipelines in the sheet. \n                                              \nNorth symbol and east symbol \n                                                     \n \nArrrow marks are provided to indicate whether the drawing is sighted from North or \nEast direction. These arrow marks also enable us to identify whether the routing is in \nclockwise or anticlockwise direction. \n  \nDetail and Detail Symbols",
+            "images": [
+                "slide_31_img_1.png",
+                "slide_31_img_2.png",
+                "slide_31_img_3.png",
+                "slide_31_img_4.png"
+            ]
+        },
+        {
+            "slide_number": 32,
+            "page_content": "Slide 32",
+            "text": "31 | P a g e  \n \nExample:- \n \n \n \n \n  \n \n \n \n     Plan \n \n \n \nPlan \n    \n \n \n \n                           Plan                                                                              Detai \n \nPipe Section View and Break lines:- \n \n \n \n \n \n \n \n \n                                                                                                                                    \nElevation \nElevation marks shows how far the pipe is present from the base. \n+ ve Sign \u2013 Above the base \n \n \n \n- ve Sign \u2013 Below the base",
+            "images": [
+                "slide_32_img_1.png",
+                "slide_32_img_2.png",
+                "slide_32_img_3.png",
+                "slide_32_img_4.png",
+                "slide_32_img_5.png",
+                "slide_32_img_6.png"
+            ]
+        },
+        {
+            "slide_number": 33,
+            "page_content": "Slide 33",
+            "text": "32 | P a g e  \n \n                \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nFlow diagram abbreviation:-   \n \nNV \n- \nNeedle Valve  \nPO \n \n- \nPump Out \n \nCSO \n- \nCar Seal Open  \nSO \n \n- \nStream Out \n \nCSC \n- \nCar Seal Closed  \nF \n \n- \nFurnished by Others \n \nLO \n- \nLock Open \n \nDF \n \n- \nDrain Funnel \nLC \n- \nLock Closed \n \n \nSymbol:- \nANSI \n- \nAmerican National Standards Institute \nASME \n- \nAmerican Society of Mechanical Engineers \nASTM \n- \nAmerican Society of Testing and Materials \nBC \n- \nBolt Circle \nBB \n- \nBolted Bonnet \nBE \n- \nBevelled Ends(for welding) \nBF \n- \nBlind Flange",
+            "images": [
+                "slide_33_img_1.png",
+                "slide_33_img_2.png"
+            ]
+        },
+        {
+            "slide_number": 34,
+            "page_content": "Slide 34",
+            "text": "33 | P a g e  \n \nBM \n- \nBill of Material \nBOP \n- \nBottom of Pipe \nBW \n- \nButt weld \nCPLG \n- \nCoupling \nCS \n- \nCarbon Steel, Cast Steel or Cold Spring \nELEV \n- \nElevation \nFLG. \n- \nFlange \nFW \n- \nField Weld \nID \n- \nInside Diameter \nIPS \n- \nIron Pipe Size \nLR \n- \nLong Radius \nOD \n- \nOutside Diameter \nOS & Y \n- \nOutside Screw and Yoke \nRED \n- \nReducer \nSCH \n- \nSchedule \nSCRD \n- \nScrewed \nSF \n- \nSemi Finished \nSPEC \n- \nSpecification \nSR \n- \nShort Radius \nSS \n- \nStainless Steel \nSTD \n- \nStandard \nSTL \n- \nSteel",
+            "images": []
+        },
+        {
+            "slide_number": 35,
+            "page_content": "Slide 35",
+            "text": "34 | P a g e  \n \nDrafting method         \n1. Before beginning the piping drawing, we should have the reference drawing. \n2. Current drawing should be drawn in the reference drawing by taking a copy out of it \nso that no new layer needs to be created. \n3. Copy anyone of the piping drawings in the drawing sheet. Let us the consider that \npiping drawing as A. In A drawing, the TITLE BLOCK should be edited as per our \nrequirements. \n4. In the next step, piping lines should be erased in A drawing. Then we should take \naccount of how many different pipe sizes available. \nFor eg: \u00f887x3, \u00f856x2, \u00f832x2 \n \n \n \n \n \n \n \nDia 87 x 3 thk \n \n \n \n \n \n \nDia 56 x  2 thk \n \n \n \n \n \n \nDia 32  x  2 thk \n \nPolylines with different widths should be drawn as shown above so that it is easy to \nmatch those lines with the pipings present in our current drawing.  \n5. Piping routing should be drawn within the given sheet size and the above layers \nshould be matched with the respective pipe sizes. Weld (joint), Inlet, Outlet, \nDimension Style, Other Symbol can be taken and used from reference drawing.  \n6. Drawing should be saved for every five commands.",
+            "images": []
+        }
+    ]
+}

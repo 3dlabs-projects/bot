@@ -1,0 +1,357 @@
+{
+    "course_name": "DESIGN OF PROCESS SKIDS",
+    "total_slides": 45,
+    "slides": [
+        {
+            "slide_number": 1,
+            "page_content": "Slide 1",
+            "text": "3D-LABS",
+            "images": [
+                "slide_1_img_1.jpeg"
+            ]
+        },
+        {
+            "slide_number": 2,
+            "page_content": "Slide 2",
+            "text": "1 | P a g e",
+            "images": [
+                "slide_2_img_1.jpeg"
+            ]
+        },
+        {
+            "slide_number": 3,
+            "page_content": "Slide 3",
+            "text": "2 | P a g e  \n \n1.0 INTRODUCTION: \nA Skid is a transportable package of a process system which contains \nequipments like filters and heat exchangers, piping, valves and supporting \nstructures for the same. Individual skids can contain complete process systems \nand multiple process skids can be combined to create larger process systems or \nentire portable plants. The main advantage of a process skid is quality control. \nBecause only one party will be responsible for the construction and build of the \nskid process unit, there is a higher level of responsibility and quality control. \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nA designer must have a good knowledge in basic piping, structural and \nequipments before going to design a process skid. At the same time, designers \nmust acquire the knowledge of the any one modeling software such as CAD Worx \nand PDMS. This reference manual provides basic knowledge of piping, structural \nand equipments in the following chapters to ease design of process skids.",
+            "images": [
+                "slide_3_img_1.jpeg",
+                "slide_3_img_2.jpeg"
+            ]
+        },
+        {
+            "slide_number": 4,
+            "page_content": "Slide 4",
+            "text": "3 | P a g e  \n \n2.0 PIPING: \nPiping is used for Industrial (process), Marine, transportation, Civil \nengineering, and for commercial purposes. This chapter primarily concerned with \nindustrial piping for processing and service systems. Process piping is used to \ntransport fluids between storage tank and processing units. \n2.1 Introduction: \nPiping is an assembly of piping components used to convey, distribute, mix, \nseparate, discharge, meter, control or snub fluid flows. Piping also includes pipe-\nsupporting elements but does not include support structures, such as building \nframes, bents, foundations, or any equipment excluded from Code definitions. \nPiping components are mechanical elements suitable for joining or \nassembly into pressure-tight fluid containing piping systems. Components include \npipe, tubing, fittings, flanges, gaskets, bolting, valves and devices such as expansion \njoints, flexible joints, pressure hoses, traps, strainers, in-line portions of \ninstruments and separators. \n2.2 Piping and Instrumentation Nomenclature, Components: \nGraphic of sample piping system illustrating \n\uf0b7 header \n\uf0b7 branch connection \n\uf0b7 valve \n\uf0b7 flange \n\uf0b7 pipe support \n\uf0b7 reducer & elbow \nFew other piping, equipment and instrument symbols listed below to ease your \nunderstanding of Piping and instrumentation diagram. The flow diagrams \npresented in this chapter are representative of the types used by many \nengineering and design companies. While actual symbols may vary slightly \nfrom company to company, the general appearance of flow diagrams is the \nsame throughout the piping industry.",
+            "images": [
+                "slide_4_img_1.png",
+                "slide_4_img_2.jpeg"
+            ]
+        },
+        {
+            "slide_number": 5,
+            "page_content": "Slide 5",
+            "text": "4 | P a g e",
+            "images": [
+                "slide_5_img_1.png"
+            ]
+        },
+        {
+            "slide_number": 6,
+            "page_content": "Slide 6",
+            "text": "5 | P a g e",
+            "images": [
+                "slide_6_img_1.png"
+            ]
+        },
+        {
+            "slide_number": 7,
+            "page_content": "Slide 7",
+            "text": "6 | P a g e  \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nINSTRUMENT TAG. IDENTIFICATION",
+            "images": [
+                "slide_7_img_1.png",
+                "slide_7_img_2.png"
+            ]
+        },
+        {
+            "slide_number": 8,
+            "page_content": "Slide 8",
+            "text": "7 | P a g e  \n \n2.3 Codes and Standards: \nThe following codes are used for the design, construction and inspection of \npiping systems. \n2.3.1 The ASME B31 Piping Codes: \nPiping codes developed by the American Society of Mechanical Engineers: \nB31.1 Power Piping: \nPiping typically found in electric power generating stations, in industrial \nand institutional plants, geothermal heating systems and central and district \nheating and cooling plants. \nB31.3 Process Piping: \nPiping typically found in petroleum refineries, chemical, pharmaceutical, \ntextile, per, semiconductor and cryogenic plants and related processing plants and \nterminals. \nB31.4 Pipeline Transportation Systems for Liquid Hydrocarbons and Other \nLiquids: \nPiping transporting products which are predominately quid between plants \nand terminals and within terminals, pumping, regulating, and metering stations. \nB31.5 Refrigeration Piping: \nPiping for refrigerants and secondary coolants. \nB31.8 Gas Transportation and Distribution Piping Systems: \nPiping transporting products which are predominately gas between sources \nand terminals including compressor, regulating and metering stations, gas \ngathering pipelines. \nB31.9 Building Services Piping: \nPiping typically found in industrial, institutional, commercial and public \nbuildings and in multi-unit residences which does not require the range of sizes, \npressures and temperatures covered in B31.11. \nB31.11 Slurry Transportation Piping Systems: \nPiping transporting aqueous slurries between plants and terminals within \nterminals, pumping and regulating stations.",
+            "images": []
+        },
+        {
+            "slide_number": 9,
+            "page_content": "Slide 9",
+            "text": "8 | P a g e  \n \n2.3.2 The Dimensional standards: \nThe following codes are used to specify the geometric, material and strength \nof piping and components: \nB16.1 \n- \nCast Iron Pipe Flanges and Flanged Fittings \nB16.3 \n- \nMalleable Iron Threaded Fittings, Class 150 and 300 \nB16.4 \n- \nCast Iron Threaded Fittings, Classes 125 and 250 \nB16.5 \n- \nPipe Flanges and Flanged Fittings \nB16.9 \n- \nFactory Made Wrought Steel Buttwelding Fittings \nB16.10 - \nFace to Face and End to End Dimensions of Valves \nB16.11 - \nForged Fittings, Socket Welding and Threaded \nB16.14 - \nFerrous Pipe Plugs, Bushings and Locknuts with Pipe Threads \nB16.15 - \nCast Bronze Threaded Fittings Class 125 and 250 \nB16.18 - \nCast Copper Alloy Solder Joint Pressure Fittings \nB16.20 - \nRing Joint Gaskets and Grooves for Steel Pipe Flanges \nB16.21 - \nNonmetallic Flat Gaskets for Pipe Flanges \nB16.22 - \nWrought Cu. and Copper Alloy Solder Joint Pressure Fittings \nB16.24 - \nCast Cu. Alloy Pipe Flanges and Flanged Fittings Class 150, \n300, 400,600, 900, 1500 and 2500 \nB16.25 - \nButtwelding Ends \nB16.26 - \nCast Copper Alloy Fittings for Flared Copper Tubes \nB16.28 - \nWrought Steel Buttwelding Short Radius Elbows and Returns \nB16.29 - \nWrought Cu. and Wrought Cu. Alloy Solder Jt. Drainage Fittings  \nB16.33 - \nManually Operated Metallic Gas Valves for Use in Gas Piping \nsystems Up to 125 psig (sizes \u00bd through 2) \nB16.34 - \nValves \u2013 Flanged, Threaded and Welding End \nB16.36 - \nOrifice Flanges \nB16.37 - \nHydrostatic Testing of Control Valves \nB16.38 - \nLarge Metallic Valves for Gas Distribution (Manually Operated, \nNPS 2 \u00bd to 12, 125 psig maximum)",
+            "images": []
+        },
+        {
+            "slide_number": 10,
+            "page_content": "Slide 10",
+            "text": "9 | P a g e  \n \nB16.39 - \nMalleable Iron Thrd. Pipe Unions, Classes 1150, 250 and 300 \nB16.40 - \nManually Operated Thermoplastic Gs Shutoffs and Valves in \nGas Distribution Systems \nB16.42 - \nDuctile Iron Pipe Flanges and Flanged Fittings, Class 150 & 300 \nB16.47 - \nLarge Diameter Steel Flanges (NPS 26 through NPS 60) \nB36.10 - \nWelded and Seamless Wrought Steel Pipe \nB36.19 - \nStainless Steel Pipe \n \n2.3.3 MS standards: \nThese are piping and related component standards developed by the \nManufacturer\u2019s Standardization Society. The MSS standards are directed at \ngeneral industrial applications. The pipeline industry makes extensive use of these \npiping component and quality acceptance standards. \nSP-6 - \nStandard Finishes for Contact Faces Pipe Flanges and Connecting End \nFlanges of Valves and Fittings \nSP-25 - \nStandard Marking System for Valves, Fittings, Flanges and Union \nSP-44 - \nSteel Pipeline Flanges \nSP-53 - \nQuality Standards for Steel Castings and Forgings for Valves, Flanges \nand Fittings and Other Piping Components - Magnetic Particle \nSP-54 - \nQuality Standards for Steel Castings and for Valves, Flanges and \nFittings and Other Piping Components - Radiographic \nSP-55 - \nQuality Standards for Steel Castings and for Valves, Flanges and \nFittings and Other Piping Components - Visual \nSP-58 - \nPipe Hangers and Supports - Material, Design and Manufacture \nSP-61 - \nPressure Testing of Steel Valves \nSP-69 - \nPipe Hangers and Supports - Selection and Application \nSP-75 - \nHigh Test Wrought Butt Welding Fittings \nSP-82 - \nValve Pressure Testing Methods \nSP-89 - \nPipe Hangers and Supports - Fabrication and Installation Practices",
+            "images": []
+        },
+        {
+            "slide_number": 11,
+            "page_content": "Slide 11",
+            "text": "10 | P a g e  \n \n2.3.4 API: \nThe API standards are focused on oil production, refinery and product distribution \nservices. Equipment specified to these standards are typically more robust than \ngeneral industrial applications. \nSpec. 5L \nLine Pipe \nSpec. 6D \nPipeline Valves \nSpec. 6FA \nFire Test for Valves \nStd. 594 \nWafer and Wafer-Lug Check Valves \nStd. 598 \nValve Inspection and Testing \nStd. 599 \nMetal Plug Valves - Flanged and Butt-Welding Ends \nStd. 600 \nSteel Gate Valves-Flanged and Butt-Welding Ends \nStd. 602 \nCompact Steel Gate Valves-Flanged Threaded, Welding, and \nExtended-Body Ends \nStd. 603 \nClass 150, Cast, Corrosion-Resistant, Flanged-End Gate Valves \nStd. 607 \nFire Test for Soft-Seated Quarter-Turn Valves \nStd. 608  \nMetal Ball Valves-Flanged and Butt-Welding Ends \nStd. 609 \nLug-and Wafer-Type Butterfly Valves \nStd. 613  \nSpecial Purpose Gear Units for Refinery Services \nStd. 614  \nLubrication, Shaft-Sealing and Control Oil Systems for Special \nPurpose Application \nStd. 670  \nVibrations, Axial Position, and Bearing-Temp. Monitoring Systems \nStd. 671  \nSpecial Purpose Couplings for Refinery Service \nStd. 674  \nPositive Displacement Pumps-Reciprocating \nStd. 675  \nPositive Displacement Pumps-Controlled Volume \nStd. 676  \nPositive Displacement Pumps-Rotary \nStd. 677  \nGeneral Purpose Gear Units for Refineries Services",
+            "images": []
+        },
+        {
+            "slide_number": 12,
+            "page_content": "Slide 12",
+            "text": "11 | P a g e  \n \n2.4 Material Selection: \nMaterial Selection \u2013 Common Specifications for Carbon Steel Systems. \nB31.8 \nASTM A 53 \nAPI 5L \nASTM A 333 Gr.6 \nASTM A 106 \nASTM A 193 B7 \nASTM A 354/ A 449 \nASTM A 194 2H \nMSS SP-75 \n \n \nASTM A 105 \nASTM A 372 \nMSS SP-44 \n \n \nASTM A 105 / API 6D \nASME B16.34 / B16.38 \n \n \nB31.4 \nASTM A 53 \nAPI 5L \nAPI 5LU \nASTM A 333 Gr.6 \nASTM A 106 \nASTM A 193 B7 \nASTM A 320 \nASTM A 194 2H \n \nASTM A 420 WPL6 \nASTM A 234 WPB \nASTM A 105 \nASTM A 181 \nASME B16.5 \nASTM A 350 LF2 \nASTM A 105 \nASTM A 216 WCB \nAPI 6D \nAPI 600 \n \n \nB31.3 \nASTM A 53 \nAPI 5L \nASTM A 333 Gr.6 \nASTM A 106 \nASTM A 193 B7 \nASTM A 320 \nASTM A 194 2H \nASTM A 234 WPB \nASTM A 420 WPL6 \nASTM A 234 WPB \nASTM A 216 WCB \nASTM A 105 \nASTM A 181 \nASME B16.5 \nASTM A 350 LF2 \nASTM A 352 LCB \nASTM A 105 \nASTM A 181 \nASTM A 216 WCB \nASTM A 105 \nAPI 600 \nASTM A 350 LF2 \nASTM A 352 LCB \nASTM A 216 WCB \nB31.1 \nASTM A 106 \nASTM A 333 Gr.6 \nASTM A 106 \nASTM A 193 B7 \nASTM A 194 2H \nASTM A 234 WPB \nASTM A 420 WPL6 \nASTM A 234 WPB \nASTM A 216 WCB \nASTM A 105 \nASTM A 181 \nASME B16.5 \nASTM A 350 LF2 \nASTM A 352 LCB \nASTM A 105 \nASTM A 181 \nASTM A 216 WCB \nASTM A 105 \nASME B16.34 \nASTM A 350 LF2 \nASTM A 352 LCB \nASTM A 216 WCB \nCommodity \nPipe \nPipe \u2013 Low Temp \nPipe \u2013 High Temp \nBolting \nNut \nFittings \nFittings \u2013 Low Temp \nFittings \u2013 High Temp \nFlanges \nFlanges \u2013 Low Temp \nFlanges \u2013 High Temp \nValves \nValves \u2013 Low Temp \nValves \u2013 High Temp",
+            "images": []
+        },
+        {
+            "slide_number": 13,
+            "page_content": "Slide 13",
+            "text": "12 | P a g e  \n \n2.5 Code Considerations for Design: \nDesign of piping systems is governed by Codes. All codes have a common \ntheme, they are intended to set forth engineering requirements deemed necessary \nfor safe design and construction of piping installations. \nThe Codes are not intended to apply to the operation, examination, \ninspection, testing, maintenance or repair of piping that has been placed in service. \nThe Codes do not prevent the User from applying the provisions of the Codes for \nthose purposes. \nEngineering requirements of the Codes, while considered necessary and \nadequate for safe design, generally use a simplified approach. A designer capable \nof applying a more rigorous analysis shall have the latitude to do so, but must be \nable to demonstrate the validity of such analysis. \nDesign Conditions: \nDesign conditions refer to the operating and design temperature and \npressure that the piping system will operate at over the course of its design life. \nCode \nDesign Temperature \nDesign Pressure \nB31.1 \nThe piping shall be designed for a \nmetal temperature representing the \nmaximum \nsustained \ncondition \nexpected. The design temperature \nshall be assumed to be the same as \nthe \nfluid \ntemperature \nunless \ncalculations \nor tests support the use of other data, \nin which case the design temperature \nshall not be less than the average of \nthe fluid temperature and the outside \nwall temperature. \nThe internal design pressure shall \nbe not less than the maximum \nsustained \noperating \npressure \n(MSOP) within the piping system \nincluding the effects of static head. \nB31.3 \nThe design temperature of each \ncomponent in a piping system is the \ntemperature at which, under the \ncoincident pressure, the greatest \nthickness or highest component \nrating is required in accordance with \npar. 301.2 \nThe design pressure of each \ncomponent in a piping system shall \nbe not less than the pressure at the \nmost \nsevere \ncondition \nof \ncoincident internal or external \npressure \nand \ntemperature \nexpected during service, except as \nprovided in par. 302.2.4.",
+            "images": []
+        },
+        {
+            "slide_number": 14,
+            "page_content": "Slide 14",
+            "text": "13 | P a g e  \n \nB31.4 \nThe design temperature is the metal \ntemperature expected in normal \noperation. It is not necessary to vary \nthe \ndesign \nstress \nfor \nmetal \ntemperatures between \u201320 \u00b0F and \n250 \u00b0F. \nThe piping component at any point \nin the piping system shall be \ndesigned for an internal design \npressure which shall not be less \nthan the maximum steady state \noperating pressure at that point, or \nless than the static head pressure \nat that point with the line in a static \ncondition. The maximum steady \nstate operating pressure shall be \nthe sum of the static head pressure, \npressure required to overcome \nfriction losses and any required \nback pressure. \nB31.8 \nNo design temperature. The Code \nmentions only ambient temperature \nand ground temperature. (1975) \nDesign pressure is the maximum \noperating pressure permitted by \nthe Code, as determined by the \ndesign procedures applicable to \nthe \nmaterials \nand \nlocations \ninvolved. \n \n2.6 Thickness calculations under Pressure: \n Design of Piping \u2013 B31.1 \nB31.1 essentially limits the pressure design consideration to three items: \nMinimum thickness for pressure: \ntmin =\n(P\u2217DO)\n2(SE+PY) + A   \n(or) \n t =\nP\u2217d+2SE+2yPA\n2(SE+Py\u2212P)  \n        \nThe limit is based on the limit stress being less than the basic allowable stress at \ntemperature. This limit is based on the static yield strength of the material. \nMaximum longitudinal stress due to sustained loadings (SL): \nSL # Sh; stress due to sustained loadings shall be less than the basic \nallowable stress at temperature. Sustained loadings are those due to pressure, self-\nweight of contents & piping and another sustained loadings particular to the \nsituation. The limit is based on the static yield strength of the material. \nSlp = P \u2217Do\n4 \u2217tn",
+            "images": [
+                "slide_14_img_1.png"
+            ]
+        },
+        {
+            "slide_number": 15,
+            "page_content": "Slide 15",
+            "text": "14 | P a g e  \n \nThe computed displacement stress range SE: \nSE \u2264 SA = f (1.25 Sc + 0.25 Sh). SE stresses arise from the constraint of the \nthermal strain displacements associated with the expansion of pipe due to \ntemperature. The limit is based on fatigue considerations. Where the sum of the \nlongitudinal stresses is less than Sh, the difference may be used as an additional \nthermal expansion allowance. \nSE = \u221aSb\n2 + 4 \u2217St\n2  \n \n  Sb =\n\u221aiiMi\n2+ioMo2\nZ\n \nThe computed displacement stress range SE: \nThe factor \u201cf\u201d is a stress range reduction factor: \nCycles, N \nFactor, f \n7,000 and less \n1.0 \n> 7,000 to 14,000 \n0.9 \n>14,000 to 22,000 \n0.8 \n> 22,000 to 45,000 \n0.7 \n> 45,000 to 100,000 \n0.6 \n> 100,000 to 200,000 \n0.5 \n> 200,000 to 700,000 \n0.4 \n7,000 and less \n1.0 \n \n Design of Piping \u2013 B31.3 \nB31.3 essentially limits the pressure design consideration to three items: \nMinimum thickness for pressure: \nt =\nP\u2217D\n2(SE+PY)  \n(or) \n \nt =\nP\u2217D\n2SE \n(or) \n \nt =\nD\n2 \u2217((1 \u2212\u221a\nSE\u2212P\nSE+P) \nThe limit is based on the limit stress being less than the basic allowable stress at \ntemperature. This limit is based on the static yield strength of the material. \nMaximum longitudinal stress due to sustained loadings (SL): \nSL \u2264 Sh; stress due to sustained loadings shall be less than the basic \nallowable stress at temperature. Sustained loadings are those due to pressure, self-\nweight of contents & piping and other sustained loadings particular to the \nsituation. The limit is based on the static yield strength of the material.",
+            "images": [
+                "slide_15_img_1.png"
+            ]
+        },
+        {
+            "slide_number": 16,
+            "page_content": "Slide 16",
+            "text": "15 | P a g e  \n \nThe computed displacement stress range SE: \nSE \u2264 SA = f(1.25 Sc + 0.25 Sh). SE stresses arise from the constraint of the \nthermal strain displacements associated with the expansion of pipe due to \ntemperature. The limit is based on fatigue considerations. Where the sum of the \nlongitudinal stresses is less than Sh, the difference may be used as an additional \nthermal expansion allowance.  \n \n Design of Piping \u2013 B31.4 \nB31.4 essentially limits the pressure design consideration to three items: \nMinimum thickness for pressure: \nt = Pi \u2217D\n2S  \nThe limit is based on the limit stress being less than the basic allowable stress at \ntemperature. This limit is based on the static yield strength of the material. \nS = 0.72 \u2217 E \u2217 SMYS, \nwhere SMYS is the specified minimum yield strength of the material \nMaximum longitudinal stress due to sustained loadings (SL): \nSL \u2264 0.75 \u2022 SA \nwhere SA = 0.72 \u2217 SMYS \nSL, the stress due to sustained loadings shall be less than 0.75 x the \nallowable stress range, SA at temperature. Sustained loadings are those due to \npressure, self-weight of contents & piping and other sustained loadings particular \nto the situation. \nThe computed displacement stress range SE: \nFor restrained lines: \nSL = E \u2217 a \u2217 \u0394\u03a4 \u2212 v \u22c5\u2217Sh \u2264 0.9SMYS \nFor unrestrained lines: \nSE \u2264 SA",
+            "images": [
+                "slide_16_img_1.png"
+            ]
+        },
+        {
+            "slide_number": 17,
+            "page_content": "Slide 17",
+            "text": "16 | P a g e  \n \n Design of Piping \u2013 B31.8 \nB31.8 essentially limits the pressure design consideration to three items: \nDesign pressure: \nP = 2 \u2217S \u2217t\nD\nF. E. T \nF = design factor for construction type (includes a location factor) \nE = longitudinal joint factor \nT = temperature derating factor \nS = SMYS, \nwhere SMYS is the specified minimum yield strength of the material \nTotal combined stress: \nThe total of the following shall not exceed S: \na) Combined stress due to expansion \nb) Longitudinal pressure stress \nc) Longitudinal bending stress due to internal + external loads \nFurther, \nThe sum of (b) + (c) \u2264 0.75 \u2022 S \u2022 F \u2022 T \nThe computed displacement stress range SE: \nB31.8 applies itself to the above ground piping in discussing expansion and \nflexibility to a temperature of 450 \u00b0F. \nFor these \u201cunrestrained\u201d lines: \nSE \u2264 0.72 \u2022 S \n \n2.7 Flange Ratings: \n \nRating, as applied to flanges, may best be defined as the maximum pressure \nallowed by the pressure piping code for the specific temperature at which the \nflange will be operating. Flanges and nozzles are sized according to pressure \nratings established by the ASME. These pressure ratings are divided into seven \ncategories for forged steel flanges. They are 150#, 300#, 400#, 600#, 900#, 1500# \nand 2500#. Cast Iron flanges have ratings of 25#, 125#, 250#, 800#.",
+            "images": [
+                "slide_17_img_1.png"
+            ]
+        },
+        {
+            "slide_number": 18,
+            "page_content": "Slide 18",
+            "text": "17 | P a g e  \n \nPound ratings, when combined with the temperature of the commodity within \nthe pipe, are used to select the appropriate size, rating, and type of flange. This \npressure/temperature relationship will allow any given flange to be used in many \ndifferent applications. For example, a 150# forged steel flange is rated to perform \nat 150# PSIG at 500 \u00b0F. If the temperature were decreased to 100 \u00b0F, this same \nflange could be used for 275# PSIG. However, if the temperature were increased \nto 750 \u00b0F, the flange could only be used for 100# PSIG. As you can see, the \npressure/temperature relationship is important. When temperature decreases, \nthe allowable pressure increases, and vice versa. \n3.0 EQUIPMENTS: \n \nAlthough piping components such as fittings, flanges, and valves are \nimportant and impossible to do without in a process facility, they play a minor role \nin the actual manufacturing of a salable product. Other components of a piping \nfacility actually perform the tasks for which the facility is being built. Collectively, \nthey are known as mechanical equipment. Mechanical equipment can be used to \nstart, stop, heat, cool, liquefy, purify, distill, refine, vaporize, transfer, store, mix, or \nseparate the commodity flowing through the piping system. The discussion in this \nchapter will concentrate on the pieces of equipment that are used in a majority of \nall chemical and refining facilities. \n3.1 Type of Equipments: \nHorizontal Vessels/Accumulators \nThe \nhorizontal \nvessel, similar to the one \nshown in Figure, is a \ncylindrical-shaped storage \ntank that is installed in a \nfacility with its long axis \nparallel to the horizon. Also \nknown as an accumulator, \nit is used primarily as a \nreceiving and collecting \ncontainer for liquids and/or gaseous vapors and, therefore, has no internal moving \nparts. Accumulators can be located at grade level or placed high in an equipment \nstructure. Support saddles, which are U-shaped supports, are welded on the \nunderside to secure and stabilize the vessel as it rests on two concrete foundations, \nwhich are located near each end of the vessel. A nozzle on the top of the vessel \nallows liquids to enter and fill the vessel. Another nozzle, coming off the bottom, \nallows the liquids to be drawn out. Smaller nozzles are positioned that are used for \nventing, draining, and instrumentation attachment.",
+            "images": [
+                "slide_18_img_1.jpeg"
+            ]
+        },
+        {
+            "slide_number": 19,
+            "page_content": "Slide 19",
+            "text": "18 | P a g e  \n \nVertical Vessels/Fractionation Columns/Reactors \nThe vertical vessel, similar to the one \nshown in Figure, is a cylindrical vessel whose \nlong axis is perpendicular to the horizon. It is \none of the most visible pieces of equipment, \nand some vertical vessels can exceed 200 ft in \nheight. Configured as a Fractionation column, \nthese vertical vessels have internal plates \ncalled trays that aid in the refining and \ncollection \nof \nthe \nvarious \nmolecular \ncompounds of a feedstock. The process of \nrefining, or breaking a feed-stock down into \nits various molecular compounds, is called \nfractional distillation. Distillation elicits only \na physical change in a commodity, not a \nchemical one. After further refinement and \nprocessing, these com-pounds will become \nsalable commodities such as fuels, plastics, and many other essential products. \n \nExchangers \nAnother common piece of mechanical equipment is the exchanger. The \nexchanger's primary function in a piping facility is to transfer heat from one \ncommodity to another. Whether the objective is to heat a liquid to a desired \ntemperature or cool a product for final storage, the exchanger can accomplish \nboth. The most important feature \nof \nthe \nexchanger \nis \nthat \ncommodities are mot mixed with \nanother agent to heat it up or cool \nit down. A substantial amount of \ntime \nand \nmoney \nhas \nbeen \ninvested to purify the commodity, \nso mixing any-thing with it, just to \nheat it up or cool it down, would \nbe \ncounterproductive. \nExchangers simply transfer heat \nthrough contact with a metal surface of a different temperature. An exchanger \nmost people are familiar with is the common household water heater whereby \ncold-water flows around a heated element to warm the water. Several exchanger \ntypes are available; they include the shell and tube, double pipe, reboiler, and air \nfan.",
+            "images": [
+                "slide_19_img_1.jpeg",
+                "slide_19_img_2.jpeg"
+            ]
+        },
+        {
+            "slide_number": 20,
+            "page_content": "Slide 20",
+            "text": "19 | P a g e  \n \n \nPumps \nPumps, like the one shown in Figure, are mechanical devices used to move \nfluids under pressure from one location to another. Pumps accelerate the speed at \nwhich a commodity travels within a pipe, thereby increasing its rate of flow. \nPumps used in piping facilities typically will be one of the following classifications: \ncentrifugal, reciprocating, or rotary. \nCentrifugal Pumps \nThe centrifugal force created by the high-speed \nimpellers of a centrifugal pump creates a smooth non-\npulsating rate of flow. With a fast spinning impeller \ncreating a low-pressure center point, any commodity \nentering the pump will naturally seek the center of the \nimpeller only to be spun out at a high rate of speed. The \nefficient operation of the centrifugal pump makes it the \nstandard of most piping facilities. \nReciprocating pumps \nThe reciprocating pump creates Pr. \nwith a piston or plunger that alternately \nmove back and forth. With each stroke of \nthe piston, pressure is increased forcing the \ncommodity \nout \nof \nthe \npump. \nThe \nreciprocating pump is installed in piping \nsystem where extremely high pressures are \nrequired.  \nCompressors: \n \nThe compressor is similar to pump, but \nit is designed to move air gases or vapors \nrather than liquids. The compressor is used to \nincrease the rate at which a gaseous \ncommodity flows from one location to \nanother. Gases, unlike liquids, are elastic and \nmust be compressed to increase flow rate. \nLiquids obviously cannot be compressed, \nunless \nyou \nare \nbuilding \na \nhydraulic \napplication. Like pumps, compressors are \nmanufactured in centrifugal, reciprocating, \nand rotary configurations.",
+            "images": [
+                "slide_20_img_1.jpeg",
+                "slide_20_img_2.jpeg",
+                "slide_20_img_3.jpeg"
+            ]
+        },
+        {
+            "slide_number": 21,
+            "page_content": "Slide 21",
+            "text": "20 | P a g e  \n \n \nReboiler: \n \nThe reboiler, as the \nname implies, is a device \nused to replenish the heat \nlost \nby \na \nprocess \ncommodity. It is natural \nthat during the refining \nprocess commodities will \nlose heat. In many cases \nlower temperature means \nless \nefficiency \nand \nproductivity. Therefore, it becomes necessary to reheat certain commodities after \na period of time. Two types of reboilers are available for use: the kettle-type and \nthe thermosyphon. A kettle-type reboiler is similar in design and appearance to \nthe shell and tube exchanger. The commodity to be heated is routed, via pipe, to \nand from the heater and fractionation column. The thermosyphon reboiler, \nhowever, is attached directly to a fractionating column via its nozzles. The inlet \nand outlet nozzles of a reboiler are bolted directly to the two nozzles on the \nfractionating column. \nStorage tanks: \n \nFrom the name, it is easy to determine what this piece of equipment used \nfor. Storage tanks are used in several phases of the refining process. They can be \nused to store crude oil before its use in \nthe facility, as holding tanks for a \npartially \nrefined \nproduct \nawaiting \nfurther processing, or to collect a \nfinished product before its delivery or \npickup by a customer. \n \nUsually placed within a common \narea of a facility known as a tank farm, \nStorage tanks come in various shapes \nand sizes. Some are shaped similar to \nhorizontal \nvessels \nand \nsome \nare \nspherical like ball. Most of storage \ntanks, as much as 200 ft. in diameter and \nup to 60ft tall.",
+            "images": [
+                "slide_21_img_1.jpeg",
+                "slide_21_img_2.jpeg"
+            ]
+        },
+        {
+            "slide_number": 22,
+            "page_content": "Slide 22",
+            "text": "21 | P a g e  \n \n3.2 Codes and Standards: \nThe following codes and standards are used for the design, construction and \ninspection of Equipments. \nASME I \nRules for Construction of Power Boilers \nASME III \nRules for Construction of Nuclear Facility Components \n \n \n\u2022 Subsection NCA \u2014 General Requirements for Div. 1 and Division 2 \n\u2022 Appendices \n\u2022 Division 1* \n\u2013 Subsection NB \u2014 Class 1 Components \n\u2013 Subsection NC \u2014 Class 2 Components \n\u2013 Subsection ND \u2014 Class 3 Components \n\u2013 Subsection NE \u2014 Class MC Components \n\u2013 Subsection NF \u2014 Supports \n\u2013 Subsection NG \u2014 Core Support Structures \n\u2022 Division 2 \u2014 Code for Concrete Containments \n\u2022 Division 3 \u2014 Containment Systems for Transportation and Storage \n   of Spent Nuclear Fuel and High-Level Radioactive Material \n\u2022 Division 5 \u2014 High Temperature Reactors \nASME IV \nRules for Construction of Heating Boilers \nASME V \nNondestructive Examination \nASME VI \nRecommended Rules for the Care and Operation of Heating Boilers \nASME VII \nRecommended Guidelines for the Care of Power Boilers \nASME VIII  Rules for Construction of Pressure Vessels \n\u2022 Division 1 \n\u2022 Division 2 \u2014 Alternative Rules \n\u2022 Division 3 \u2014 Alternative Rules for Construction of High Pr. Vessels \nASME IX \nWelding, Brazing, and Fusing Qualifications \nASME X \nFiber-Reinforced Plastic Pressure Vessels \nASME XI \nRules for in service Inspection of Nuclear Power Plant Components",
+            "images": []
+        },
+        {
+            "slide_number": 23,
+            "page_content": "Slide 23",
+            "text": "22 | P a g e  \n \nASME XII \nRules for Construction and Continued Service of Transport Tanks \nASME B73.1 Horizontal, End Suction Centrifugal Pumps \nASME B73.2 Vertical In-line Centrifugal Pumps \nASME B133.2 Basic Gas Turbine  \nAPI Std. 611  General Purpose Steam Turbines for Refinery Services \nAPI Std. 616  Gas Turbines for Refinery Services \nAPI Std. 617  Centrifugal Compressors for General Refinery Services \nAPI Std. 618  Reciprocating Compressors for General Refinery Services \nAPI Std. 619  Rotary-Type Positive Disp. Compressors for Gen. Refinery Services \nAPI Std. 620  Design and Construction of Large, Welded, Low Pr. Storage Tanks \nAPI Std. 630  Tube and Header Dimensions for Fired Heaters for Refinery Service \nAPI Std. 650  Welded Steel Tanks for Oil Storage \nAPI Std. 660  Heat Exchangers for General Refinery Service \nAPI Std. 661  Air-Cooled Heat Exchangers for General Refinery Service \n \n3.3 Piping to vessels & columns: \nVessel connections are often made with couplings (for smaller lines), \nflanged or welding nozzles, and pads fitted with studs, designed to mate with \nflanged piping. Nozzle outlets area also made by extrusion, to give a shape like that \nof the branch of a welding tee-this gives a good flow pattern, but is an expensive \nmethod usually reserved for such items as manifolds and dished heads. Weldless, \nsockolets and thredolets are suitable for vessel connections and are available flat-\nbased for dished heads, tanks, and large vessels. \nNozzles needed on vessels: \n\uf0b7 Nozzles needed on non-pressure vessels include: inlet, outlet, vent (gas or air), \nmanhole, drain, overflow, agitator, temperature element, level instrument, and a \n\u2019steamout\u2019 connection, sometimes arranged tangentially for cleaning the vessel. \n\uf0b7 Nozzles needed on pressure vessels include: inlet, outlet, manhole, drain, \npressure relief, agitator, level gauge, pressure gage, temperature element, vent \nand for steamout, as above. \n\uf0b7 Check whether nozzles are required for an electric heater, coils for heating or \ncooling: or vessel jacket. A jacket requires a drain and vent. \n\uf0b7 Check special nozzle needs, such as for flush-bottom tank valves.",
+            "images": []
+        },
+        {
+            "slide_number": 24,
+            "page_content": "Slide 24",
+            "text": "23 | P a g e  \n \nPipe flexibly to nozzles: \n\u2022 Provide additional flexibility in lines to a vessel from pumps and other \nequipment mounted on a separate foundation (if liable to settle). \n\u2022 Be cautious in making rigid straight connections between nozzles. Such \nconnections may be acceptable if both items of equipment are on the same \nfoundation, and are not subject to more than normal atmospheric temperature \nchanges. \nNozzle loading \n\uf0b7 Ensure that a nozzle can take the load imposed on it by connected piping, under \n\u201csupporting pipe at nozzles\u2019. Manufacturers often can provide nozzle-loading \ndata for their standard equipment. \n\uf0b7 Check all connections to ensure that stresses due to thermal movement, and \nshock pressure (\u2018kicks\u2019) from opening pressure relief valves, etc., are safely \nhandled. \n \n4.0 PIPE SUPPORTS: \n \nThe weight of piping is usually carried on supports made from steel. So, the \nPipe supports should be as simple as conditions allow. To support piping from \nbelow, supports are usually made to suit from platestock, pipe and pieces of \nstructural steel. In the open, Single pipes are usually routed so that they may be \nsupported by fixtures to buildings or structures. A group of parallel pipes in the \nopen is normally supported on the pipe rack. \nThere are various types of supports used in the piping, as outlined below. \n\uf0b7 Anchor support \n\uf0b7 Guide support \n\uf0b7 Tie support \n\uf0b7 Shoe \n\uf0b7 Hanger \n\uf0b7 Saddle \n\uf0b7 Slide plate \n\uf0b7 Dummy leg",
+            "images": []
+        },
+        {
+            "slide_number": 25,
+            "page_content": "Slide 25",
+            "text": "24 | P a g e  \n \n4.1 Requirements of pipe supports: \nThe pipe supports should be arranged bearing in mind below points:  \n1. To carry the weight of piping with fluid, with an ample safety margin-use a \nfactor of safety 3 or the safety factor specified for the project. \n2. The system of supports should minimize the introduction of twisting forces \nin the piping due to offset loads on the supports. \n3. To ensure that the material from which the pipe is made is not stressed \nbeyond a safe limit. \n4. To allow for draining. Hold up of liquid can occur due to pipe sagging \nbetween supports. Complete draining is ensured by making adjacent \nsupports adequately tilt the pipe. \n5. To permit thermal expansion and contraction of the piping under stresses \non piping. \n6. To withstand and dampen vibrational forces applied to the piping by \ncompressors, pumps, etc. \n4.2 Types of pipe supports: \n \nThis chapter discusses the types of pipe supports. \nAnchors: \nAnchors are required to state in the following two points. \nHowever, advice from the stress and/or piping support \ngroups should be obtained: \n\uf0b7 Provide anchors as necessary to prevent thermal or \nmechanical movement overloading nozzles on \nvessels or machinery, branch connections, cast-iron \nvalves, etc. \n\uf0b7 Provide anchors to control direction of expansion; for example, at battery \nlimits and on piping leaving units, so that movement is not transmitted to \npiping on a pipe rack. \nPipe guides: \nWhen total restriction of pipe movement is not \nrequired, pipe guides are used. Pipe guides confine \nmovement along the pipe's lineal axis. Used primarily to \nmaintain proper line spacing in a pipe rack, pipe guides \nprevent lateral or sideways movement. Unlike the pipe \nanchor, which is welded to the pipe and structural \nsupport, the guide allows pipe to slide lengthwise \nbetween two angle. When a pipe is supported on shoes, \nthe angle shapes are positioned on either side of the shoe.",
+            "images": [
+                "slide_25_img_1.jpeg",
+                "slide_25_img_2.jpeg"
+            ]
+        },
+        {
+            "slide_number": 26,
+            "page_content": "Slide 26",
+            "text": "25 | P a g e  \n \nHanger rods \nHanger rods are the standard supporting devices \nused when a pipe, or pipes, must be supported from \nabove. Hanger rods are suspended from overhead lines or \nstructural supports. Two major styles of hanger rods are \nused. One is designed to support a single pipe and the \nother is intended to support multiple lines. Used on lines \nup to 24\" in diameter, and having a load capacity of 4,800 \npounds, the single pipe hanger uses a rod and clevis to \nprovide support. When several lines require support, the \nmultiline hanger is used. \n \nSpring hangers \nLines having significant growth, due to expansion, prevent the use \nof a stiff support such as a hanger rod or trapeze. These lines require the \nuse of spring hangers. Spring hangers allow expanding pipes room to \ngrow without placing stress on the supporting rod. \n \nPipe insulation shoes: \nPipe is insulated to prevent the heat loss or to ensure \nworker safety. Anchoring lines with insulation requires \nspecial preparations because resting insulated pipe \ndirectly on structural support damages the insulation. To \nprotect insulation on pipes 3\" and larger, pipe shoes are \nattached to the pipe at the location where it rests on a \nsupport. Depending on the governing pipe specification, \nshoes can either be welded or bolted. Welded shoes are \napproximately 6\" long and are made from 3\" tall structural \ntees or 6\" wide flanges that have been cut into halves and \nthen welded to the bottom of a run of pipe. Bolted shoes \nresemble a cradle that the pipe rests in a U-shaped strap is placed over the pipe \nand is bolted to the cradle to secure the pipe to the shoe. Because of the expense \nto x-ray and post-heat treat all welds, bolted shoes are a common occurrence. Pipe \nsmaller than 3\" typically has insulation thin enough to be cut away from the pipe \nat the point where the insulation would rest on a support. Therefore, no shoes are \nrequired.",
+            "images": [
+                "slide_26_img_1.jpeg",
+                "slide_26_img_2.png",
+                "slide_26_img_3.jpeg"
+            ]
+        },
+        {
+            "slide_number": 27,
+            "page_content": "Slide 27",
+            "text": "26 | P a g e  \n \nDummy legs: \nBelow table suggests sizes for dummy legs. The allowable \nstress on the wall of the elbow or line pipe to which the \ndummy leg is attached sets a maximum length for the lug. \nThe Advice of the stress group should be sought. \nApproximate sizes for dummy legs \n \nShoes: \nDo not use shoes on uninsulated pipes, unless required for \nsloping purposes. Slide plated are an alternative. Use of wye \ntype shoes enables pipes to be placed on the shoe before \nwelding and makes construction easier.  Welding the pipe \ndirectly to shoes is not always acceptable; for example, with \nrubber lined pipe. Bolted or strapped shoes are more suitable. \n \n4.3 Spacing of pipe supports: \nWhen a horizontal pipe is supported at intermediate points, sagging of the \npipe occurs between these supports, the amount of sag being depend upon the \nweight of the pipe, fluid, insulation and valves or fittings which may be included in \nthe line. If the pipeline is installed with no downward pitch, pockets will be formed \nin each span in which case condensation may collect if the line is transporting \nsteam. In order to eliminate these pockets, the line may be pitched downward so \nthat the outlet of each span is lower than the maximum sag. \nSuggested maximum spacing between pipe supports for horizontal straight \nruns of standard pipes. \nNominal \npipe size \n(Inches) \nSuggested Max. Span ft. \nWater \nservice \nSteam/Gas/ \nAir Service \n8 \n19 \n24 \n12 \n23 \n30 \n16 \n27 \n35 \n20 \n30 \n39 \n24 \n32 \n42 \n \nNPS of piping (inches) \n2 \n3 \n4 \n6 \n8 \n10 \n12 \n14 \nNPS of pipe forming leg (in.) \n1.5 \n2 \n3 \n4 \n6 \n8 \n8 \n10 \nSize of W. Flange (in.) \n \n \n \n \n6 \n8 \n8 \n10 \nNominal \npipe size \n(Inches)   \nSuggested Max. Span ft. \nWater \nservice \nSteam/Gas/ \nAir Service \n1 \n7 \n9 \n2 \n10 \n13 \n3 \n12 \n15 \n4 \n14 \n17 \n6 \n17 \n21",
+            "images": [
+                "slide_27_img_1.png",
+                "slide_27_img_2.png"
+            ]
+        },
+        {
+            "slide_number": 28,
+            "page_content": "Slide 28",
+            "text": "27 | P a g e  \n \n5.0 STRUCTURAL DESIGN: \nThis chapter specifies minimum requirements and gives recommendations for \nstructural design of steel for the on-shore plant. \n5.1 Codes and standards: \nAISC   \n- Specification for Structural Steel Buildings \nAISC  \n- Manual for steel construction, 9th edition \nACI 318 M  - Building Code Requirements for Reinforced Concrete Commentary \n  on Building Code Requirements for Reinforced Concrete \nAISC 360-10 - Specification for structural steel buildings  \nASCE 7 -10 - Minimum design loads for buildings and other structures \nIBC.2009 \n- International building code \nUBC-1997 \n- structural design requirements \nBS 5950 \n- Structural use of steel works in buildings \nBS 6399 \n- Loading for Buildings \n   Part 1: Code of Practice for Dead and Imposed Loads \n  Part 2: Code of Practice for Wind Loads \n  Part 3: Code of Practice for Imposed Roof Loads \nEN 1990  \n- Eurocode: Basis of Structural Design \n5.2 Structural Design considerations: \nDesign requirements: \n The Preliminary beam selection based on previous and satisfactory \nexperience is acceptable. The same shall be verified after receiving the \nstress analysis report. \n Structural steel shall be mild steel and comply with the requirements of BS \nEN 10025 (BS 4360) Grade S275 JR (43B) or subject to the prior approval \nof Client. \n The minimum thickness of any structural steel plate shall be 6mm. \n Gusset plates shall not be thinner than the members to be connected, and \nshall have a thickness of at least 10 mm. \n Moment resisting connections shall be designed for field bolted and shop \nwelded.",
+            "images": [
+                "slide_28_img_1.png"
+            ]
+        },
+        {
+            "slide_number": 29,
+            "page_content": "Slide 29",
+            "text": "28 | P a g e  \n \n Shop connections may be welded or bolted. Field connections shall be \nbolted. No field welding shall be permitted for structural steel work, unless \napproved by Company. \n Bolts: \n\uf0a7 The minimum spacing of bolts shall be 150 mm or 8 times the bolts \ndiameter whichever is greater. \n\uf0a7 Anchor bolts of 20 mm diameter and above shall be used for major \nequipment and structures. 16 mm bolt may be used for small pumps \nand guardrails.  \n\uf0a7 Minimum edge distance, measured to outside of bolt shall be 120 mm \nor 6 times the bolt diameter whichever is greater. \n\uf0a7 Bolted connections shall be designed based on bearing-type \nconnections using minimum, 2-M20 bolts at each joint. \n The design shall consider special erection loads and forces and indicate \ntemporary measures such as for instance the application of temporary \nbracings and/or guy wires to cater for these loads and forces. \n Single side welding should not be for I-shaped built up sections formed by \nwelding web to flange plates. \nDeflection limits: \nDesign vertical deflections on structural steel members under the effect of \ndead loads, equipment loads, live loads, crane loads and wind / seismic loads shall \nnot exceed the following values: \nCategory \nMember Type \nVertical Deflection \nSteel Members \nPurlins and Girts \nL/400 \nSteel Pipe Supports \nL/300 \nCantilever Beams \nL/400 \n \nDesign horizontal deflection of structural steel frames under the effect of \nequipment loads, live loads, crane loads and wind loads shall not exceed the \nfollowing values: \nCategory \nMember Type \nVertical Deflection \nSteel Members \nWithout Equipment \nH/200 \nWith Equipment \nH/300",
+            "images": [
+                "slide_29_img_1.png"
+            ]
+        },
+        {
+            "slide_number": 30,
+            "page_content": "Slide 30",
+            "text": "29 | P a g e  \n \n6.0 DESIGN PROCEDURE OF PROCESS SKIDS: \n \nThe following are only guidelines based on the good engineering practice. \nThis is not an attempt to cover every possibility nor is it to become a substitute for \nusing the code.  \nStep: 1 Analyze P&ID \nFlow diagrams describe, in a schematic drawing format, the sequential flow \nof fluids as they enter, flow through, and exit the process facility. By using \nsimplified drawing symbols, to represent various pieces of mechanical equipment, \nvalving, and instrumentation, and specific notes, callouts, and abbreviations, the \nflow diagram provides the piping designer with an overall view of the operation of \na facility. It guides the designer in the same manner a road map guides a traveler. \nThis drawing provides the following specific design criteria \n The operating and design conditions (pressures and temperatures) \n Pipe line numbers with direction of commodity flow \n Pipe specifications and line sizes \n All mechanical equipment \n All operating and isolating valves \n All controlling instrumentation with transmitting devices \nRefer section 2.2 for more details. \nStep: 2 Collect basic input design data\u2019s \n \nCollect the following input data\u2019s from \u201cstep: 1\u201d to find out the preliminary \ndesign considerations. \n Design Pressure \n \n Design temperature \n Process Fluid and their properties \n Fluid service \n Design code \n Preliminary pipe sizes \n Plot area \n Skid boundary \nRefer section 2.5 for more details.",
+            "images": [
+                "slide_30_img_1.png"
+            ]
+        },
+        {
+            "slide_number": 31,
+            "page_content": "Slide 31",
+            "text": "30 | P a g e  \n \nStep: 3 Determine the required design considerations: \n \nFind out the following factors by using the basic input data\u2019s. \n Confirm the line sizes \n Material selection and certifications (Refer section 2.4 for more details.) \n Calculate the thickness of the pipes (Refer section 2.6 for more details.) \n Requirement of heat treatment and testing \n Find out the flange ratings (Refer section 2.7 for more details.) \n Connection type (Butt welded/ socket welded / threaded connection) \n Assume the base frame and support beam size (Refer sec 2.7 for details.) \n Collect Equipment preliminary details (Overall dimensions / occupied area \n/ working) (Refer section 3.1 for more details.) \n Conclude the valve types based on client requirements / availability of valves \n(Lever type / handwheel type / motor operated) \n Control systems requirement (like Junction box, power unit, etc.,)  \n Painting and other lining requirements. \nStep: 4 Preparation of the preliminary 3D model: \n \nA designer should have kept in mind the following points before going to \nmodel a skid. The mentioned information as minimum and not limited to this. \n Use standard available items wherever possible. \n Do not use miters unless directed to do so. \n Do not run piping under foundations. (Pipes may be run under beams). \n Piping may have to go thru concrete floors or walls. Established these points \nof penetration as early as possible and inform the group concerned \n(architectural or civil) to avoid cutting existing reinforcing bars. \n Preferably lay piping such as lines to outside storage, loading and receiving \nfacilities, at grade on pipe sleepers. If there is no possibility of future roads \nof site development. \n Avoid burying steam lines that pocket, due to the difficulty of collecting \ncondensate. Steam lines may be run below grade in trenches provided with \ncovers or (for short runs) in sleeves. \n Lines that are usually buried include drains and lines bringing in water or \ngas. Where long cold winters freeze the soil, burying lines below the frost \nline may avoid the freezing of water and solutions, saving the expense of \ntracing long horizontal parts of the lines.",
+            "images": [
+                "slide_31_img_1.png"
+            ]
+        },
+        {
+            "slide_number": 32,
+            "page_content": "Slide 32",
+            "text": "31 | P a g e  \n \n Include removable flanged spools to aid maintenance, especially at pumps, \nturbines, and other equipment that will have to be removed for overhaul. \n Take gas and vapor branch lines from tops of headers where it is necessary \nto reduce the change of drawing off condensate (if present) or sediment \nwhich may damage rotating equipment. \n Avoid pocketing lines-arrange piping so that lines drain back into \nequipment or into lines that can be drained. \n Vent all high points and drain all low points on lines. \n Simple arrangements and short lines minimize pressure drops and lower \npumping costs. \n Designing piping so that the arrangement is \u201cflexible\u201d reduces stresses due \nto thermal movement. \n Inside buildings piping is usually arranged parallel to building steelwork to \nsimplify supporting and improve appearance. \n Outside buildings, piping can be arranged (1) on pipe racks. (2) Near grade \non sleepers. (3) In trenches. (4) Vertically against steelwork of large items \nof equipment. \n Design hangers for 21\u20442 inch and larger pipe to permit adjustment after \ninstallation. \n If piping is to be connected to equipment, a valve, etc., or piping assembly \nthat will require removal for maintenance, support the piping so that \ntemporary supports are not needed. \n Base load calculations for variable-spring and constant-load supports on \nthe operating conditions of the piping (do not include the weight of \nhydrostatic test fluid). \n If necessary, suspend pipes smaller than 2-inch nominal size from 4-inch \nand large pipes. \n Arrange for supporting: \n\uf0a7 Group lines in pipe ways, where practicable. \n\uf0a7 Support piping from overhead, in preference to underneath. \n\uf0a7 Run piping beneath platforms, rather than over them. \n Provide union and flanged joints as necessary, and in addition use crosses \ninstead of elbows, to permit removing materials that may solidify. \n Clearances & access \n\uf0a7 Route piping to obtain adequate clearance for maintaining and \nremoving equipment. \n\uf0a7 Locate within reach, or make accessible, all equipment subject to \nperiodic operation or inspection \u2013 with special reference to check \nvalves, pressure relief valves, traps, strainers and instruments. \n\uf0a7 Take care to not obstruct access ways \u2013 doorways, escape panels, \ntruck-ways, walkways, lifting wells, etc.",
+            "images": [
+                "slide_32_img_1.png"
+            ]
+        },
+        {
+            "slide_number": 33,
+            "page_content": "Slide 33",
+            "text": "32 | P a g e  \n \n\uf0a7 Position equipment with adequate clearance for operation and \nmaintenance. Clearances often adopted. in some circumstances, \nthese clearances may be inadequate- for example. With shell and tube \nheat exchangers, space must be provided to permit withdrawal of the \ntubes from the shell. \n\uf0a7 Established sufficient headroom for ductwork, essential electrical \nruns, and at least two elevations for pipe run north-south and east-\nwest (based on clearance of largest lines, steelwork, ductwork, etc.) \n\uf0a7 Elevations of lines are usually changed when changing horizontal \ndirection where lines are grouped together or are in a congested area, \nso as not to block space where future lines may have to be routed. \n\uf0a7 Stagger flanges, with 12\u201d minimum clearance from supporting steel. \n\uf0a7 Keep field welds and other joints at least 3\u201d from supporting steel, \nbuilding siding or other obstruction. Allow room for joint to be made. \n\uf0a7 Allow room for loops and other pipe arrangement to cope with \nexpansion by early consultation with staff concerned with pipe \nstressing. Notify the structural groups of any additional steel \nrequired to support such loops. \nCLEARANCES & DIMENSIONS \nImperial \nMetric. \nMINIMUM CLEARANCES \n \n \nHORIZ. \nCLEARANCE \nOperating space around equipment.      \n2ft 6in. \n762 mm \nC.L of railroad to nearest obstruction: Straight track \n8ft 6in. \n2591mm \nC.L of railroad to nearest obstruction: Curved track \n9ft 6in. \n2896mm \nManhole to railing or obstruction. \n3ft 0in. \n914 mm \nVERTICAL \nCLEARANCE \nOver walkway, platform, or operating area. \n6ft 6in. \n1981mm \nOver stairway. \n7ft 0in. \n2134mm \nOver high point of plant roadway: Minor roadway \n17ft 0in. \n5182mm \nOver high point of plant roadway: Major roadway \n20ft 0in. \n6096mm \nOver railroad from top of rail. \n22ft 6in. \n6858mm \nMIN. HORIZ. \nDIMENSION \nWidth of walkway at floor level  \n3ft 6in. \n1067mm \nWidth of elevated walkway or stairway \n2ft 6in. \n762mm \nWidth of rung of fixed ladder \n16in. \n406mm \nWidth of way for forklift truck \n8ft 0in. \n2438mm \nVERT. \nDMNSN. \nRailing, top of floor, platform, or stair, to: lower rail \n1ft 9in. \n610mm \nRailing, top of floor, platform, or stair, to Upper rail \n3ft 8in. \n1158mm \n \n \n \n \n\uf0a7 Refer Cad Worx plant ref. manual(3DL-CWP-01) to get more details \nabout making of 3D model.",
+            "images": []
+        },
+        {
+            "slide_number": 34,
+            "page_content": "Slide 34",
+            "text": "33 | P a g e  \n \nStep: 5 Stress analysis of Piping and Structural: \n \nCheck the following points as minimum with equipment, piping and \nstructural stress analysis engineers. \n For Piping: \n\uf0a7 Pipe thickness and flange rating verification \n\uf0a7 Thermal expansion and stress range \n\uf0a7 Flexibility analysis \n\uf0a7 Support design and location \n\uf0a7 Flange leakage \n\uf0a7 Consideration of external Tie in loads \n\uf0a7 Deflection  \n\uf0a7 Environmental load effects \n\uf0a7 Allowable Pressure drop check \n\uf0a7 Allowable velocity limit \n For equipment: \n\uf0a7 Equipment allowable nozzle loads and moments \n\uf0a7 Necessity of Finite Element Analysis \n For Structural: \n\uf0a7 Base and support Beam strength verification \n\uf0a7 Code stress check \n\uf0a7 Deflection  \n\uf0a7 Environmental load effects \nStep: 6 Revision of 3D model: \nBased on the stress analysis study (Step: 5), Revise the 3D model if \nnecessary. \nStep: 7 Preparation of General Assembly drawing: \n \nOnce a 3D model has been built the routing of each pipe is clearly defined. \nAlthough the procedure is different in each program, Designers can use the 3D \nmodelling software to automatically generate dimensioned 2D views from any \ndesired orientation. Use the following checklist as an aid when developing General \narrangement drawings.",
+            "images": [
+                "slide_34_img_1.png"
+            ]
+        },
+        {
+            "slide_number": 35,
+            "page_content": "Slide 35",
+            "text": "34 | P a g e  \n \n Define plot area outline. \n Place a north arrow in upper right-hand corner of the drawing. \n Locate foundations for buildings, pipe rack columns and mechanical \nequipment from the coordinates used to locate the foundation drawing. \n Show only enough details on mechanical equipment outlines to provide a \ngeneralized description. \n Represent mechanical equipment centerlines, outlines and foundations \nwithin the dark lines. \n Show all piping and instrument connections on mechanical equipment. \n Add line numbers, codes, specs, specialty item numbers and call outs. \n Space mechanical equipment to avoid overcrowding. Add notes to symbols \nwhere necessary for clarity. Use arrows to show commodity flow direction. \n Show equipment numbers when it is necessary to identify mechanical \nequipment. \n Show control systems on the sketch. The control scheme is frequently the \nmost important part of a flow plan sketch. \n Show important valves, orifice flanges, and control valves. \n Show commodity flow directions through exchangers with arrows. \n Do not run lines diagonally across the drawing. Label feed lines entering the \nunit from the field where the line enters the unit. Label product lines leaving \nthe unit by name. \n Do not draw lines any closer together than necessary.  \n Add instrument balloons and call outs. \n Include tie-in connection tags and notes as required. \n Label coordinates for mechanical equipments, pipe supports, etc., if \nrequired for job.",
+            "images": [
+                "slide_35_img_1.png"
+            ]
+        },
+        {
+            "slide_number": 36,
+            "page_content": "Slide 36",
+            "text": "35 | P a g e  \n \n7.0 SAMPLES:",
+            "images": [
+                "slide_36_img_1.png"
+            ]
+        },
+        {
+            "slide_number": 37,
+            "page_content": "Slide 37",
+            "text": "36 | P a g e",
+            "images": [
+                "slide_37_img_1.jpeg"
+            ]
+        },
+        {
+            "slide_number": 38,
+            "page_content": "Slide 38",
+            "text": "37 | P a g e",
+            "images": [
+                "slide_38_img_1.jpeg"
+            ]
+        },
+        {
+            "slide_number": 39,
+            "page_content": "Slide 39",
+            "text": "38 | P a g e",
+            "images": [
+                "slide_39_img_1.jpeg"
+            ]
+        },
+        {
+            "slide_number": 40,
+            "page_content": "Slide 40",
+            "text": "39 | P a g e",
+            "images": [
+                "slide_40_img_1.jpeg"
+            ]
+        },
+        {
+            "slide_number": 41,
+            "page_content": "Slide 41",
+            "text": "40 | P a g e",
+            "images": [
+                "slide_41_img_1.jpeg"
+            ]
+        },
+        {
+            "slide_number": 42,
+            "page_content": "Slide 42",
+            "text": "41 | P a g e",
+            "images": [
+                "slide_42_img_1.jpeg"
+            ]
+        },
+        {
+            "slide_number": 43,
+            "page_content": "Slide 43",
+            "text": "42 | P a g e",
+            "images": [
+                "slide_43_img_1.jpeg"
+            ]
+        },
+        {
+            "slide_number": 44,
+            "page_content": "Slide 44",
+            "text": "43 | P a g e",
+            "images": [
+                "slide_44_img_1.jpeg"
+            ]
+        },
+        {
+            "slide_number": 45,
+            "page_content": "Slide 45",
+            "text": "44 | P a g e  \n \n \n \n \n \n \n \n \n \n \n \n\uf0b7",
+            "images": [
+                "slide_45_img_1.jpeg"
+            ]
+        }
+    ]
+}

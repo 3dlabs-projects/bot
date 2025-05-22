@@ -1,0 +1,733 @@
+{
+    "course_name": "PV-Elite Guide Book",
+    "total_slides": 93,
+    "slides": [
+        {
+            "slide_number": 1,
+            "page_content": "Slide 1",
+            "text": "",
+            "images": [
+                "slide_1_img_1.png",
+                "slide_1_img_2.jpeg"
+            ]
+        },
+        {
+            "slide_number": 2,
+            "page_content": "Slide 2",
+            "text": "1 | P a g e",
+            "images": [
+                "slide_2_img_1.jpeg"
+            ]
+        },
+        {
+            "slide_number": 3,
+            "page_content": "Slide 3",
+            "text": "2 | P a g e  \n \n1. INTRODUCTION \n \nPV Elite is a complete solution for vessel and heat exchanger design, analysis and \nevaluation. Users of PV Elite have designed equipment for the most extreme uses and \nhave done so quickly, accurately and profitably. \nIn this article we are going to discuss about the PV Elite sotware. \n2. ANALYSIS OPTIONS \n \nPV Elite performs calculations in accordance with ASME Section VIII, Divisions 1 \n& 2, PD 5500, and EN 13445.  \nWe can select the required code for analysis of an equipment i.e vessel, heat \nexchanger. \nAfter opening the PV Elite, we need to select the code for which the equipment has \nto be design and analyse.Using New icon at file pannel in the home tab.  \n \nOpen PV Elite \n \n \nClick New \n \n \nSelect the Code \n \n \n \n \nAlso we can use the Units/Code panel to select or change the code and units \nof a vessel. \n \n \n \n \n \n \n \nFigure 1 Create a design model file",
+            "images": [
+                "slide_3_img_1.jpeg",
+                "slide_3_img_2.png"
+            ]
+        },
+        {
+            "slide_number": 4,
+            "page_content": "Slide 4",
+            "text": "3 | P a g e  \n \n3. DATA COLLECTION \nPV Elite makes defining pressure boundary conditions for vessels and exchangers \neasy, even for load sets that require significant data input. PV Elite streamlines data \nentry by breaking the input down into sensible subsets. Help on any input item is only \na keystroke away.  \n3.1 \nDESIGN DATA \nThe below (refer figure 2) image shows the home tab of the PV Elite software. In \nthis the highlighted (bottom left corner) options are the basic input option for an \nequipment. \nThe followings are the basic input data, \n\uf076 General Input \n\uf076 Design data \n\uf076 Load cases \n\uf076 Wind data \n\uf076 Seismic data \n\uf076 Heading \nHere we are going to know about design data.Before filling design data we have to \ngothrough the inputs i.e datasheet, project specification and other required inputs. \n \nSome important details in design data option, \n \nDesign internal pressure: \nThe pressure of the equipment that holds a liquid or gas.Internal design pressure \nplays an important role in design and analysis of the vessel. \n \n \nDesign external pressure: \n \nFigure 2 Home tab with Design data",
+            "images": [
+                "slide_4_img_1.png"
+            ]
+        },
+        {
+            "slide_number": 5,
+            "page_content": "Slide 5",
+            "text": "4 | P a g e  \n \nIf the equipment subject to external pressure, we need to fill the external pressure. \n \nDesign internal temperature: \n \nThe internal temperature of the equipment plays important role for selecting \nmaterial allowable stress values for thickness calculations. \nDesign external temperature: \n \nEnter the design external pressure if any, otherwise fill the internal temperature in \nthat place. \n \nDatum line option: \n \nDatum line is reference line which is assigned by the design engineer for placing \nthe nozzle or cleat or other things in an equipment. \nThe datum line is an optional reference position for nozzle and some other vessel \ndetalis. \nJust click on the datum line option, a Datum line options dialouge box (refer figure-\n3) will appear. Using the option in that dialouge box, we can assign the datum line for \nan eqipment. \n \n \n \n \n \n \nFigure 3 Datum line option dialouge box",
+            "images": [
+                "slide_5_img_1.png"
+            ]
+        },
+        {
+            "slide_number": 6,
+            "page_content": "Slide 6",
+            "text": "5 | P a g e  \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nDatum line option dialouge box Specifies options for datum lines. \nDatum is taken from bottom/left tangent or bottom of vessel \nSelect this option and type any offset from that point if the datum is to be taken \nfrom the bottom of the vessel or the left tangent. \nFor Vertical Vessels \nSpecifies where the datum line is to be positioned if the datum is not taken from \nthe bottom/left tangent or bottom of the vessel. The available options include: \n\uf0b7 Top Shell Seam or Top of Vessel  \n\uf0b7 Bottom Shell Seam or Bottom of the Vessel  \n\uf0b7 Base of Skirt \n \n \nFigure 4 Vessel with datum line",
+            "images": [
+                "slide_6_img_1.png"
+            ]
+        },
+        {
+            "slide_number": 7,
+            "page_content": "Slide 7",
+            "text": "6 | P a g e  \n \nOffset (+ or -) distance from seam \nModifies the position of the datum line vertically from the seam based on the \nvalue in the For Vertical Vessels box. \nFor Horizontal Vessels \nSpecifies where the datum line is to be positioned if the datum is not taken from \nthe bottom/left tangent or bottom of the vessel. The available options include: \n\uf0b7 Left Shell Seam or Left End of Vessel  \n\uf0b7 Right Shell Seam or Right End of Vessel \nOffset (+ or -) distance from seam \nModifies the position of the datum line horizontally from the seam based on the \nvalue in the For Horizontal Vessels box \n \nHydrotest type: \nSelect the hydrotest type based on the design code and testing requirements. \nSelect the type of hydrotest. For Division 1, the software provides the following \nmethods to determine hydrotest pressure. Select one of the following: \n\uf0b7 UG-99b - ASME UG-99 (b), Division 1. The hydrotest pressure is 1.3 times (1.5 \nfor pre-99 addenda) the maximum allowable working pressure for the vessel \nmultiplied by the lowest ratio of the stress value S for the test temperature to \nthe stress value S for the design temperature. This type of hydrotest is normally \nused for non-carbon steel vessels for which the allowable stress changes with \ntemperature, starting even at a somewhat low temperature.  \n\uf0b7 UG-99c - ASME UG-99(c), Division 1. The hydrotest pressure is determined by \nmultiplying the minimum MAP by 1.3 (1.5 for pre-99 addenda) and reducing this \nvalue by the hydrostatic head on that part. The hydrostatic head is calculated \nbased on the dimensions of the vessel and by values for Projection from Top, \nProjection from Bottom, and Projection from Bottom Oper. In addition, \nHydrotest Position is used to determine the head pressure.  \n\uf0b7 UG-99b(36) - ASME UG-99(b), footnote 36, Division 1. The hydrotest pressure \nis 1.3 times (1.5 for pre-99 addenda) the design pressure for the entire vessel, \nmultiplied by the lowest ratio of the stress value Sa for the test temperature to \nthe stress value S for the design temperature.  \n\uf0b7 UG-100 - ASME UG-100 pneumatic test. The test pressure is 1.1 times (1.25 \nfor pre-99 addenda) the maximum allowable working pressure for the entire \nvessel, multiplied by the lowest ratio of the stress value Sa for the test \ntemperature to the stress value S for the design temperature.",
+            "images": []
+        },
+        {
+            "slide_number": 8,
+            "page_content": "Slide 8",
+            "text": "7 | P a g e  \n \n \nNOTE: \nThe stress ratio mentioned above includes bolt allowable stresses for flanges that \nare designed according to Appendix 2. This allowance usually results in a ratio of 1. \nSee ASME Interpretation VIII-1-83-260 for more information. Click Tools > \nConfiguration to turn off this option, resulting in a ratio greater than one in cases in \nwhich the operating and ambient stresses for the vessel parts are not the same. \n \n\uf0b7 No Hydro - No hydrotest pressure.  \n\uf0b7 User Entered Pressure  \n\uf0b7 1.43 * MAWP (PED)  \n\uf0b7 App. 27-4 - ASME Appendix 27-4, Division 1. The hydrotest pressure is 1.3 \ntimes the maximum allowable working pressure for the vessel multiplied by the \nlowest ratio of the stress value S for the test temperature to the stress value S \nfor the design temperature. This type of hydrotest is normally used for glass-\nlined vessels. \nFor Division 2, the software provides the following methods to determine hydrotest \npressure. Select one of the following: \n\uf0b7 AT-300 - ASME AT-300, Division 2, based on vessel design pressure. The \nhydrotest pressure is 1.25 times the design pressure marked on the vessel, \nmultiplied by the lowest ratio of the stress intensity value Sm for the test \ntemperature to the stress intensity value Sm for the design temperature. This \ntype of hydrotest is normally used for non-carbon steel vessels for which the \nallowable stress changes with temperature starting even at a somewhat low \ntemperature.  \n\uf0b7 AT-301 - ASME AT-301, Division 2, based on calculated pressure. A \nhydrostatic test based on a calculated pressure is allowed by agreement \nbetween the user and the manufacturer. The hydrostatic test pressure at the \ntop of the vessel is the minimum of the test pressures calculated by multiplying \nthe basis for calculated test pressure for each element by 1.25 and then \nreducing this value by the hydrostatic head on that element.  \n\uf0b7 AT-410 - ASME AT-410, Division 2, based on vessel design pressure. The \npneumatic test pressure shall be no less than 1.15 times the design pressure \nmultiplied by the lowest ratio of the stress value S for the test temperature to \nthe stress value S for the design temperature.  \n\uf0b7 Hydrostatic  \n\uf0b7 Pneumatic  \n\uf0b7 No Hydro - No hydrotest pressure.  \n\uf0b7 User Entered Pressure",
+            "images": []
+        },
+        {
+            "slide_number": 9,
+            "page_content": "Slide 9",
+            "text": "8 | P a g e  \n \n \nHydrotest position: \n \nSelect the hydrotest position in which the vessel will be tested.This input is \nrequired so that the total static head can be determined and subtracted when UG-99c \nis selected for Hydrotest Type. This value is used in conjunction with Projection from \nTop, Projection from Bottom, and Flange Distance to Top to determine the total \nstatic head.  \n \nSelect from the following: \n \n\uf0b7 Vertical - The vessel is tested in the upright or vertical position. This is \nnot common.  \n\uf0b7 Horizontal - The vessel is tested in the horizontal position. This is \ncommon for most vessels. The vessel is on its side (in the case of a \nvertical vessel) or in its normal position (for a horizontal vessel). \n \nProjection from Top: \n \nEnter the projected distance of the nozzle from the outer surface of the vessel \nin its test position to the face of the highest flange. This distance is added to the height \n(for vertical test positions) or to the maximum diameter of the vessel (for horizontal \ntest positions) to determine the static head when UG-99c is selected for Hydrotest \nType. \n \nProjection from Bottom: \n \nEnter the projected distance of the nozzle from the outer surface of the vessel \nin its test position to the face of the lowest flange. This distance is added to the height \n(for vertical test positions) or to the maximum vessel diameter (for horizontal test \npositions) to determine the static head when UG-99c is selected for Hydrotest Type. \nThis distance is essential when a nozzle flange projecting from the bottom of the vessel \nis governing the analysis. \n \nProjection from Bottom Ope: \n \nEnter the projected distance of the nozzle from the outer surface of the vessel \nto the face of the flange. This distance is used to calculate the MAWP of an ANSI \nflange when it governs the MAWP. If the ANSI flange governs, then the static operating \nliquid head is subtracted from the basic rating of the flange. \n \nMinimum Design Metal Temperature: \n \nThe minimum design metal temperature (MDMT) is one of the design conditions \nfor pressure vessels engineering calculations, design and manufacturing according to \nthe ASME Boilers and Pressure Vessels Code.",
+            "images": []
+        },
+        {
+            "slide_number": 10,
+            "page_content": "Slide 10",
+            "text": "9 | P a g e  \n \nThe entered value of MDMT does not affect the calculation of the vessel, it just \ncompare the calculated value with enterd MDMT value. This value is listed in the \nInternal Pressure Calculations report for comparison with the calculated UCS-66 \nminimum temperature. \n \nUG-20f Exemptions: \n \nSelect this option if the vessel cannot take exemptions according to UG-20(f), \nfor ASME VIII-1. \n \nFlange Distance to Top: \n \nEnter the distance from the centerline/face of the nozzle flange to the top of the \nvessel. This value is used when the flange governs the MAP of the vessel. If the vessel \nis in the vertical position and UG-99c is selected for Hydrotest Type, this value is used \nin conjunction with Projection from Top to determine the total static head to subtract \nfor the C type hydrostatic test. \n \nConstruction Type: \n \nSelect the type of construction to be included on the name plate. Select  \n\uf0b7 Welded  \n\uf0b7 Press. Welded (Pressure welded),  \n\uf0b7 Brazed,  \n\uf0b7 Resist. Welded (Resistance welded). \n \nService Type: \n \nSelect a type of special service in which the vessel is used. Select  \n\uf0b7 None \n\uf0b7 Lethal (Lethal service) \n\uf0b7 Unfired Steam (Unfired steam boiler) \n\uf0b7 Direct Firing \n\uf0b7 Nonstationary \n\uf0b7 Air/Water/Steam \n\uf0b7 Sour  \n\uf0b7 Severe Sour  \n\uf0b7 Amine \nThis value is for information only; it is reported in the input echo. \n \n \nDegree of Radiography: \n \nSelect the symbolic representation of the degree of radiography. Select one of \nthe following: \n\uf0b7 RT 1 - The complete vessel satisfies the full radiography requirements \nof UW-11(a) and the spot radiography provisions of UW-11(a)(5)(b) have \nnot been applied.",
+            "images": []
+        },
+        {
+            "slide_number": 11,
+            "page_content": "Slide 11",
+            "text": "10 | P a g e  \n \n\uf0b7 RT 2 - The complete vessel satisfies the full radiography requirements \nof UW-11(a)(5) and the spot radiography provisions of UW-11(a)(5)(b) \nhave been applied.  \n\uf0b7 RT 3 - The complete vessel satisfies the spot radiography requirements \nof UW-11(b).  \n\uf0b7 RT 4 - Only part of the vessel has met the other category requirements, \nor none of the other requirements are applied.  \n\uf0b7 None \nThis value is for information only; it is reported in the input echo. \nNotes: \n\uf0b7 PD-5500 Non-destructive Testing Category 1: 100% non-destructive testing \n(NDT) per section is required according to 5.6.4.1. There are no restrictions for \nvessels built under this category. The NDT is either (generally) radiography, or \nultrasonic testing. The code must be consulted in all matters pertaining to this \ncategory. This is the strictest category.  \n \n\uf0b7 PD-5500 Non-destructive Testing Category 2: Limited random spot NDT \naccording to section 5.6.4.2 is required. Generally about 10% of the welds must \nbe examined by NDT (radiography or ultrasonic). There are restrictions when \nemploying this category. Only certain groups of materials may be used (for \nexample, groups 1, 2 and 4). The maximum thickness of the main components \nmust not exceed 40 mm or 30 mm depending on the material group. It is \nessential that Table 3.4-1 be consulted when employing category 2. The code \nmust be consulted in all matters pertaining to this category.  \n \n\uf0b7 PD-5500 Non-destructive Testing Category 3: Only visual inspection of the \nweld is required. However, steels are restricted to C and CMn types and \nmaterials in group 8. The maximum thickness is restricted to 13 mm for C and \nCMn steels, and 25 mm for materials in group 8. The design stress is much \nlower (see 3.4.2.2 for details). This category is restricted to temperatures no \nlower than 0\u00b0C. The code must be consulted in all matters pertaining to this \ncategory",
+            "images": []
+        },
+        {
+            "slide_number": 12,
+            "page_content": "Slide 12",
+            "text": "11 | P a g e  \n \nMiscellaneous Weight %: \n \n \nClick \nto open the Miscellaneous Weight Percent Inclusion dialog box \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n         This option is used to increase the weight of the various components in \nan equipment. \n \n\uf0d8 Use a single percentage for all components: using this option, we can \nincrese the weight of the all metalic components. Enter the percentage value at \nMiscellaneous weight percent for all items box to add additional weight. \nFigure 5 Miscellaneous Weight percent inclusion dialouge box",
+            "images": [
+                "slide_12_img_1.png",
+                "slide_12_img_2.png"
+            ]
+        },
+        {
+            "slide_number": 13,
+            "page_content": "Slide 13",
+            "text": "12 | P a g e  \n \n\uf0d8 Use individual percentages for the different components: using this option, \nwe can increase the weight of an item by the percentage specified for the item \nin the Miscellaneous Weight Percentages section. \n\uf0d8 Add percentages to increase weights of shells and heads: using this option, \nwe can increase the weight of shells and heads by the sum of the percentage \nincrease for nozzles, clips, and piping.If you use this option and model the \nnozzles or clips, the weight will be excessive. When using this option, the \nsoftware calculates the weight of platforms automatically. You only need to \nspecify the following information: \n\uf0b7 Is There a Top Head Platform? - Enables the additional weight fields.  \n\uf0b7 Top Head Platform Uniform Weight - Specifies the grating weight from \nwhich the top head platform is constructed.  \n\uf0b7 Circular Platform Uniform Weight - Specifies the grating weight from \nwhich the circular platforms are constructed.  \n\uf0b7 Ladder Uniform Weight - Indicates the weight of the ladder per unit \nlength. \nUser Defined MAWP: \n \nMAWP is the highest pressure at which the equipment may be operated at its \ndesign temperature.Using this option we can enter a manually-defined value for \nmaximum allowable working pressure to override the software-generated value. The \nsoftware-generated MAWP is based on pressure ratings for the elements and ANSI \nflanges. If this value is zero, the software-generated MAWP is used. This is the default \nbehavior. \n \nUser Defined MAPnc: \n \nEnter a manually-defined value for MAPnc to override the software-generated \nvalue. The software-generated MAPnc is based on pressure ratings for the elements \nand ANSI flanges. If this value is zero, the software-generated MAPnc is used. This is \nthe default behavior. \n \nUser Defined Hydro. Press: \n \nEnter a manually-defined value for hydrostatic test pressure to override the \nsoftware-generated value. The value is then used to calculate the stresses on \nelements subjected to this pressure. If this value is greater than 0, the software uses \nthis pressure plus the applicable hydrostatic head that is computed based on the \nhydrotest position. If this value is zero, the software-generated hydrostatic test \npressure is used. This is the default behavior. \n \nAdditional Ope. Static Press: \n \nEnter the additional static pressure at the top of the vessel.",
+            "images": []
+        },
+        {
+            "slide_number": 14,
+            "page_content": "Slide 14",
+            "text": "13 | P a g e  \n \n \nUse Higher Long. Stress: \n \nSelect to use higher allowable stresses for longitudinal stress calculations for \nwind and earthquake loadings. Loads are increased by an occasional load factor of \n1.2. \nASME Section VIII, Division 1, Paragraph UG-23(d) permits the allowable \nstress for the combination of earthquake loading, or wind loading with other loadings \nto be increased by a factor of 1.2. \nASME Section VIII Division 2 A08 does not explicitly allow for an increase in \nallowable stresses, but this is subject to change. \nSome wind and earthquake codes such as ASCE-7 98 and IBC 2000 and later \nhave explicitly defined load combinations embedded in the standard. This set of codes \nessentially uses the same methodology to define earthquake loads. The load \ncombinations either divide the earthquake load by a factor of 1.4 or multiply by 0.7 to \nconvert from Limit State to Allowable Stress design. ASCE-7 2005, Chapter 13, \nparagraph 13.1.7 states that when a reference document \"ASME Section VIII Division \n1 in this case\" provides a basis for earthquake design (UG-22), the reference \ndocument is used. This paragraph goes on to state that the loads shall be multiplied \nby 0.7. Please note that the IBC codes point directly to ASCE for wind and seismic \nload calculations. \n \nNotes: \n\uf0b7 In PV Elite versions prior to 2009, the allowables used for longitudinal \nstress calculations did not allow the 1.2 increase in tensile and \ncompressive allowables for earthquake load cases, even if this option \nwas selected. This restriction was removed in the 2009 version.  \n\uf0b7 For PD 5500 and EN-13445 the occasional load factor is not applied \n \n \nConsider Vortex Shedding: \n \nSelect to perform vortex shedding calculations on tall, slender vertical vessels \nsusceptible to wind-induced oscillations. This method is documented in the National \nBuilding Code of Canada and in texts on wind engineering. The software calculates \nfatigue stresses based on loads generated by wind vibration and the number of hours \nof safe operation remaining under vibration conditions.. If there is no possibility of wind \nvibration and you have this option selected, the software warns you that unrealistically \nhigh stresses will result and gives you the option to turn this calculation off. \n \nNo Vortex Shedding for H/D <= 15: \n \nFor vertical vessels in which the height to diameter ratio is less than 15, select \nthe No Vortex Shedding for H/D <= 15 field to not perform vortex shedding \ncalculations.",
+            "images": []
+        },
+        {
+            "slide_number": 15,
+            "page_content": "Slide 15",
+            "text": "14 | P a g e  \n \n \nIs This a Heat Exchanger? \n \nIf the component is a heatexchanger, select this option. \n \nCorroded Hydrotest: \n \nSelect to use the corroded wall thickness when calculating stresses on the \nelements during the hydrotest, when it is necessary to hydrotest the vessel after it has \ncorroded. If cleared, the software uses the uncorroded wall thickness \n \nNote: \nLongitudinal stresses due to hydrostatic test pressure are also calculated using \nthe corroded wall thickness when this option is selected. \n \nHyd. Allowable is 90% Yield: \n \nSelect to use 90 percent of the ambient yield stress as the hydrotest allowable \nstress. Clear to use the ASME Division 1 value, which is 1.3 times the ambient \nallowable stress Sa for the material. When the vessel is tested, the largest \ncircumferential stress should not exceed this value. The software recalculates the \nhydrotest allowable each time this option is selected or cleared. \n \n3.1.1 DESIGN MODIFICATION \n \nSelect Wall Thickness for Internal Pressure: \n \nThis option (Yes) is used to automatically set the wall thickness of a component \nfor internal pressure.When the required element thickness for internal pressure \nexceeds the value of Finished Thickness defined for Element Data on the General \nInput tab, then software increases Finished Thickness to meet or exceed the thickness \nrequired for internal pressure. \nThe software exceeds the required thickness only if you select Round \nThickness to Nearest Nominal Size on the configuration Dialog Box. \n \nNote: \nDuring data entry, the software does not check the required thickness for \nflanges. That check is performed during analysis. \n \nSelect Wall Thickness for External Pressure: \n \nThis option (Yes) is used to automatically set the wall thickness of a component \nfor external pressure. If the required element thickness for external pressure exceeds \nthe value of Finished Thickness defined for Element Data on the General Input tab, \nthe software calculates the required thickness of each element and increases the \nvalue of Finished Thickness. The software notifies you when the thickness is changed. \nSelect Wall Thickness for External Pressure option value is Yes, then Select \nStiffening Rings for External Pressure is set to No.",
+            "images": []
+        },
+        {
+            "slide_number": 16,
+            "page_content": "Slide 16",
+            "text": "15 | P a g e  \n \nSelect Stiffening Rings for External Pressure: \n \nThis option (Yes) is used to automatically add stiffeners for external pressure. \nThe software calculates the location and size of stiffening rings needed for \nexternal pressure requirements. \n When the program calculates the allowable length between stiffeners, the \nresult must be a reasonable value. \n If the value is too small, the rings are not added. In this case, you must increase \nthe thickness of the shell and try the stiffening ring design again.  \nSelect Stiffening Rings for External Pressure option value is Yes, then Select \nWall Thickness for External Pressure is set to No. \n \n \nSelect Wall Thickness for Axial Stress: \n \nThis option (Yes) is used to automatically increase the thickness for axial \nstress in vertical vessels. The software calculates the axial stress and required \nthickness of each element for longitudinal loadings (such as wind, earthquake, and \nweight of vertical vessels) and increases the value of Finished Thickness. The \nsoftware exceeds the required thickness only if you select Round Thickness to \nNearest Nominal Size on the Configuration Dialog Box. \n \n \n \n3.2 \nLOAD CASE \n \n \nStress Combination Load Cases: \n \nThe software performs calculations for various combinations of internal \npressure, external pressure, hydrotest pressure, wind load, and seismic load. You \ncan define up to twenty combinations of these loadings for evaluation. Load cases \nare defined by a string of abbreviations showing the loads to be added. \nThe software provides the following set of default load cases refer figure 6.",
+            "images": []
+        },
+        {
+            "slide_number": 17,
+            "page_content": "Slide 17",
+            "text": "16 | P a g e  \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nThe following abbreviations are used for loads: \n \nNP \nNo Pressure \nIP \nInternal Pressure \nEP \nExternal Pressure \nHP \nHydrotest Pressure \nEW Empty Weight \nOW Operating Weight \nHW Hydrotest Weight \nWI  \nWind Load \nEQ \nEarthquake Load \nHE  Hydrotest Earthquake \nHI \nHydrotest Wind \nBW Bending Stress due to Lat. Forces for the Wind Case, Corroded \nBS \nBending Stress due to Lat. Forces for the Seismic Case, \nCorroded  \nFigure 6 Stress combination load cases",
+            "images": [
+                "slide_17_img_1.png"
+            ]
+        },
+        {
+            "slide_number": 18,
+            "page_content": "Slide 18",
+            "text": "17 | P a g e  \n \nBN \nBending Stress due to Lat. Forces for the Wind Case, \nUncorroded  \nBU \nBending Stress due to Lat. Forces for the Seismic Case, \nUncorroded  \nCW Axial Weight Stress, New and Cold (no corrosion allowance, \nCA) \nWE Wind Bending Moment, New and Cold (Empty) (no CA) \nWF \nWind Bending Moment, New and Cold (Filled) (no CA) \nFS \nAxial Stress due to Applied Axial Forces in Seismic Cases \nFW \nAxial Stress due to applied forces in Wind Cases \n \nIf Consider Vortex Shedding is selected on the Design Constraints Tab, the \nfollowing loads may also be used: \n \nVO \nBending Stress due to Vortex Shedding Loads \n(Ope) \nVE \nBending Stress due to Vortex Shedding Loads \n(Emp) \nVF \nBending Stress due to Vortex Shedding Loads \n(Test, no CA.)  \n \nGlobal Scalar for WI Loads: \n \nEnter a value for the wind scalar multiplier. After wind loads are generated, they \nare multiplied by this value. A value that is greater than one increases the loads. A \nvalue less than one decreases the loads. Enter zero if there are no wind loads.  \n \nGlobal Scalar for EI Loads: \n \nEnter a value for the seismic scalar multiplier. After seismic loads are \ngenerated, they are multiplied by this value. A value that is greater than one increases \nthe loads. A value less than one decreases the loads. Enter zero if there are no seismic \nloads.  \n \nVary Compressive Allowable for Internal/External Cases: \n \nSelect to use the external design temperature to calculate the stress factor \"B\" \nfor load combination cases that involve external pressure and dead weight. The \nsoftware uses the design internal temperature to calculate the allowable compressive \nstress from the External Pressure Chart. By default, the software uses the maximum \nof the internal and external design temperatures to calculate the allowable \ncompressive stress for operating-type cases. This is also true for cases involving \ninternal pressure.",
+            "images": []
+        },
+        {
+            "slide_number": 19,
+            "page_content": "Slide 19",
+            "text": "18 | P a g e  \n \nFor example, a load case of \"IP + OW + WI\" uses the design temperature for \ninternal pressure to calculate the allowable compressive stress. The load case \"EP + \nOW + WI\" uses the external design temperature to calculate the allowable \ncompressive stress. \n \nCorrode Case Components WE, WF and CW: \n \nSelect to use loads WE (Wind Bending Moment Empty, no CA), WF (Wind \nBending Moment Filled, no CA), and CW (Axial Weight Stress, no CA) in the corroded \ncondition. \n \nInstallation | Misc. Options: \n \nClick to open the Equipment Installation and Miscellaneous Options Dialog Box \nand specify options as to where items such as platforms, packing, and insulation are \nto be installed. These options are used to compute the center of gravity of the vessel \nin both the shop and field positions. The options are also used to compute weights \nsuch as operating weight and field test weight. \n \n \n \n \n \n \n \n \nFigure 7 Equipment Installation and Miscellaneous options",
+            "images": [
+                "slide_19_img_1.png"
+            ]
+        },
+        {
+            "slide_number": 20,
+            "page_content": "Slide 20",
+            "text": "19 | P a g e  \n \nFatigue Analysis: \n \nClick to open the Fatigue Pressure/Cycle and UTS-Yield Data Dialog Box \nand set options used to perform fatigue analysis on nozzles. In the dialog box, you \nenter values for Number of Fatigue Cases to Process, and then values for Low \nPressure, High Pressure, and # of Cycles for each case. You must also select \nFatigue Calc?(refer figure 9)in the Nozzle Input Analysis dialog box for each nozzle. \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nFigure 8 Fatigue analysis",
+            "images": [
+                "slide_20_img_1.png"
+            ]
+        },
+        {
+            "slide_number": 21,
+            "page_content": "Slide 21",
+            "text": "20 | P a g e  \n \n \n \n \n \n \n \n \n3.2.1 NOZZLE DESIGN OPTION \n \nNozzle/Clip Design Pressure Options: \nSelect one of the following design pressure methods for calculating the \npressure at the nozzle: \n \n\uf0b7 MAWP + Static Head to Element Bottom - Calculates the internal pressure on \nthe nozzle on the bottom of the element where the nozzle is located. This \npressure is the maximum allowable working pressure (MAWP) of the vessel \nplus the static liquid pressure head to the bottom of that element. Thus, the \ndesign pressure can vary for nozzles located on different elements. This option \nis appropriate if you are certain that your nozzle locations will not vary during \nthe design process. If you use this option and a nozzle is lowered in the vessel \nand under additional pressure due to liquid head, you must rerun the analysis \nin order to determine if the nozzle geometry is satisfactory.  \nFigure 9 Nozzle input dialouge box (Fatigue calc.)",
+            "images": [
+                "slide_21_img_1.png"
+            ]
+        },
+        {
+            "slide_number": 22,
+            "page_content": "Slide 22",
+            "text": "21 | P a g e  \n \n\uf0b7 2. Design P + Static Head - Calculates the exact internal pressure at the nozzle \nlocation. The pressure is the design internal pressure plus the additional static \nliquid pressure at the nozzle location. This option is appropriate for re-rating \nvessels or for the design of new vessels where there are no MAWP \nconsiderations. If the overall MAWP of the vessel is to be determined, it is \nstrongly recommended that the model be rerun with the computed MAWP to be \nsure that all components pass at this higher pressure, which will be stamped \non the nameplate. The pressure for all elements can be changed at Design \nInternal Press on the Design Constraints Tab.  \n\uf0b7 Overall MAWP + Static Head (governing element) - Calculates one design \ninternal pressure for all of the nozzles located on the vessel, based on the static \nliquid pressure to the bottom of the element that is governing the MAWP. If the \nnozzle location on a vessel changes due to a client request, there is no need to \nrerun nozzle calculations because the pressure used in the calculations does \nnot change. This method is ideal for designing new vessels and is the most \nconservative option.  \n\uf0b7 MAWP + Static Head to Nozzle - Calculates the MAWP of the vessel and then \nadds the static liquid pressure from the liquid surface to the nozzle location. For \nnozzles at different elevations, the design pressure will vary.  \n \nNote: \n \nIf the resulting nozzle reinforcement MAWP does not need to govern the MAWP \nof the vessel, options 1, 3 or 4 should be used. This is a common requirement for \nvessels that are used in the chemical and petro-chemical industries. \n \nConsider MAPnc: \n \nSelect to require that nozzle reinforcement calculations are performed for the \nMAP new and cold condition. The software checks to see if the nozzle is reinforced \nadequately using the MAPnc generated during internal pressure calculations. When \nthe area-of-replacement calculations are made for this case, cold allowable stresses \nare used and the corrosion allowance is set to 0. Designing nozzles for this case helps \nthe vessel to comply with UG99 or appropriate (hydrotest) requirements. Check your \ndesign requirements to see if this case is required by your client. \n \nConsider External Loads for Nozzle Tr: \n \nSelect to calculate the nozzle area of replacement requirements using the \nrequired thickness of the shell. This value, tr, is critical in the ASME code. The software \ndetermines the maximum thickness based on the highest stress ratio and uses that \nvalue if it governs over the required thickness based on internal or external pressure. \nThere are cases where pressure requirements do not govern the value of tr. This can \noccur when a nozzle is located near the bottom of a tall vertical vessel. If there is a \nhigh wind load or seismic load on the structure, bending stress can govern the required \nthickness of the shell section. If this is the case, then the value of tr (per UG-22 Div. \n1) should be based on the controlling factor.",
+            "images": []
+        },
+        {
+            "slide_number": 23,
+            "page_content": "Slide 23",
+            "text": "22 | P a g e  \n \nNote: \n \nOptionally, if tr needs to be specified for a specific nozzle, the value can be entered \ndirectly to User Tr on the Nozzle Input/Analysis Dialog Box of Nozzle Input  \n \n \nUse Appendix 1-9 (Div. 1): \n \nSelect to use ASME Code Case 2168. On February 14, 1994 ASME approved \ncase 2168, providing an alternative method for reinforcing radial nozzles in cylindrical \nshells. The nozzle must be connected to the cylindrical shell by a full penetration \ngroove weld. \n \nNozzle Sort Options: \n \nSelect a sort order of nozzles for the Nozzle Schedule report.  \n \n\uf0b7 By Name Ascending \n\uf0b7 By Name Descending \n\uf0b7 By Diameter \n\uf0b7 Ascending \n\uf0b7 By Diameter \n\uf0b7 Descending \n\uf0b7 No Sorting \n \nASME Large Nozzle Calc Options: \n \nSelect the load cases to use for evaluation of large openings. Select Use 1-7 \nor Use 1-10.",
+            "images": [
+                "slide_23_img_1.png"
+            ]
+        },
+        {
+            "slide_number": 24,
+            "page_content": "Slide 24",
+            "text": "23 | P a g e  \n \n3.3 \nWIND LOAD DATA \n \nThe wind load details are filled using this wind load data tab. We can select \nthe required code (refer figure 10) from the available code list. \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n3.4 \nSEISMIC LOAD DATA \n \nThe seismic load details are filled using this Seismic load data tab. We can \nselect the required code (refer figure 11) from the available code list. \n \n \n \n \n \n \n \n \n \n \n \n \n \nFigure 10 Wind data tab \nFigure 11 Seismic data tab",
+            "images": [
+                "slide_24_img_1.png",
+                "slide_24_img_2.png"
+            ]
+        },
+        {
+            "slide_number": 25,
+            "page_content": "Slide 25",
+            "text": "24 | P a g e  \n \n3.5 \nHEADING \n \nThis informations are reflected in the report only.We can add the project name \nand other details using this option. \n \n \n \n \n \n \n \n \n \n \n \n \n \nFigure 12 Heading",
+            "images": [
+                "slide_25_img_1.png"
+            ]
+        },
+        {
+            "slide_number": 26,
+            "page_content": "Slide 26",
+            "text": "25 | P a g e  \n \n3.6 \nGENERAL INPUT \n \nThis tab is used for model a component of an equipment.The following are the \ndetails which are to be entered by a designer. \n \nFrom node / To node: \n \nFrom node displays the software-generated node number describing the \nstarting location of the element. The From Node value for this element is also used to \ndefine starting locations for details such as nozzles, insulation, and packing that are \nassociated with this element. \n \nFigure 13 General Input tab",
+            "images": [
+                "slide_26_img_1.png"
+            ]
+        },
+        {
+            "slide_number": 27,
+            "page_content": "Slide 27",
+            "text": "26 | P a g e  \n \nTo node displays the software-generated node number that describes the \nending location of the element. The To Node value is incremented by 10 above the \nFrom Node value. To Node is From Node of the following element.  \n \nFor example, if the value of To Node for a head is 50, then the value of From \nNode for the shell is 50. \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nElement Type: \n \nDisplays the type of the element. You can not create a new element by using \nthis but you can change the type by selecting one of the following from the list. \nIf the element type is changed, all detail data, such as nozzles, are lost. \n\uf0b7 Cylinder - A cylindrical shell  \n\uf0b7 Elliptical - An elliptical head  \n\uf0b7 Torispherical - A Torispherical head  \n\uf0b7 Spherical - A spherical head  \n\uf0b7 Conical - A conical head or shell segment  \n\uf0b7 Welded Flat - CA welded flat head  \n\uf0b7 Body Flange - A body flange or blind flange  \n\uf0b7 Skirt - A skirt with an optional basering \n \nDiameter Basis: \n \nSelect the type of diameter to use for the element design. Select ID for the \ninside diameter. Select OD for the outside diameter. ID and OD are available for all \ndesign codes. \n \nInside Diameter: \n \nEnter a value for the inside diameter of the element, when ID is selected for \nDiameter Basis: \n \n \nFigure 14 Example of from and to node",
+            "images": [
+                "slide_27_img_1.png"
+            ]
+        },
+        {
+            "slide_number": 28,
+            "page_content": "Slide 28",
+            "text": "27 | P a g e  \n \n\uf0b7 Cylinders - Enter the diameter of the cylinder.  \n\uf0b7 Elliptical, torispherical and spherical heads - Enter the diameter of \nthe straight flange.  \n\uf0b7 Skirts - Enter the diameter at the top of the skirt.  \n\uf0b7 Welded flat heads - Enter the large diameter of the flat head. \n \nOutside Diameter: \n \nEnter a value for the outside diameter of the element, when OD is selected for \nDiameter Basis: \n\uf0b7 Cylinders - Enter the diameter of the cylinder.  \n\uf0b7 Elliptical, torispherical and spherical heads - Enter the diameter of \nthe straight flange.  \n\uf0b7 Skirts - Enter the diameter at the top of the skirt.  \n\uf0b7 Welded flat heads - Enter the large diameter of the flat head \n \n\"From\" End Diameter: \n \nEnter a value for the inside or outside diameter at the From Node end of the \ncone, as needed by the selection for Diameter Basis. This option is only available \nwhen Conical is selected for Element Type. \n \nFlange ID: \n \nEnter a value for the inside of a flange element. This option is only available \nwhen Body Flange is selected for Element Type \n \n\uf0b7 Body flanges - Enter the inside diameter of the body flange.  \n\uf0b7 Blind flanges - Enter the inside diameter of the flange to which it is \nbolted. The inside diameter of a blind flange is zero, but the software \nuses this value to sketch the graphics \n \nCylinder Length: \n \nEnter the distance between From Node and To Node. For a cylindrical shell, \nenter the length of the shell from seam to seam.  \nThis option is only available when Cylinder is selected for Element Type. \n \nStraight Flange Length: \n \nEnter the distance between From Node and To Node. For an elliptical, \ntorispherical, or spherical head, enter the length of the straight flange. The software \nautomatically includes the volume of the head and the depth of the head in \ncalculations.  \nThis option is only available when Elliptical, Torispherical, or Spherical are \nselected for Element Type.",
+            "images": []
+        },
+        {
+            "slide_number": 29,
+            "page_content": "Slide 29",
+            "text": "28 | P a g e  \n \nOverall Flange Length: \n \nEnter the distance between From Node and To Node. \nFor an integral weld neck type body flange, enter the through thickness of the \nflange including the weld neck, if any. If the flange is a slip-on, lap joint or similar, the \ndistance is the length of the flange that protrudes past the shell to which it is attached. \nThis value cannot be zero.  \nFor a bolted blind flange, enter the thickness of the head/flange. This option is \nonly available when Body Flange is selected for Element Type. \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nFlat Head Thickness: \n \nEnter the distance between From Node and To Node. For a welded flat head, \nenter the thickness of the head/flange. The software also considers this value as the \nthickness of the weld between the flat head and attaching component, unless that \nthickness is specified in Maximum Weld Thickness (Head or Junction). \nThis option is only available when Welded Flat is selected for Element Type. \n \nCone Length: \n \nEnter the distance between From Node and To Node. For a conical head or \nshell segment, enter the length of the cone (including toriconical sections, if any) from \nseam to seam. \nFor a conical bottom head that is skirt-supported, enter the distance from the \ntop of the skirt to the top of the conical head. You must also enter Cone Length in the \nAdditional Element Data section. That is the length used in volume calculations and \nexternal pressure calculations. \nThis option is only available when Conical is selected for Element Type.",
+            "images": [
+                "slide_29_img_1.png"
+            ]
+        },
+        {
+            "slide_number": 30,
+            "page_content": "Slide 30",
+            "text": "29 | P a g e  \n \nSkirt Length: \n \nEnter the distance between From Node and To Node. For a skirt support, enter \nthe distance from the bottom of the base ring to the head tangent line. Because the \nsoftware does not add the basering thickness to the element length, including the \nbasering thickness in the skirt length provides the correct element elevations.  \nThis option is only available when Skirt is selected for Element Type \n \nFinished Thickness: \n \nEnter the finished thickness of the element. This is Nominal Thickness minus \nmill tolerance and thinning due to forming as described below.  \nFinished thickness is a required input for each vessel element but you can allow \nPV Elite to increase the element thickness so that each element passes the \nrequirements for internal pressure, external pressure, the combined loads of pressure, \ndead and live loads. Remember that the status bar lists internal pressure information \nabout the current element including the required thickness. \n \n\uf0b7 For elliptical, torispherical and spherical heads, you may have to reduce \nthe nominal thickness of the plate to account for thinning of the head due \nto forming.  \n\uf0b7 For cylindrical shells made from pipe, you must subtract the maximum \npossible mill undertolerance from nominal pipe wall thickness. Use the \npipe selection button to select standard pipe and insert the thickness into \nthis field.  \n\uf0b7 For welded flat heads this is simply the thickness of the plate from which \nthe head is made.  \n\uf0b7 For a skirt, this is typically the nominal thickness minus any mill \nundertolerance, and any thinning. For cylindrical skirts made from pipe, \nyou will have to subtract the maximum possible mill undertolerance from \nthe nominal pipe wall thickness.  \n\uf0b7 For a body flange, this is the thickness of the flange.  \n \nNominal Thickness: \nEnter the nominal (design) thickness of the element. For most calculations, the \nsoftware uses Finished Thickness to determine MAWP and other results.  \nHowever, when calculating element weight, it is theoretically more accurate to \nuse the nominal thickness before the element it is formed.  \nThis entry is optional. If left blank, the software uses Finished Thickness to \ndetermine weight.  \nNormally, this value would only be applicable to formed heads, but the software \nallows this entry on all elements for greatest flexibility. When using Nominal \nThickness to compute a result, the software always takes the greatest of the finished \nand nominal thicknesses.",
+            "images": []
+        },
+        {
+            "slide_number": 31,
+            "page_content": "Slide 31",
+            "text": "30 | P a g e  \n \n If the software designs the thickness, you are responsible for adjusting the \nvalue of nominal thickness before final calculations are made. \n \nInternal Corrosion Allowance: \n \nIf the vessel having internal corrosion allowance, have to enter the value. \nEach dimension of the element (diameters and thicknesses) is modified by the \ncorrosion allowance.  \nSome elements in jacketed vessels may have both an internal and External \nCorrosion Allowance. \n \nExternal Corrosion Allowance: \n \nMost vessels do not have an external corrosion allowance specification, but \nsome, such as jacketed vessels, need the consideration of an external corrosion \nallowance.  \nIf an external corrosion allowance is specified, the software changes the \ndimension as needed. For example, the OD of a cylinder would be reduced by two \ntimes the external corrosion allowance for the external pressure calculation. For \nflanges, the large and small end hub dimensions are corroded in addition to the flange \nthickness. The external corrosion allowance is added to the final required thickness of \nthe element. \n \nWind Diameter Multiplier: \n \nThe value is multiplied by the element outside diameter in order to determine \nthe overall diameter to be used in wind load calculations. The element outside \ndiameter includes insulation.  \nWhen using a number greater than one, carefully account for the tributary area \nof external attachments such as nozzles, piping, or ladders. The typical multiplier used \nto determine wind load diameter is 1.2. Thus if the actual element OD is 50 inches, the \noverall wind load diameter for this element would be 50 * 1.2 = 60 inches.  \nThe value of the wind load multiplier can be as low as 0. If a value of zero is \nused, then there will be no wind load on the element. This feature is useful when \nsections of vessels are not exposed to the wind.  \nWhen using the Special Effective Wind Diameter dialog, you should set the \nvalue of the wind diameter multiplier to 1 for most models. For models in which the \nvalue is not 1, select Calculate Effective Diameter for Wind Diameter Multipliers \nthat are not 1 so the software accurately calculates the effective diameter. \n \nMaterial Name: \n \nPV Elite is a global package with international code rules plus extensive region-\nspecific content. \n \nWe can enter the name of the material for a component. The software contains \na database with most of the materials in ASME Code, Section II, Part D, Table 1A, 1B, \n5A and 5B. In addition, materials for PD 5500 and EN 13445 are included.",
+            "images": []
+        },
+        {
+            "slide_number": 32,
+            "page_content": "Slide 32",
+            "text": "31 | P a g e  \n \n \nAlternatively, you can click Select Material          on the Utilities toolbar to \nselect a material directly from the Material Database Dialog Box. \n \nTo modify the material properties of the selected element,     click to open the \nMaterial Properties Dialog Box (refer figure 15). Doing so only changes the properties \nof this element for this analysis. It does not modify the database. \n \n \n \n \nLongitudinal Seam Efficiency: \n \nEnter the efficiency of the welded joint for a shell section with welded \nlongitudinal seams. This is the efficiency of the longitudinal seam in a cylindrical shell \nor any seam in a spherical shell. Elliptical and torispherical heads are typically \nseamless but may require a stress reduction which may be entered as a joint \nefficiency. Refer to Section VIII, Div. 1, Table UW-12 for determining this value. \n \n \n \nFigure 15 Material Properties Dialog Box",
+            "images": [
+                "slide_32_img_1.jpeg",
+                "slide_32_img_2.png",
+                "slide_32_img_3.png"
+            ]
+        },
+        {
+            "slide_number": 33,
+            "page_content": "Slide 33",
+            "text": "32 | P a g e  \n \nCircumferential Seam Efficiency: \n \nEnter the efficiency of the welded joint for a shell section with welded \ncircumferential seams. This is the efficiency of the circumferential seam in a cylindrical \nshell or any seam in a spherical shell. Elliptical and torispherical heads are typically \nseamless but may require a stress reduction which may be entered as a joint \nefficiency. Refer to Section VIII, Div. 1, Table UW-12 for determining this value. \n \n3.6.1 ADDITIONAL ELEMENT DATA \nHere we are going to see some important additional element details for model \na component of an equipment. \n \nHead Factor: \n \nEnter the aspect ratio for the elliptical head. The aspect ratio is the ratio of the \nmajor axis to the minor axis for the ellipse.  \nFor a standard 2:1 elliptical head the aspect ratio is 2.0. This option is only \navailable when Elliptical is selected for Element Type. \n \nInside Head Depth: \n \nEnter the inside depth of the elliptical head. This value is for a new head and \ndoes not include corrosion allowance. The software calculates the outer depth, h, and \nuses this term to calculate the required thickness of the ellipse. This option is only \navailable for the PD 5500 code and you must select Elliptical for the Element Type. \n \n \n \nFigure 16 Elliptical head",
+            "images": [
+                "slide_33_img_1.png"
+            ]
+        },
+        {
+            "slide_number": 34,
+            "page_content": "Slide 34",
+            "text": "33 | P a g e  \n \n \n \nInside Crown Radius: \n \nEnter the crown radius L of the torispherical head. For a standard ASME \nflanged and dished head, this is equal to the outside diameter of the shell. See the \nASME Code, Section VIII, Division 1, Appendix 1-4, figure 1-4(b). For PD 5500, this \nvalue is equal to the outside diameter measured to the tangent between crown and \nknuckle, as shown in Figure 3.5.2.1. For EN 13445 DIN 28013, this value is equal to \nthe outside diameter times 0.8. \n \n \n \n \n \n \n \n \n \n \n \n \nInside Knuckle Radius: \n \nEnter the knuckle radius r for the toroidal portion of the torispherical head. For \na standard ASME flanged and dished head, this is equal to six percent of the crown \nradius. Allowable values range from six percent of the crown radius to 100 percent of \nthe crown radius (hemispherical head). See the ASME Code, Section VIII, Division 1, \nAppendix 1-4, figure 1-4(b). For EN 13445 DIN 28011, the knuckle radius is equal to \n10% of the crown radius. For DIN 28013, the knuckle radius is the outside diameter \ntimes 0.154. \n \nSump Head: \n \nSelect if the head or flange is attached to the end of a nozzle. You must also \nselect a Parent Nozzle. All of the nozzles on the vessel must be defined before the \nsump head. The best strategy is to completely define all other elements and details \nand then create the sump head element last. This option is only available when \nElliptical, Torispherical, Spherical, or Body Flange are selected for Element Type. \n \nParent Nozzle: \n \nSelect the type of nozzle for the sump head. Select Inlet, Outlet, Shell Inlet, \nor Shell Outlet. This option is only available when Sump Head is selected, and \nElliptical, Torispherical, or Spherical are selected for Element Type.",
+            "images": [
+                "slide_34_img_1.png"
+            ]
+        },
+        {
+            "slide_number": 35,
+            "page_content": "Slide 35",
+            "text": "34 | P a g e  \n \n'To' End Inside Diameter: \n \nEnter a value for the inside or outside diameter of the cone at the To Node end, \nas needed by the selection for Diameter Basis. For a conical head, either the From \nNode or the To Node has a diameter equal to zero or two times the small end knuckle \nradius. This is not the diameter at the point where a knuckle or flare intersects the \nconical section, but at the point where the knuckle or flare intersects the cylindrical \nsection. This option is only available when Conical is selected for Element Type. \n \nCone Length: \n \nEnter the seam-to-seam or design length of the cone along the axis of the \nvessel. The software calculates the effective length of the cone for internal and \nexternal pressure calculations. \nFor cones without a knuckle or flared section, you must enter the design length \nof the cone. For cases where there is a knuckle or a flare, you must enter the seam-\nto seam-length. You can optionally enter in the Half Apex Angle. \nThis option is only available when Conical is selected for Element Type. \n \nHalf Apex Angle: \n \nEnter a value if both Cone Length (in the Element Data section) and Cone \nLength (in the Additional Element Data section) are specified and you want to \noverride the angle calculated by the software. If 0 is entered or no value is entered, \nthe software uses the calculated value. This entry is optional. \nRefer to the ASME code, Section VIII, Division 1, paragraph UG-33, figure UG-\n33.1 for a sketch of the half apex angle for some typical geometries. For internal \npressure calculations, the half apex angle should not be greater than 30\u00ba, though the \nsoftware will give results for up to 60\u00ba. For external pressure calculations, the angle \nshould not be greater than 60\u00ba. \nFor cones without a knuckle, the software calculates discontinuity stresses \naccording to the analysis technique by H. Bednar. For cones whose half apex angles \nare not within those limits prescribed by the code, this may help you decide if the \ngeometry is acceptable. If the cone and attached cylinders do not have a common \ncenterline, it may be necessary to calculate the greater of the angles and manually \nenter the value. For cones with a flare or knuckle, PV Elite calculates the half apex \nangle with the given seam-to-seam cone length. The overall cone length must include \nthe knuckle dimensions. \nThis option is only available when Conical is selected for Element Type. \n \nLine of Support Options: \n \nSelect a value to determine how the cone is taken as a line of support for \nexternal pressure calculations, according to ASME code Section VIII Division 1, Figure \nUG-28.1. Select one of the following: \n \n\uf0b7 Not a Line of Support - The external pressure length for the \nsurrounding sections includes the length of the cone.",
+            "images": []
+        },
+        {
+            "slide_number": 36,
+            "page_content": "Slide 36",
+            "text": "35 | P a g e  \n \n\uf0b7 Both Ends a Line of Support - The external design length L does not \ninclude the cone length.  \n\uf0b7 Small End a Line of Support - The cone length up to small end is \nincluded.  \n\uf0b7 Large End a Line of Support - The cone length up to large end is \nincluded. \n \nBased on the selection, it may not be necessary to perform moment of inertia \ncalculations according to Appendix 1-8 (End is not a line of support).The code also \ndoes not force you to choose one option over the other; in some cases you may find \nthat rings are not required at all. Optimize the design by experimenting with the \noptions. \nThis option is only available when Conical is selected for Element Type. \n \n \nHas Flare or Knuckle? \n \nSelect if the cone is toriconical and has a flare at the small end or a knuckle at \nthe large end. The Toricone Dialog Box opens. See ASME code, Section VIII, \nDivision 1, Paragraph UG-33, Figure UG-33.1 for an illustration of a toriconical section. \nThis option is only available when Conical is selected for Element Type. \n \nIs Concentric? \n \nSelect if the conical sections are concentric. Clear if the conical sections are \neccentric. The software uses concentric sections in vertical geometries and eccentric \nconical sections in kettle type reboilers. This option is selected by default and is only \navailable when you select Conical for the Element Type. \n \nShell Section: \n \nSelect if the cone is a typical transition between two cylinders. Clear if this is a \nbottom or top conical head. This option applies to skirt-supported geometry and is only \navailable when Conical is selected for Element Type. \n \nWelded Flat Head Attachment Sketch: \n \nSelect the flat head attachment sketch, according to ASME code Section VIII, \nDivision 1, Paragraph UG-34, Figure UG-34. Select from the following: \n \n\uf0b7 (a) - Welded cover  \n\uf0b7 (b-1) - Head welded to vessel with generous radius  \n\uf0b7 (b-2) - Head welded to vessel with small radius  \n\uf0b7 (c) - Lap welded or brazed construction  \n\uf0b7 (d) - Integral flat circular heads  \n\uf0b7 (e), (f), (g) - Plate welded inside vessel (check 0.33*m)  \n\uf0b7 (h) - Plate welded to end of shell  \n\uf0b7 (i) - Plate welded to end of shell (check 0.33*m)",
+            "images": []
+        },
+        {
+            "slide_number": 37,
+            "page_content": "Slide 37",
+            "text": "36 | P a g e  \n \n\uf0b7 (m), (n), (o) - Plate held in place by screwed ring  \n\uf0b7 (q) - Plate screwed into small diameter vessel  \n\uf0b7 (r), (s) - Plate held in place by beveled edge \n \nThe sketch is for welded covers, not bolted blind covers. This option is only \navailable when Welded Flat is selected for Element Type. \n \nAttachment Factor \n \nEnter the welded flat head attachment factor for the sketch selected in Welded \nFlat Head Attachment Sketch, according to ASME code Section VIII, Division 1, \nParagraph UG-34, Figure UG-34. Some typical attachment factors are below: \n \n\uf0b7 (b-1) - 0.17 (Head welded to vessel with generous radius)  \n\uf0b7 (b-2) - 0.20 (Head welded to vessel with small radius)  \n\uf0b7 (c) - 0.20 (Lap welded or brazed construction)  \n\uf0b7 (d) - 0.13 (Integral flat circular heads)  \n\uf0b7 (e), (f), (g) - 0.20 (Plate welded inside vessel (check 0.33*m))  \n\uf0b7 (h) - 0.33 (Plate welded to end of shell)  \n\uf0b7 (i) - 0.20 (Plate welded to end of shell (check 0.33*m))  \n\uf0b7 (j), (k) - 0.30 (Bolted flat heads (include bending moment))  \n\uf0b7 (m), (n), (o) - 0.30 (Plate held in place by screwed ring))  \n\uf0b7 (p) - 0.25 (Bolted flat head with full face gasket)  \n\uf0b7 (q) - 0.75 (Plate screwed into small diameter vessel) \n \nConsult Paragraph UG-34 before using these values. \n \nNon-Circular Small Diameter: \n \nEnter a value for the smaller dimension of a non-circular flat head. The large \ndiameter is entered in Inside Diameter in the Element Data section. The software then \ncalculates values such as required thickness using the formulas in the ASME code, \nSection VIII, Division 1, Paragraph UG-34. Enter a value of 0 if the flat head is circular. \nThis option is only available when Welded Flat is selected for Element Type. \n \nMaximum Weld Thickness (Head or Junction): \n \nEnter the maximum thickness of the weld between the flat head and attaching \ncomponent and the diametral weld in the head. This value is used to determine \nwhether post weld heat treatment (PWHT) is needed based on the thickness of the \nweld between the attaching component and the flat head. If no value is entered, the \nsoftware considers the value in Flat Head Thickness as the thickness of the weld. This \noption is only available when Welded Flat is selected for Element Type.",
+            "images": []
+        },
+        {
+            "slide_number": 38,
+            "page_content": "Slide 38",
+            "text": "37 | P a g e  \n \nApp. 14 Large Central Opening: \n \nSelect if there is a single, large, centrally-located opening that creates a (hole \ndiameter)/(head diameter) ratio greater than 0.5. This opens the Integral Flat Head \nwith a Large Centrally Located Opening Dialog Box. This option cannot be used with \nEvaluate Uniform Patterned Holes? and is only available when Welded Flat is \nselected for Element Type. \n \nEvaluate Uniform Patterned Holes? \n \nSelect if there is a uniform series of holes in the flat head cover. The software \nthen calculates the required thickness due to the ligament created by the hole pattern, \naccording to ASME code Section VIII, Division 1, Paragraph UG-39. When selected, \nexpand Evaluate Uniform Patterned Holes? and enter values for Opening \nDiameter, Ligament Distance to Edge (U3), Opening Diameter (d2), Ligament \nDistance to Edge (U5), and Pitch Distance (p). \nThis option cannot be used when App. 14 Large Central Opening is selected. \nNozzles are also not compatible and are not analyzed. This option is only available \nwhen Welded Flat is selected for Element Type. \n \nPerform Flange Calculation: \n \nSelect to specify flange parameters and calculate the flange design, such as \nrequired thickness, MAWP, and MAPnc, according to the applicable design code. The \nFlange Dialog Box (refer figure 17) opens. This option is only available when Body \nFlange is selected for Element Type. \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nFigure 17 Flange Dialog Box",
+            "images": [
+                "slide_38_img_1.png"
+            ]
+        },
+        {
+            "slide_number": 39,
+            "page_content": "Slide 39",
+            "text": "38 | P a g e  \n \nSkirt Diameter at Base: \n \nEnter the inside diameter at the bottom of the skirt. This value must be larger \nthan or equal to the inside diameter at the top of the skirt. This option is only available \nwhen Skirt is selected for Element Type. \n \nPerform Basering Analysis: \n \nIf there is a basering on the skirt, select to specify basering parameters and \ncalculate the basering design. The Basering Dialog Box opens. This option is only \navailable when Skirt is selected for Element Type. \n \n \n \n \n \n \n \n \n \nFigure 18 Basering Dialog Box",
+            "images": [
+                "slide_39_img_1.png"
+            ]
+        },
+        {
+            "slide_number": 40,
+            "page_content": "Slide 40",
+            "text": "39 | P a g e  \n \nEvaluate Holes in Skirt: \n \nSelect to specify skirt access opening parameters and analyze the openings. \nOpenings are analyzed when they are of reasonable size, are on tall towers, or are \nunder sizable wind/seismic loads. This option is only available when Skirt is selected \nfor Element Type. \n \nThis option opens the Skirt Access Openings Dialog Box. Enter the following \nparameters for each opening: Number of Skirt Openings, Width, Height, Center \nSpacing, Frame Thk, Frame Width, and Layout Angle. \n \n \n \n \nFigure 19 Skirt Access Openings Dialog Box",
+            "images": [
+                "slide_40_img_1.png",
+                "slide_40_img_2.png"
+            ]
+        },
+        {
+            "slide_number": 41,
+            "page_content": "Slide 41",
+            "text": "40 | P a g e  \n \n4. MODELING & DESIGNING OPTIONS \n \nThe following options are used for modeling an equipment.Here we have some \ntoolbars in PV Elite which is used for model and design an equipment. \n \n4.1 \nElements panel \n \nIn PV Elite home tab, the Element tool bar(panel) is placed top left corner.using \nthe options in the Element tool bar, we can model a component of an equipment. \n \n \n \n \n \nEllipse: \n \nUsing this            option and general input data tab we can model an elliptical \nhead of an eqipment.      \n \nIn general input data tab we need to give diameter basis, diameter & length of \nthe straght flange and thickness of the head. For more information refer chapter 3.6 of \nthis article. \n \nTorisherical: \n \nUsing this          option and general input data tab we can model a \ntorispherical head of an eqipment.      \n \nIn general input data tab we need to give diameter basis, diameter & length of \nthe straight flange and thickness and material of the head.For more information refer \nchapter 3.6 of this article. \n \n \n \n \n \n \n \nFigure 20 Elements tool bar",
+            "images": [
+                "slide_41_img_1.png",
+                "slide_41_img_2.jpeg",
+                "slide_41_img_3.png"
+            ]
+        },
+        {
+            "slide_number": 42,
+            "page_content": "Slide 42",
+            "text": "41 | P a g e  \n \n \nSherical: \n \nUsing this          option and general input data tab we can model a spherical \nhead of an eqipment.      \n \nIn general input data tab we need to give diameter basis, diameter & length of \nthe straight flange and thickness and material of the head.For more information refer \nchapter 3.6 of this article. \n \nWelded Flat head: \n \nUsing this   \n  option and general input data tab we can model a flat head of \nan eqipment.  In general input data tab we need to give diameter basis, diameter, \nfinished thickness and additional element data like Welded Flat Head Attachment \nSketch and Attachment Factor etc. \n \nFor more information refer chapter 3.6 of this article. \n    \nAnsi/Bolted flanges (Body flange): \n \nUsing this  \n  option and general input data tab we can model a body flange of an \neqipment. \n \nCylinder: \n \nUsing this  \n option and general input data tab we can model a cylindrical \nshell of an eqipment.      \n \nIn general input data tab we need to give diameter basis, diameter & length of \nthe shell and thickness and material of the shell. \n \nConical shell or Head: \n \nUsing this \n  option and general input data tab we can model a conical shell \nor head of an eqipment.      \n \nIn general input data tab we need to give diameter basis, diameter & length of \nthe cone and thickness and material of the cone and additional element data like 'To' \nEnd Inside Diameter, Line of Support Options etc. \n \nFor more information refer chapter 3.6 of this article.",
+            "images": [
+                "slide_42_img_1.png",
+                "slide_42_img_2.png",
+                "slide_42_img_3.png",
+                "slide_42_img_4.png",
+                "slide_42_img_5.png"
+            ]
+        },
+        {
+            "slide_number": 43,
+            "page_content": "Slide 43",
+            "text": "42 | P a g e  \n \nSkirt: \n \nSkirt is one type of support used for vertical vessels. Using this  \n option and \ngeneral input data tab we can model a skirt of an eqipment.      \n \nIn general input data tab we need to give diameter basis, diameter & length of \nthe skirt and thickness and material of the skirt and additional element data like Skirt \nDiameter at Base, Perform Basering Analysis and Evaluate Holes in Skirt. \n \n4.2 \nDetails panel \n \nThis tool bar(panel) (refer figure 21) is  used to add additional components \ndetails like nozzles, stiffening ring, platforms, vessel packing details, saddle support \ndetails , lug support details ,leg support details ,vessel lining details, insulation details, \nforce/moment input , weight and piping input , tray input ,tube sheet , lifting lug , clips \n,working fluid detail and jacket or vapour distribution belt , half pipe jacket or limpet \ncoil. \n \n \nStiffening rings: \n \nStiffening rings can prevent the pressure vessel from buckling or increase the \nbuckling pressure. \n \nStiffening rings are attached either internally or externally to the vessel or heat \nexchanger. \n \nUsing this  \n  option we can get the stiffening ring dialouge box (refer figure \n22). Enter the required details in the dialouge box to add the stiffener.    \n \nSome main inputs are ring location i.e OD or ID, distance from \u2018from node\u2019, ring \ntype, ID & OD of the ring. \n \nAs stiffening ring data is entered, the software automatically calculates the \nrequired inertias, except when the ring is at a cone-to-cylinder junction. For bar rings, \nthe software sizes a new ring based on a default thickness of 0.375 inches or the \nelement value entered for Bar thickness to use when designing new rings on the \nEquipment Installation and Miscellaneous Options Dialog Box of the Load Cases \ntab. \nFigure 21 Details tool bar",
+            "images": [
+                "slide_43_img_1.png",
+                "slide_43_img_2.png",
+                "slide_43_img_3.jpeg"
+            ]
+        },
+        {
+            "slide_number": 44,
+            "page_content": "Slide 44",
+            "text": "43 | P a g e  \n \nThe maximum length between stiffeners is shown on the Status Bar as Slen. \nWhen >>> displays, the element does not require a reinforcing ring for external \npressure purposes. \n \nOptions in the Stiffening ring dialouge box, \n \nPrevious Ring \nIf you created more than one ring on the element, click to go back to the \nprevious ring. \n \nGo To Next Ring \nIf you created more than one ring on the element, click to go to the next ring. \n \nAdd New Ring \nClick to add a new ring to the shell or head element. \n \nDelete \nDeletes all data for the current ring. \n \n \n \n \nFigure 22 Stiffening ring dialouge box",
+            "images": [
+                "slide_44_img_1.png"
+            ]
+        },
+        {
+            "slide_number": 45,
+            "page_content": "Slide 45",
+            "text": "44 | P a g e  \n \n \nNozzle: \n \nA nozzle is a pipe or tube or coupling with or without a flange and it can be \nused to allow the flow of a fluid (liquid or gas) into vessel or from the vessel and also \nfor instrumentation installation purpose. \n \nUsing this  \n  option we can get the stiffening ring dialouge box (refer figure \n23). Enter the required details in the dialouge box to add the Nozzles. \n \nThe Nozzle stress analysis dialouge box also having the option for local stress \nanalysis refer figure 25 (external loads).Using this option we can perform WRC-107, \nWRC-297 and PD5500 for a nozzle. \n   \nIn nozzle main dialouge box option only, we have to enter the nozzle size and \nschedule (thickness) and which type of nozzle (like with/without pad, radial/hillside, \nheavy barrel\u2026) and layout angle, outside projection, flange type/rating. \n \nPrevious \nIf you created more than one nozzle on the element, click to go back to the \nprevious nozzle. \n \nAdd Platform \nClick to add a new nozzle to the shell or head element. \n \nDelete \nDeletes all data for the current Nozzle.",
+            "images": [
+                "slide_45_img_1.png"
+            ]
+        },
+        {
+            "slide_number": 46,
+            "page_content": "Slide 46",
+            "text": "45 | P a g e  \n \n                                                                                                                                                                               \n \nFigure 24 Nozzle stress Analysis dialouge box \nFigure 23 Local stress analysis dialouge box",
+            "images": [
+                "slide_46_img_1.png",
+                "slide_46_img_2.png"
+            ]
+        },
+        {
+            "slide_number": 47,
+            "page_content": "Slide 47",
+            "text": "46 | P a g e  \n \nPacking: \n \nIf a vessel having internals like packing and ceramic balls, we need to add the \nweight of that packing to the vessel.  \nUsing this option \n we can get the packing input dialouge box (refer figure \n24). Enter the required details in the dialouge box to add the Packing detail. \n \n \nFigure 25 packing input dialouge box \n \n \nThe main inputs for packing in a vessel are Distance from \u2018from node\u2019, height \nof the packed section or Full option (eg- filling ceramic balls in a head or shell entirely \nwe can use full option instead of height of packed section), packing density. \n \nPrevious \nIf you created more than one packing on the element, click to go back to the \nprevious packing. \n \nNext Packing \nIf you created more than one packing on the element, click to go to the next \npacking. \n \nAdd Packing \nClick to add a new packing to the shell or head element. \n \nDelete \nDeletes all data for the current packing.",
+            "images": [
+                "slide_47_img_1.png",
+                "slide_47_img_2.png"
+            ]
+        },
+        {
+            "slide_number": 48,
+            "page_content": "Slide 48",
+            "text": "47 | P a g e  \n \n \n \nPlatform: \n \nUsing this option \n we can get the platform input dialouge box (refer figure \n26). Enter the required details in the dialouge box to add the platform. \n \nOptions in the platform dialouge box, \n \nPrevious \nIf you created more than one platform on the element, click to go back to the \nprevious platform. \n \nNext Platform \nIf you created more than one platform on the element, click to go to the next \nplatform. \nAdd Platform \nClick to add a new platform to the shell or head element. \n \nDelete \nDeletes all data for the current platform.",
+            "images": [
+                "slide_48_img_1.png"
+            ]
+        },
+        {
+            "slide_number": 49,
+            "page_content": "Slide 49",
+            "text": "48 | P a g e  \n \n \nFigure 26 Platform dialouge box \n \nWeight /piping input: \n \nWeight and piping inputs are used to add the external weight/overhead piping \nweight to the vessel for analysis. \n \nHome tab: Details > Weight \n \nAdds piping and miscellaneous weight to the selected cylinder or head element. \nThis is weight that cannot be accounted for in other commands. The weight is a static \nmass, not an applied force, but affects the natural frequency of the vessel and axial \nstress calculations. Piping weight is modeled here. The area and mass of the piping \nare considered in the same manner as a weight. \nPrevious Weight \nIf you created more than one weight on the element, click to go back to the \nprevious weight. \nGo To Next Weight \nIf you created more than one weight on the element, click to go to the next \nweight. \nAdd New Weight \nClick to add a new weight to the shell or head element. \nDelete \nDeletes all data for the current weight.",
+            "images": [
+                "slide_49_img_1.png",
+                "slide_49_img_2.png"
+            ]
+        },
+        {
+            "slide_number": 50,
+            "page_content": "Slide 50",
+            "text": "49 | P a g e  \n \n \nOffset from Element Centerline \nEnter the distance of this weight from the centerline of vessel. The value is \nmultiplied by the weight to obtain a moment that used in stress calculations. For \nhorizontal vessels, the weight is added to the saddle loads and this value is not used. \n \nMiscellaneous Weight \nEnter the weight for items such as: an attached motor or other equipment, \ninternal piping, or external structural elements. This value is also used for seismic \nanalysis. \n \nIs this a Welded Internal? \nSelect if the weight is for an item that is welded to the vessel during shop \nconstruction. The weight is then added to the fabricated total weight, other weights \nthat are functions of the fabricated total weight, and the empty total weight. \n \nSelect the Active Cases for this Weight/Mass \nSelect the active case for the current weight/mass. You can select any \ncombination of empty, operating, and hydro test cases. \n \nSelect Is this a Piping Detail? to include the weight and moment of overhead \npipelines on vertical pressure vessels. Define the area and weight of the piping with \nthe following options: \nPipe Lookup - Click to open the Seamless Pipe Selection dialog box and select \nvalues from the piping database for Pipe Schedule and Nominal Pipe Diameter.  \nPipe Outer Diameter - Displays the OD for the pipe selected in Pipe Lookup. \nYou can also manually enter a value.  \nPipe Thickness - Displays the nominal thickness for the pipe selected in Pipe \nLookup. You can also manually enter a value.  \nFluid Specific Gravity - Enter the specific gravity of the contained fluid. This \nvalue is usually 1.0.  \nInsulation Thickness - If the pipe is insulated, enter the thickness of the \ninsulation. If there is no insulation, enter 0.  \nInsulation Density - Enter the density of the pipe insulation to calculate the \nweight of the insulation and the moment effect.  \nCompute Weight and Area - Click to calculate the pipe weight and area based \non the entered values. \nAfter weights and offsets are entered, the software calculates the overturning \nmoment due to the eccentricity of the piping. In most designs, the piping is supported \nby means of braces and clips at specified intervals. The element on which the piping \nweight is added takes the applied load. \nIf piping is specified on a top head, the software attempts to graphically \nconnect the piping to the center-most nozzle.",
+            "images": []
+        },
+        {
+            "slide_number": 51,
+            "page_content": "Slide 51",
+            "text": "50 | P a g e  \n \n \nFigure 27 Weight/piping dialouge box \n \n \n \n \n \nForce and Moment: \nHome tab: Details > Force and Moment  \nAdds external forces and moments to the selected cylinder or head element. In \nmost cases these are operating loads imposed on the vessel, such as piping loads on \nnozzles. \nPrevious For/Mom \nIf you created more than one force/moment set on the element, click to go back \nto the previous set. \nGo To Next For/Mom \nIf you created more than one force/moment set on the element, click to go to \nthe next set.",
+            "images": [
+                "slide_51_img_1.png"
+            ]
+        },
+        {
+            "slide_number": 52,
+            "page_content": "Slide 52",
+            "text": "51 | P a g e  \n \nAdd New For/Mom \nClick to add a new force/moment set to the shell or head element. \nDelete \nDeletes all data for the current force/moment set. \nApplied Forces \u2013 X \nEnter the force in each needed direction. For X, positive is from left to right. For \nY, positive is upward. For Z, positive is towards you. Forces perpendicular to the vessel \nare resolved into a single vector and applied with live load to create the worst load \ncombination. Unlike Weight, applied forces are not included in seismic analysis \nbecause force does not have mass.  \nNote: \nYou should generally enter negative Y forces (downward) because these \nincrease the loads on the saddles and other supports. \n \nApplied Forces - Y \nEnter the force in each needed direction. For X, positive is from left to right. For \nY, positive is upward. For Z, positive is towards you. Forces perpendicular to the vessel \nare resolved into a single vector and applied with live load to create the worst load \ncombination. Unlike Weight, applied forces are not included in seismic analysis \nbecause force does not have mass. \n \nNote: \nYou should generally enter negative Y forces (downward) because these \nincrease the loads on the saddles and other supports. \nApplied Forces \nEnter the force in each needed direction. For X, positive is from left to right. For \nY, positive is upward. For Z, positive is towards you. Forces perpendicular to the vessel \nare resolved into a single vector and applied with live load to create the worst load \ncombination. Unlike Weight, applied forces are not included in seismic analysis \nbecause force does not have mass. \n \nApplied Moments - X \nEnter the moment about each needed axis. For X, positive is from left to right. \nFor Y, positive is upward. For Z, positive is towards you. \n \nApplied Moments - Y",
+            "images": []
+        },
+        {
+            "slide_number": 53,
+            "page_content": "Slide 53",
+            "text": "52 | P a g e  \n \nEnter the moment about each needed axis. For X, positive is from left to right. \nFor Y, positive is upward. For Z, positive is towards you. \n \nApplied Moments - Z \nEnter the moment about each needed axis. For X, positive is from left to right. \nFor Y, positive is upward. For Z, positive is towards you. \n \nCompute Stresses Due to Applied L*o/ ads \nSelect one or both of the following: \n\uf0b7 Compute Longitudinal Stresses BW normally added to the Wind Case - \nForces and moments act during wind analysis.  \n\uf0b7 Compute Longitudinal Stresses BS normally added to the Seismic Case \n- Forces and moments act during seismic analysis.",
+            "images": []
+        },
+        {
+            "slide_number": 54,
+            "page_content": "Slide 54",
+            "text": "53 | P a g e  \n \n \nFigure 28 Force/Moment dialouge box \n \n \n \nTray: \nHome tab: Details > Tray \n \nAdds a set of equally spaced trays with a set liquid height to the selected \nelement on a vertical vessel. \nPrevious Tray Group \nIf you created more than one tray set on the element, click to go back to the \nprevious set. \nGo To Next Tray Set",
+            "images": [
+                "slide_54_img_1.png",
+                "slide_54_img_2.png"
+            ]
+        },
+        {
+            "slide_number": 55,
+            "page_content": "Slide 55",
+            "text": "54 | P a g e  \n \nIf you created more than one tray set on the element, click to go to the next set. \nAdd New Tray Set \nClick to add a new tray set to the element. \nDelete \nDeletes all data for the current tray set. \nNumber of Trays \nEnter the number of trays on the element. \nTray Spacing \nEnter the vertical distance between trays. \nTray Weight Per Unit Area \nEnter the unit weight of each tray in the set. Do not enter the total weight, \nbecause the software multiplies the unit weight by the cross-sectional area of the \nelement. \nSupport Ring and Bolting Bar Weight \nEnter the support ring and bolting bar weight. \nHeight of Liquid on Tray \nEnter the height of the liquid on each tray. \nDensity of Liquid on Tray \nEnter the density of the liquid on each tray. For more information, see Liquid \nDensity.",
+            "images": []
+        },
+        {
+            "slide_number": 56,
+            "page_content": "Slide 56",
+            "text": "55 | P a g e  \n \n \nFigure 29 Tray dialouge box \n \nLug: \nHome tab: Details > Lug \n \nAdds support lugs to the selected element on a vertical vessel. If no skirt or legs \nare defined for a vertical vessel, the lowest set of lugs are used as the vessel support \npoint for dead load and live load calculations. \nDelete \nDeletes all data for the lug. \nLug Type \nWe have the following types of geometry for the support lug,",
+            "images": [
+                "slide_56_img_1.png",
+                "slide_56_img_2.png"
+            ]
+        },
+        {
+            "slide_number": 57,
+            "page_content": "Slide 57",
+            "text": "56 | P a g e  \n \n                \n \n \n \n \n \nLug Material \nEnter the name of the material. The software contains a database with most of \nthe materials in ASME Code, Section II, Part D, Table 1A, 1B, and 3. Matl... allows a \nmaterial to be selected directly from the Material Database Dialog Box. \nNumber of Lugs \nEnter the number of support lugs around the periphery of the vessel at this \nlocation. \nDist. from OD to Lug MidPt (dlug) \nEnter the radial distance from the wall of the vessel to the midpoint where the \nlug attaches to the structural steel.",
+            "images": [
+                "slide_57_img_1.png"
+            ]
+        },
+        {
+            "slide_number": 58,
+            "page_content": "Slide 58",
+            "text": "57 | P a g e  \n \nWeight of One Lug \nEnter the actual weight of one support lug. The software does not gather \nenough information to do the detailed calculation of the support lug weight. \nForce Bearing Width (wfb) \nEnter the width of the structure that is in contact with the bottom lug support \nplate. \nRadial Width of Bottom Ring (wpl) \nEnter the distance that the bottom support plate extends from the OD of the \nvessel. This value must be greater than or equal to Mean Width of Gussets (wgp). \nEffective Force Bearing Length (lpl) \nFor lug types with a bottom plate and no continuous rings (Simple geometry \nwith no gussets and gusseted geometry with top plate in Lug Type), enter the distance \nbetween gussets plus two times the gusset plate thickness. \nFor lug types with continuous top and bottom rings (Gusseted geometry with \ncontinuous top encirclement ring in Lug Type), enter the length of the bottom plate \nlocated on a support: \n \n \n \n \n \n \n \n \nThickness of Bottom Ring (tpl): \nEnter the thickness of the bottom support plate. \nDistance Between Gussets (dgp): \nEnter the distance between the inside surfaces of the gusset plates. \nMean Width of Gussets (wgp): \nEnter the mean gusset width, defined as the gusset width at the top plus the \ngusset width at the bottom divided by two. The software uses this value to calculate \nthe actual stresses in the gusset plates.",
+            "images": [
+                "slide_58_img_1.png"
+            ]
+        },
+        {
+            "slide_number": 59,
+            "page_content": "Slide 59",
+            "text": "58 | P a g e  \n \nRadial Width of Top Ring (wtp): \nEnter the radial dimension from the OD of the shell to the edge of the plate. \nThis value should be less than or equal to Mean Width of Gussets (wgp). \nPerform WRC 107 Calculation: \nSelect to perform the WRC 107 local stress analysis on a reinforcing pad for \nthe lug. The software calculates the stresses at the edge of the attachment and the \nedge of the pad. Enter values for the width, length, and thickness options. \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nPad Width: \nEnter the pad width as measured along the circumferential direction of the \nvessel. The pad width must be greater than attachment width. \nPad Length: \nEnter the length of the pad as measured along the long axis of the vessel. \nPad Thickness: \nThickness - Enter the thickness of the pad. Account for any allowances for \nexternal corrosion in the pad thickness.",
+            "images": [
+                "slide_59_img_1.png"
+            ]
+        },
+        {
+            "slide_number": 60,
+            "page_content": "Slide 60",
+            "text": "59 | P a g e  \n \n \nFigure 30 Lug support dialouge box \n \nLegs: \nHome tab: Details > Legs  \nAdds support legs to the selected element. Legs can be created for a vertical \nvessel without a skirt element. \nDelete \nDeletes all data for the legs. \nLeg Centerline Diameter \nEnter the distance between the centerlines of two legs on opposing sides of the \nvessel. If there are an odd number of legs (therefore, no two legs are opposing), then \nenter the diameter of a circle drawn through the centerlines of the legs. Alternatively, \nclick Compute Centerline Diameter to calculate the value.",
+            "images": [
+                "slide_60_img_1.png"
+            ]
+        },
+        {
+            "slide_number": 61,
+            "page_content": "Slide 61",
+            "text": "60 | P a g e  \n \nLeg Orientation \nSelect the orientation of the leg cross-section with respect to the centerline. \nSelect: \n\uf0b7 Strong Axis - The strong axis is perpendicular to the vessel.  \n\uf0b7 Weak Axis - The weak axis is perpendicular to the vessel.  \n\uf0b7 Diagonal - The strong axis is diagonal to the vessel. \n \n \n \nOverall Length of Legs \nEnter the distance from the ground to the attachment point of the leg on the \nvessel. \nEffective Leg Length \"L\" \nEnter the effective leg length L, defined as the free length of the leg that is \nsubject to bending. This is the value that is used in the AISC formula kl/r. This value \ncannot be explicitly calculated because there are numerous configurations of legs. If \nthe value is zero, the software conservatively uses the overall leg length as the \neffective leg length in the calculation.",
+            "images": [
+                "slide_61_img_1.png",
+                "slide_61_img_2.png"
+            ]
+        },
+        {
+            "slide_number": 62,
+            "page_content": "Slide 62",
+            "text": "61 | P a g e  \n \nSection Identifier \nEnter a section name in the format of the specification selected in Leg \nDatabase, or click LookUp to open the Select a Leg Shape dialog box and select a \nsection from the database. \n \nEffective End Condition \"K\" \nEnter the effective end condition K. For pressure vessel legs, a value of 1.0 or \n1.5 is commonly used. \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nOccasional Load Factor \nEnter a factor for irregularly occurring loads. The default value is 1.333. \nPerform Baseplate Analysis? \nSelect to place a baseplate on the bottom of each leg and analyze baseplate, \nbolt, and foundation loads and enter values for the options below. The software \nassumes the leg is attached symmetrically on the baseplate.",
+            "images": [
+                "slide_62_img_1.png",
+                "slide_62_img_2.png"
+            ]
+        },
+        {
+            "slide_number": 63,
+            "page_content": "Slide 63",
+            "text": "62 | P a g e  \n \n \nFigure 31 Leg dialouge box \n \n \nLiquid: \nHome tab: Details > Liquid \n \nAdds liquid data to the element. Normally, Liquid is used on the bottom head \nof the vessel. Each element is then filled with the appropriate amount of liquid. We \nrecommend that you model the entire vessel before adding liquid data. \nDelete \nDeletes all data for the liquid.",
+            "images": [
+                "slide_63_img_1.png",
+                "slide_63_img_2.png"
+            ]
+        },
+        {
+            "slide_number": 64,
+            "page_content": "Slide 64",
+            "text": "63 | P a g e  \n \nFull \nClick to calculate the values of Distance from \"From\" Node and the value of \nHeight in this Element, assuming that the element is completely filled with the defined \nliquid. \nFill Elements Now \nClick to fill the vessel to the level specified by Height from Datum. If the height \nis greater than the vessel height, the vessel is completely filled. The software assigns \ndetail ID values using the Liquid Density. To use this command effectively, all elements \nin the vessel model should be created first \nHeight in this Element \nEnter the height or length of the liquid on this element. This value is used only \nto calculate the weight of the liquid section. For seismic calculations, the weight center \nof the liquid section is taken at half this height. The value is also used to calculate the \noperating pressure at all points below the liquid. \n \nFigure 32 Liquid dialouge box",
+            "images": [
+                "slide_64_img_1.png"
+            ]
+        },
+        {
+            "slide_number": 65,
+            "page_content": "Slide 65",
+            "text": "64 | P a g e  \n \nInsulation: \nHome tab: Details > Insulation \n \nAdds insulation to the element. \nDelete \nDeletes all insulation data. \nFull \nClick to calculate the values of Distance from \"From\" Node and the value of \nHeight/Length of Insulation, assuming that the element is fully covered by the defined \ninsulation. \nAll \nClick to cover the entire vessel with insulation. The software assigns detail ID \nvalues using the defined insulation values. To use this command effectively, all \nelements in the vessel model should be created first. \nHeight/Length of Insulation \nEnter the height or length of the insulation on the element. This value is used \nonly to calculate the weight of the insulation. For seismic calculations, the weight \ncenter of the insulated section is taken at half this height. If you have insulation on a \nhorizontal vessel, the value is the length of the insulated section.",
+            "images": [
+                "slide_65_img_1.png",
+                "slide_65_img_2.jpeg"
+            ]
+        },
+        {
+            "slide_number": 66,
+            "page_content": "Slide 66",
+            "text": "65 | P a g e  \n \nDensity of Insulation \nEnter the density of the insulation, such as the following typical densities: \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nFigure 33 Insulation Dialouge box",
+            "images": [
+                "slide_66_img_1.png",
+                "slide_66_img_2.png"
+            ]
+        },
+        {
+            "slide_number": 67,
+            "page_content": "Slide 67",
+            "text": "66 | P a g e  \n \nLining: \nHome tab: Details > Lining  \nAdds lining to the element. \nDelete \nDeletes all lining data. \nFull \nClick to calculate the values of Distance from \"From\" Node and the value of \nHeight/Length of Lining, assuming that the element is fully covered by the defined \nlining. \nHeight/Length of Lining \nEnter the height or length of the lining on this element. This value is used only \nto calculate the weight of the lined section. For seismic calculations the weight center \nof the lined section will be taken at half this height. If you have a lining in a horizontal \nvessel, the value is the length of the lined section. \nDensity of Lining \nEnter the density of the insulation, lining, or packing, such as the following \ntypical lining densities:",
+            "images": [
+                "slide_67_img_1.png"
+            ]
+        },
+        {
+            "slide_number": 68,
+            "page_content": "Slide 68",
+            "text": "67 | P a g e  \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nFigure 34 Lining dialouge box",
+            "images": [
+                "slide_68_img_1.png"
+            ]
+        },
+        {
+            "slide_number": 69,
+            "page_content": "Slide 69",
+            "text": "68 | P a g e  \n \n \nSaddle: \nSaddle is one type of support used for horizontal vessels.\n \nHome tab: Details > Saddle \n \nAdds a saddle to the selected horizontal cylinder element. The size and location \nof the saddles are important for Zick calculations of local stresses on horizontal \nvessels with saddle supports. For proper Zick analysis, only two saddles may be \ndefined; however, they do not have to be symmetrically placed about the center axis \nof the vessel. If no saddles are defined, dead load and live load calculations are not \nperformed. \nPrevious Saddle \nIf you created more than one saddle on the element, click to go back to the \nprevious saddle. \nGo To Next Saddle \nIf you created more than one saddle on the element, click to go to the next \nsaddle. \nAdd New Saddle \nClick to add a new saddle to the shell element. \nDelete \nDeletes all data for the current saddle. \nAdd Saddle Ring \nClick to open the Stiffening Ring dialog box to add a ring to the saddle. For \nmore information, see Stiffening Ring. \nSelect Saddle \nClick to open the Saddle Properties dialog box, and select a standard saddle \n(from SaddleData.txt, found in the PV Elite System folder). \nSame as First \nClick to copy all data from the first saddle to the current saddle",
+            "images": [
+                "slide_69_img_1.png"
+            ]
+        },
+        {
+            "slide_number": 70,
+            "page_content": "Slide 70",
+            "text": "69 | P a g e  \n \nSaddle Width \nEnter the width of the saddle support. This value does not include any wear pad \non the vessel side, and is used primarily for the Zick analysis of horizontal vessels on \nsaddle supports. \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nCenterline Dimension B \nEnter the distance from the base of the saddle to the centerline of the vessel, \nreferred to as dimension B in some pressure vessel texts. This value is used to \ndetermine additional saddle loads due to wind or seismic events.",
+            "images": [
+                "slide_70_img_1.png",
+                "slide_70_img_2.png"
+            ]
+        },
+        {
+            "slide_number": 71,
+            "page_content": "Slide 71",
+            "text": "70 | P a g e  \n \nSaddle Contact Angle \nEnter the angle between the two contact points (\"horns\") of the saddle, \nmeasured from the axial center of the vessel. This value typically ranges from 120.0\u00ba \nto 150.0\u00ba. \nWear Plate Width \nEnter the width of the wear plate between the vessel and the saddle support. \nThis value is used primarily for the Zick analysis of horizontal vessels on saddle \nsupports. \nWear Plate Thickness \nEnter the thickness of the wear plate between the vessels and the saddle \nsupport. This value is used primarily for the Zick analysis of horizontal vessels on \nsaddle supports. \nWear Plate Contact Angle \nEnter the angle contained from one edge of the wear plate to the other edge, \nmeasured from the axial center of the vessel. Typically this value is approximately \n130\u00ba. \nHeight of Section Ring \nIf a custom fabricated composite (usually T type) stiffener is used over the \nsaddle supports, enter the height from the shell surface to the top of the stiffener. This \nvalue will be used to compute the stress at the tip of the stiffener. If a horizontal vessel \ndoes not have stiffeners over the saddle supports, enter 0. If you selected a stiffener \nfrom the AISC structural steel database in the Stiffening Ring dialog box, enter 0. In \nthis case, the software gets the ring height from the AISC database. \nFriction Coefficient Mu \nEnter the coefficient of friction mu between the base of the saddle and the \nsupporting foundation, piers or structure. A frictionless surface has a mu value of 0. \nOther typical values are in the range of 0.3 to 0.5. The software uses this value to \ndetermine the counteracting force caused by thermal expansion and the dead weight \nof the vessel on the saddle support. This is essentially a resistive force bending the \nsaddle. The generated force is proportional to mu times the normal force. \nMoment Factor, Ftr \nEnter the moment factor for calculating the saddle reaction force due to the \nwind or earthquake transverse load. The recommended value is 3.",
+            "images": []
+        },
+        {
+            "slide_number": 72,
+            "page_content": "Slide 72",
+            "text": "71 | P a g e  \n \nThe value of 6 is conservative in that it assumes that the maximum edge load \nis uniform across the entire base, when realistically it occurs only at the edge. A more \naccurate method converts this triangular loading into a more realistic uniform load, \nleading to the value of 3. The following figure shows an end view of a horizontal vessel \nwith a transverse load, simulating wind/seismic loading: \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nThe saddle reaction load Fst (or Fwt for wind) due to the transverse load Ft is:  \nFst (or Fwt) = (Saddle Moment Factor) * Ft * B / E \n \nSaddle Dimension a \nEnter the distance between the centerline of the saddle support and the tangent \nline of the nearest head. This dimension is labeled A in most pressure vessel texts.",
+            "images": [
+                "slide_72_img_1.png",
+                "slide_72_img_2.png"
+            ]
+        },
+        {
+            "slide_number": 73,
+            "page_content": "Slide 73",
+            "text": "72 | P a g e  \n \nDimension E at base \nEnter the dimension of the baseplate that is less than the distance in contact \nwith the supporting surface. Dimension E addresses the saddle reaction force due to \nwind or seismic force when the baseplate distance dimension has a different distance \nin contact with the supporting surface. This entry is optional. \nTangent to Tangent Distance \nEnter the length of the cylindrical shell measured from tangent line to tangent \nline for a vessel with curved heads or from inner face to inner face for vessels with flat \ncovers or tubesheets. For most horizontal vessels comprised of dished ends and \ncylinders that are not heat exchangers, PV Elite can determine this value and you can \nleave the value set to zero. For vessels that have cones, tubesheets, and so forth, you \nmust manually enter this value. \nCirc Eff over Saddle \nEnter the circumferential efficiency in the plane of the saddle. \nWhen you create a shell by welding the ends together, there is a longitudinal \nweld. If that weld is at the saddle, there are bending moment stress. \nCirc Eff over Midspan \nEnter circumferential efficiency at the mid-span. \nWhen you create a shell by welding the ends together, there is a longitudinal \nweld. If that weld is between saddles, there are bending moment stress. \nPerform Saddle Check? \nSelect to add rib, web, and baseplate data, and perform a structural analysis of \nthe saddle.",
+            "images": []
+        },
+        {
+            "slide_number": 74,
+            "page_content": "Slide 74",
+            "text": "73 | P a g e  \n \nBaseplate Length \nEnter the long dimension of the baseplate in the direction of the vessel \ndiameter.  \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nBaseplate Width \nEnter the short dimension (the width) of the baseplate.  \n \n \n \n \n \n \n \n \n \n \n \nHeight of Center Web \nEnter the height of the center web as it extends from the baseplate to the shell \ninside diameter (ID). Think of this value as the column height of all material above the \nbaseplate to the inside of the pressure vessel, including the Wear Plate Thickness and \nthe Shell Thickness. The software uses this value to determine if the centerline of the \nsaddle may fail if the vessel fails at that specific location.",
+            "images": [
+                "slide_74_img_1.png",
+                "slide_74_img_2.png"
+            ]
+        },
+        {
+            "slide_number": 75,
+            "page_content": "Slide 75",
+            "text": "74 | P a g e  \n \nWeb Location \nSelect the web location relative to the saddle baseplate and wear plate. Select \nCenter, Side - Left, or Side - Right.  \n \n \n \n \n \n \n \n \n \n \n \n \nFigure 35 Saddle dialouge box",
+            "images": [
+                "slide_75_img_1.png",
+                "slide_75_img_2.png"
+            ]
+        },
+        {
+            "slide_number": 76,
+            "page_content": "Slide 76",
+            "text": "75 | P a g e  \n \nLifting Lug Data: \nHome tab: Details > Lifting Lug Data  \nAdds lugs to the selected element. You can create: \n1. Flat-type lugs on vertical vessels, generally place near the top head. \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n2. Perpendicular, ear-type lugs for horizontal vessels. \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nThe software calculates the reactions on each lug, the stresses in each lug, and \nthe stress in the welds. \nDelete \nDeletes all data for the lug.",
+            "images": [
+                "slide_76_img_1.png",
+                "slide_76_img_2.png"
+            ]
+        },
+        {
+            "slide_number": 77,
+            "page_content": "Slide 77",
+            "text": "76 | P a g e  \n \nImpact Factor \nEnter the impact factor to account for lifting a vessel when it may be pulled quickly \nwith sudden force. This value typically ranges from 1.5 to 2.0, although values as high \nas 3.0 may be entered. The software multiplies the lifting loads by the impact factor. \nThe theoretical maximum value for this value is 2.0. \n \n \n \n \n \n \n \n \n \n \n \n \n \nFigure 36 Lifting lug dialouge box",
+            "images": [
+                "slide_77_img_1.png",
+                "slide_77_img_2.png"
+            ]
+        },
+        {
+            "slide_number": 78,
+            "page_content": "Slide 78",
+            "text": "77 | P a g e  \n \nGeneric Clip: \nHome tab: Details > Add a Clip \nAdds a clip to the vessel. In the dialog, enter clip support information on cylinders \nas well as elliptical, torispherical and spherical heads. Clips are used to carry load, \nsuch as from piping, ladders, and platforms. These loads, along with pressures, cause \nlocal stress at the clip support location. WRC 107/537 is used to calculate the local \nstresses and compare them to the allowables. \nSustained, expansion, and occasional loads on the clip must be determined from \na separate analysis and entered. Clips supporting piping generally have loads in all \ncategories, while platform clips generally have only sustained and occasional loads. \nLocal Attachment Loads at the Shell Surface \nYou can enter values in the following load sets: \n\uf0b7 Sustained - (SUS) Primary loads, typically weight + pressure + forces.  \n\uf0b7 Expansion - (EXP) Secondary, self-limiting thermal expansion loads.  \n\uf0b7 Occasional - (OCC) Irregularly occurring, short-term loads, such as wind loads, \nseismic loads, and water hammer. \nThe following force/moment convention is used for a square or circular clip on a \ncylindrical element:",
+            "images": [
+                "slide_78_img_1.png"
+            ]
+        },
+        {
+            "slide_number": 79,
+            "page_content": "Slide 79",
+            "text": "78 | P a g e  \n \nThe following force/moment convention is used for a square or circular clip on a \nspherical vessel: \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nFigure 37 Clip dialouge box",
+            "images": [
+                "slide_79_img_1.png",
+                "slide_79_img_2.png"
+            ]
+        },
+        {
+            "slide_number": 80,
+            "page_content": "Slide 80",
+            "text": "79 | P a g e  \n \nHalfpipe Jacket: \nHome tab: Details > Halfpipe Jacket \n \nAdds half-pipe jackets to the shell on the selected cylinder element, according \nto ASME Code, Section VIII, Division 1, Appendix EE. \nHalf pipe jackets are commonly made by rolling and forming flat bar in a specific \nradius and helical curvature that matches that of the parent shell course. These jackets \nare used to heat or cool the contents inside of the vessel. For vessels that are under \ncyclic service, it is advised that the jacket be attached by both a fillet and full \npenetration groove weld. \n \n \n \n \nPV Elite performs required thickness and maximum allowable working pressure \n(Mawp) calculations for cylindrical shells with half-pipe jackets attached. The analysis \nis based on the ASME Boiler and Pressure Vessel Code, Section VIII, Division 1, \nParagraph EE-1, Appendix EE. The analysis is only valid for the cylindrical geometries \nshown in Figure EE-4.",
+            "images": [
+                "slide_80_img_1.png",
+                "slide_80_img_2.png",
+                "slide_80_img_3.png"
+            ]
+        },
+        {
+            "slide_number": 81,
+            "page_content": "Slide 81",
+            "text": "80 | P a g e  \n \nAdditionally, only nominal pipe sizes from 2 to 4 can be used. Although there \nare no charts for sizes 2.5 and 3.5, the software accepts these sizes and performs \niterations between the given charts. If the half-pipe is a nonstandard pipe size, or has \na formed radius, the actual radius is used in the calculations. \nThe software takes full account of corrosion allowance. Actual thickness values \nand corrosion allowances are entered, and the software adjusts thicknesses and \ndiameters when making calculations for the corroded condition. \nLength Along Shell of Jacket Section \nEnter the distance that the jacket extends along the length of the shell section. \nThis value cannot be greater than the specified length of the shell course. \n \nInside Radius of Formed Jacket \nEnter a value for a jacket formed from bar or plate. This value is only used if \nFormed Radius Type is selected for Nominal Pipe Size.  \n \nFigure 38 Half pie jacket/Limpetcoil dialouge box",
+            "images": [
+                "slide_81_img_1.png",
+                "slide_81_img_2.png"
+            ]
+        },
+        {
+            "slide_number": 82,
+            "page_content": "Slide 82",
+            "text": "81 | P a g e  \n \nVessel Jacket, Vapour/Distribution Belt: \n \nHome tab: Details > Jacket or Vapor/Distribution Belt \n \nAdds ASME Appendix 9. Type 1 cylindrical jackets to the shell on the selected \ncylinder element, according to ASME Code, Section VIII, Division 1, Appendix 9. \nA Type 1 jacket is specified as either a jacket or a vapor belt. Vapor belts \ncover perforated areas of some vessels but are more typically found on shell and \ntube heat exchangers. Jackets can have separate design conditions from the parent \ncylindrical element. Vapor belts have the same design conditions as the parent \ncylindrical element. The software calculates the required thickness and MAWP for \nthe jacket and closure bars. The MAWP of vapor belts can influence nozzle design \nas well as the overall MAWP of the vessel. The software calculates the stiffened \nlength of the inner vessel to account for the closure bars. \nBoth jackets and vapor belts can have nozzles attached. If a nozzle has an \ninternal projection that cuts into the parent shell, the nozzle reinforcement \ncalculations are for the parent shell. If the nozzle does not have an internal \nprojection, the calculation is for the jacket. According to Appendix 9, nozzle \ncalculations are not required for both the jacket and inner vessel. \nThe internal pressure in a vapor belt adds to the vacuum (external) pressure \nin the inner shell. This extra pressure is reflected in the external pressure report \ngenerated during analysis. \nJacket Longitudinal Efficiency \nEnter the welded joint efficiency, as defined in ASME Section VIII, Division 1, \nTable UW-12. For the weld on a Type 1 jacket (welded from both sides or with a \nremovable backing strip), use the following efficiencies: \n\uf0b7 Full radiography: 1.00  \n\uf0b7 Spot x-ray: 0.85  \n\uf0b7 No radiography: 0.70",
+            "images": [
+                "slide_82_img_1.png"
+            ]
+        },
+        {
+            "slide_number": 83,
+            "page_content": "Slide 83",
+            "text": "82 | P a g e  \n \n \nFigure 39 Vessel Jacket, Vapour/Distribution Belt dialouge box \n \nAPI-579 Flaw/Damage Input/Analysis: \n \nHome tab: Details > API-579 Flaw/Damage Input/Analysis \n \nAdds API-579 Flaw/Damage Input/Analysis information on the selected \nelement. \n \nPrevious \nSelect to view the previous flawed defined on the selected element. \n \nAdd New Flaw \nSelect to define another flaw on the selected element. \n \nDelete \nSelect to delete the current flaw from the element. \n \nFlaw Type \nSelect the type of damage observed from the following flaw types.",
+            "images": [
+                "slide_83_img_1.png"
+            ]
+        },
+        {
+            "slide_number": 84,
+            "page_content": "Slide 84",
+            "text": "83 | P a g e  \n \n\uf076 Part 4 (General Metal Loss) \u2013  \nSelect this option when the general metal loss (uniform or local, inside or \noutside) exceeds, or is predicted to exceed, the corrosion allowance before the next \nscheduled inspection. Assessments are based on point thickness readings and \nthickness profiles (see paragraph 4.3.3), whether the metal loss is uniform or local, \nand the degree of conservatism acceptable for the assessment. You can use the \nmethodology shown in Figure 4.2 to determine the assessment procedure for the \nevaluation. \n \n\uf076 Part 5 (Local Thinning Area) \u2013  \nSelect this option when the metal loss on the surface of the component is \nlocalized, and the length metal loss is about the same as the width \n \n\uf076 Part 5 (Groove like Flaw) \u2013 \n Select this option when the flaw is either: \n\uf0d8 Groove \u2013 A local, elongated, thin-spot caused by directional erosion or \ncorrosion. The length of the metal loss is significantly greater than the \nwidth. \n\uf0d8 Gouge \u2013 A local, elongated, mechanical removal or relocation of \nmaterial from the component surface resulting is a reduction in wall \nthickness at the flaw. The length of the gouge is much greater than the \nwidth. The material might have been cold worked in the formation of the \nflaw. Gouges are typically caused by mechanical damage, for example, \ndenting and gouging of a section of pipe by mechanical equipment \nduring the excavation of a pipeline. Gouges are frequently associated \nwith dents due to the nature of mechanical damage. If a gouge is \npresent, the assessment procedures of Part 12 shall be used. \n \n\uf076 Part 6 (Pitting)- \nSelect this option when one of the four types of pitting is present: \n \n\uf0d8 widely scattered pitting over a significant region of the component,  \n\uf0d8 a local thin area (LTA) located in a region of widely scattered pitting,  \n\uf0d8 localized regions of pitting, and  \n\uf0d8 pitting confined within a region of an LTA. \n \nAssessment Level: \nSelect the assessment level. See the description below that corresponds to \nyour selection for Flaw Type. \n \n\uf076 Part 4 (General Metal Loss) \nSelect Level 1 and Level 2 if these four points are true. Otherwise select Level \n1 only or Level 2 only. \n \n\uf0d8 The original design criteria was in accordance with a recognized code or \nstandard (see Part 1, paragraphs 1.2.2 or 1.2.3).  \n\uf0d8 The metal loss region has relatively smooth contours without notches \n(that is, negligible local stress concentrations).",
+            "images": []
+        },
+        {
+            "slide_number": 85,
+            "page_content": "Slide 85",
+            "text": "84 | P a g e  \n \n\uf0d8 The component is not in cyclic service. \n \nA component is not in cyclic service if the component is subjected to less \nthan 150 cycles throughout its previous operating history and future planned \noperation, or the component satisfies the cyclic service screening procedure in \nAnnex B1 paragraph B1.5.2. A cycle is defined as pressure or temperature \nvariations including operational changes and start-ups and shut-downs. \n \nThe following limitations on component types and applied loads are \nsatisfied:  \n\uf0d8 Level 1 Assessment \u2013 Type A Components subject to internal pressure \nor external pressure (that is, supplemental loads are assumed to be \nnegligible).  \n\uf0d8 Level 2 Assessment \u2013 Type A or B Components (see Part 4, paragraph \n4.2.5) subject to internal pressure, external pressure, supplemental \nloads (see Annex A, paragraph A.2.7), or any combination thereof. \n \n\uf076 Part 5 (Local Metal Loss)- \n \nSelect Level 1 and Level 2 if these five points are true. Otherwise select Level \n1 only or Level 2 only. \n \n\uf0d8 The original design criteria were in accordance with a recognized code \nor standard (see Part 1, paragraphs 1.2.2 or 1.2.3).  \n\uf0d8 The material is considered to have sufficient material toughness. If there \nis uncertainty regarding the material toughness, then a Part 3 \nassessment should be performed. If the component is subject to \nembrittlement during operation due to temperature or the process \nenvironment, a Level 3 assessment should be performed. Temperature \nor process conditions that result in material embrittlement are discussed \nin Annex G.  \n\uf0d8 The component is not in cyclic service. \n\uf0d8 The following limitations on component types and applied loads are \nsatisfied:  \no Level 1 Assessment \u2013 Type A Components subject to internal \npressure or external pressure (that is, supplemental loads are \nassumed to be negligible).  \no Level 2 Assessment \u2013 Type A or B Components (see Part 4, \nparagraph 4.2.5) subject to internal pressure, external pressure, \nsupplemental loads (see Annex A, paragraph A.2.7), or any \ncombination thereof. \n\uf0d8 A flaw characterized as a groove in accordance with paragraph 5.2.1.b \nhas a groove radius that satisfies the requirements in paragraph \n5.4.2.2.f.",
+            "images": []
+        },
+        {
+            "slide_number": 86,
+            "page_content": "Slide 86",
+            "text": "85 | P a g e  \n \n\uf076 Part 6 (Pitting)- \nSelect Level 1 and Level 2 if these six points are true. Otherwise select Level 1 \nonly or Level 2 only. \n\uf0d8 The original design criteria were in accordance with a recognized code \nor standard (see Part 1, paragraphs 1.2.2 or 1.2.3).  \n\uf0d8 The material is considered to have sufficient material toughness. If there \nis uncertainty regarding the material toughness, then a Part 3 \nassessment should be performed. If the component is subject to \nembrittlement during operation due to temperature and/or the process \nenvironment, a Level 3 assessment should be performed. Temperature \nand/or process conditions that result in material embrittlement are \ndiscussed in Annex G.  \n\uf0d8 The component is not in cyclic service \n\uf0d8 The following limitations on component types and applied loads are \nsatisfied:  \no Level 1 Assessment \u2013 Type A Components subject to internal \npressure or external pressure (that is, supplemental loads are \nassumed to be negligible).  \no Level 2 Assessment \u2013 Type A or B Components (see Part 4, \nparagraph 4.2.5) subject to internal pressure, external pressure, \nsupplemental loads (see Annex A, paragraph A.2.7), or any \ncombination thereof. \n \n\uf0d8 Additional requirements for Level 1 Assessments are:  \no The pitting damage is arrested.  \no The pitting damage is located on only one surface (either inside \nor outside) of the component.  \no The pitting damage is composed of many pits; individual pits or \nisolated pares of pits should be evaluated using the assessment \nprocedures in Part 5. \n \n\uf0d8 Additional requirements for Level 2 Assessments are:  \no The pitting damage is characterized by localized regions of \npitting, an LTA located in a region of widely scattered pitting, or \npitting that is confined within an LTA.  \no The pitting damage is located on either one surface or both \nsurfaces of the component and the pitting damage is not \noverlapping (see Figure 6.15)  \no The pitting damage is composed of many pits; individual pits or \nisolated pairs of pits should be evaluated as LTAs using the \nassessment procedures in Part 5. \n \nRemaining Strength Factor (RSFa) \nEnter the allowable remaining strength factor (RSFa). The recommended RSFa \nfor all major design codes per the 2007 edition of API 579 is 0.90. See Table 2.3.",
+            "images": []
+        },
+        {
+            "slide_number": 87,
+            "page_content": "Slide 87",
+            "text": "86 | P a g e  \n \nPoint Thickness Readings (Part 4 only) \nSelect this option to use point thickness readings in the assessment. This option \nis only available when Flaw Type is set to Part 4 (General Metal Loss). \nIf you select this option, you are confirming the assumption of uniform metal \nloss. Point thickness readings may be used to characterize the metal loss in a \ncomponent if there are no significant differences in the thickness reading values \nobtained at inspection monitoring locations. \nA minimum of 15 thickness readings should be used unless the level of NDE \nused can confirm that the metal loss is general. In some cases, additional readings \nmight be required based on the size of the component, the construction details used, \nand the nature of the environment resulting in the metal loss. A sample data sheet to \nrecord thickness readings is shown in Table 4.2. \nIf the Coefficient of Variation (COV) of the thickness readings is greater than \n10%, then thickness profiles shall be considered for use in the assessment (see \nparagraph 4.3.3.3). The COV is defined as the standard deviation divided by the \naverage. \n \nCritical Thickness Profile \nSelect this option to use thickness profiles to characterize the metal loss in a \ncomponent. You must use this option if there is a significant variation in the thickness \nreadings, which can indicate the metal loss might be localized. Thickness profiles \nshould be used to character the remaining thickness and size of the region of metal \nloss. \n \nPitting Data (Part 6 Only) \nSelect this option to consider pitting data. This option is only available when \nFlaw Type is set to Part 6 (Pitting). \n \n\uf0d8 Level 1 Assessment - The surface damage is measured in terms of \npitted area, and the maximum pit depth is used to quantify the extent of \npitting damage. You can use the standard pit charts (see Figures 6.3 to \n6.10) to compare the actual damage on the component to the damage \nrepresented on the pit chart. The pit chart and an estimate of the \nmaximum pit depth are used to determine acceptability. A cross \nsectional UT thickness scan can determine the pitting profile. Guidelines \nfor determining the maximum pit depth are in paragraph 6.3.4.1 of the \ncode.  \n\uf0d8 Level 2 Assessment - The surface damage is measured using a pit-\ncouple (two pits separated by a solid ligament, see Figure 6.11). The \nmetal loss of each pit in a pit-couple is modeled as an equivalent \ncylinder. The diameter and depth of each pit, and the distance between \nthe pit centers are also required. The orientation of the pit-couple in the \nbiaxial stress field can also be included in the assessment (see Figure \n6.11). The depth and diameter of a pit should be carefully measured \nbecause of the variety of pit types that can occur in service (see Figure \n6.12). If the pit has an irregular shape, a diameter and depth that \nencompasses the entire shape should be used in the assessment.",
+            "images": []
+        },
+        {
+            "slide_number": 88,
+            "page_content": "Slide 88",
+            "text": "87 | P a g e  \n \nMAWP Approach \nSelect this option to calculate the remaining life of Type A, B, and C components \nusing a systematic method. You must select this option for Type B and C components. \nThis approach also ensures that the design pressure is not exceeded during normal \noperation if the future corrosion rate is accurately established. \n \n \nFigure 40 API-579 Flaw/Damage Input/Analysis dialouge box",
+            "images": [
+                "slide_88_img_1.png"
+            ]
+        },
+        {
+            "slide_number": 89,
+            "page_content": "Slide 89",
+            "text": "88 | P a g e  \n \n4.3 \nUtility panel \n \nThis tool bar(panel) Provides miscellaneous edit commands for functions such \nas insert, delete, update, and flip to edit elements. The following commands are \navailable on the Utility panel on the Home tab. \n \n \n \n \n \n \nShare Information: \n \nIf your vessel has multiple elements and you need to copy element data from \none element to the other elements, use this command option.  \nSelect the element that has the data you want to share, and then click the \n(Share Information) icon. In the Data Share Dialog window, type the node number of \nthe starting element for which to copy data in from \"From Node\". Type the node \nnumber of the ending element for which to copy data in to \"From Node\". Click the \ncheck boxes for the data items you want to share, such as the diameter, thickness, \ncorrosion allowance, internal or external pressure, and material properties, and then \nclick OK. \nTo change nozzle data, select Change Nozzle Materials. The Select New \nNozzle and Nozzle Flange Material window displays. You can select a new nozzle, \npad, or flange material. You can also change the class or grade of a nozzle flange. To \nexclude any nozzles from being updated, click the box next to the nozzle in the",
+            "images": [
+                "slide_89_img_1.png",
+                "slide_89_img_2.jpeg"
+            ]
+        },
+        {
+            "slide_number": 90,
+            "page_content": "Slide 90",
+            "text": "89 | P a g e  \n \nExclude Nozzle list box. Click Update all Nozzles Now to apply the changes. Click \nExit to close the window without applying the changes. \n \n \nFlip Element Orientation: \n \nVessels are defined one element to the next (from bottom-to-top for vertical \nvessels and from left-to-right for horizontal vessels). If the vessel begins with a skirt \nelement, it is a vertical vessel. Vertical vessels on legs and horizontal vessels start \nwith a head element. If that first element is improperly oriented for the vessel that you \nwant to model, use this command to correct the orientation. \nAfter the second element is added, the vessel can no longer be flipped between \nhorizontal and vertical using this command. However, you can use this command later \nif heads, body flanges, or cone elements need to be flipped. To flip the entire model \nafter the second element has been added, use Flip Model Orientation on the Tools \ntab. \n \n \n \n \n4.4 \nAuxilliary panel \n \nThe following commands are available from the Auxiliary panel on the Home \ntab.",
+            "images": [
+                "slide_90_img_1.jpeg"
+            ]
+        },
+        {
+            "slide_number": 91,
+            "page_content": "Slide 91",
+            "text": "90 | P a g e  \n \n \n5. ANALYSIS \nOnce the modeling and designing is over, we need to analyse the model \n(equipment) to check status of the equipment. \nUsing the Analyze panel we can analyse the model. \nThe following commands are available on the Analyze panel on the Home tab.",
+            "images": [
+                "slide_91_img_1.png",
+                "slide_91_img_2.png"
+            ]
+        },
+        {
+            "slide_number": 92,
+            "page_content": "Slide 92",
+            "text": "91 | P a g e  \n \n \n \n \nAnalyze: \nHome tab: Analyze > Analyze \n \n \nAnalyzes the current model and creates the output files. Click reports in the \nReport List to see results of the analysis.  \n \nError Check Only: \n \nHome tab: Analyze > Error Check Only \n \nRuns only error checking on the model without running the analysis. Select \nWarnings and Errors in the Report List to see results of the error check. \n \nThe Input Processor makes many data consistency checks during the input \nsession. For example, the processor creates an error message if you try to specify a \nnozzle 20 feet from the bottom of a 10-foot shell element. However, not all data can \nbe confirmed on input so a general error processor is run prior to the analysis. \n \nAs with all engineering and designing, the vessel analyst must use common \nsense to insure the model is basically correct. This is a great advantage of the 3D \ngraphics as it reveals obvious errors. \n \n \n \nReview Reports: \n \nHome tab: Analyze > Review\n \n \nDisplays the results of your analysis and output that results to a Microsoft Word \nfile or an ASME Form using Microsoft Excel. \n \nDXF File Generated by PV Elite During Runtime: \n \nHome tab: Analyze > Review the DXF File \n \nOpens the DXF file using drawing software installed on your computer that \nsupports DXF files. If this command is available, the DXF file for this job was created \nduring the last run. Clicking this command submits the file to Windows, which in turn \nlaunches your drawing software. If the input is altered, the analysis must be run in \norder to generate a new DXF file.",
+            "images": [
+                "slide_92_img_1.png",
+                "slide_92_img_2.jpeg",
+                "slide_92_img_3.png"
+            ]
+        },
+        {
+            "slide_number": 93,
+            "page_content": "Slide 93",
+            "text": "92 | P a g e  \n \n6. CONCLUSION \nThis book gives some idea about the PV-Elite pressure vessel design software.",
+            "images": []
+        }
+    ]
+}

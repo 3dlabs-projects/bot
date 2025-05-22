@@ -1,0 +1,191 @@
+{
+    "course_name": "ANSYS",
+    "total_slides": 22,
+    "slides": [
+        {
+            "slide_number": 1,
+            "page_content": "Slide 1",
+            "text": "",
+            "images": [
+                "slide_1_img_1.jpeg"
+            ]
+        },
+        {
+            "slide_number": 2,
+            "page_content": "Slide 2",
+            "text": "",
+            "images": [
+                "slide_2_img_1.jpeg"
+            ]
+        },
+        {
+            "slide_number": 3,
+            "page_content": "Slide 3",
+            "text": "1. INTRODUCTION \n \n \n \nAnsys is basically an analysis software, which allows to analyse the CAD model of \nthe product before producing. It is used to test its strength and test of what would it behave in \nits environment. All types of analysis test Such as thermal, fatigue, structural, CFD etc\u2026 can \nbe conducted. It is basically a simulation software to visualize working model without actually \nmaking it in the real world. \n2. WHY SHOULD WE DO ANALYSIS \n  \nLet\u2019s consider you are manufacturing a product. In the first place you need to \nmanufacture some prototypes of the product and test it for all kinds of worse situation that could \nhappen to damage the product. In some cases, you need to conduct few tests to optimize the \nmaterial required, the design, the loads if any acting on the product, the natural frequency or its \ntemperature controlling mechanism, and many more. In order to know the every detail of your \nproduct you need to manufacture prototypes. This would eventually lead to increase the cost to \ncompany.       \n  \nIn that case, we use the analysis software\u2019s like ANSYS. ANSYS uses the certain inputs \nand evaluates the product behaviour in their environment. This would certainly reduce the cost \nof producing prototypes and mainly the time. In this competitive world the accuracy and time \nare the most deciding factors for the company or the organization to sustain. ANSYS helps in \nincreasing the accuracy and decreasing the time of outcome of the final product. ANSYS can \nimport all kinds of CAD geometries (3D and 2D) from different CAD software's and perform \nsimulations. ANSYS has inbuilt CAD developing software's like Design Modeler and Space \nClaim which makes the work flow even smoother. \n \n3. ELASTIC STRESS ANALYSIS METHOD \nHere, we going to study about the stress analysis of vessel. Stress                        \nanalysis is the determination of the relationship between external forces applied to a vessel and \nthe corresponding stresses. The starting place for stress analysis is to determine all the design \ncondition for a given problem and then determine all the related external forces. We must then \nrelate these external forces to the vessel parts which must resist them to find the corresponding \nstresses.",
+            "images": []
+        },
+        {
+            "slide_number": 4,
+            "page_content": "Slide 4",
+            "text": "Refer ASME_BPVC_VIII-2_2015 part-5 for design by analysis requirements. To \nevaluate protection against plastic collapse, the results from an elastic stress analysis of the \ncomponent subject to defined loading conditions are compared to an associated limiting value.  \n \n \n \n(1) A quantity known as the equivalent stress is computed at locations in the component \nand compared to an allowable value of equivalent stress to determine if the component is suitable \nfor the intended design conditions. The equivalent stress at a point in a component is a measure \nof stress, calculated from stress components utilizing a yield criterion, which is used for \ncomparison with the mechanical strength properties of the material obtained in tests under \nuniaxial load. \n(2) The maximum distortion energy yield criterion shall be used to establish the \nequivalent stress. In this case, the equivalent stress is equal to the von Mises equivalent stress \ngiven by equation below \n Se  = \u03c3e = \n1\n\u221a2 [(\u03c31 - \u03c32)2 +(\u03c32 \u2013 \u03c33)2+(\u03c33 \u2013 \u03c31)2]0.5 \n4.  STATIC STRUCTURAL ANALYSIS \nThe model consists of a IGES file. Here, our goal is to verify the model will function \nin its intended environment. Open the Ansys workbench and set the units in \u201cMetric (kg, mm, \ns, \u00b0c, mA, N, mV).",
+            "images": [
+                "slide_4_img_1.jpeg"
+            ]
+        },
+        {
+            "slide_number": 5,
+            "page_content": "Slide 5",
+            "text": "From the Toolbox, choose Static Structural system (drag/drop or double click).  \n \n \n \n  \n \nsteps in static structural analysis,  \n1. Engineering data \n2. Geometry \n3. Model \n4. Setup  \n5. Solution \n6. Results \n4.1. ENGINEERING DATA \n\uf0b7 In the static structural workspace, double click the engineering data.  \n\uf0b7 If you need to take the standard material which are already placed in the engineering \ndata. \n\uf0b7 Go to engineering data sources in the toolbar  \n \n\uf0b7 Then select type of material and what material that you needed and ADD it .",
+            "images": [
+                "slide_5_img_1.jpeg",
+                "slide_5_img_2.png"
+            ]
+        },
+        {
+            "slide_number": 6,
+            "page_content": "Slide 6",
+            "text": "\uf0b7 To return to the workspace, again click engineering data sources. \n\uf0b7 You can also add new material which are not present in the engineering data. \n\uf0b7 In the engineering data toolbar, click to add a new material and give the name for new \nmaterial (like SA 105N, SA 106 gr.B)",
+            "images": [
+                "slide_6_img_1.png",
+                "slide_6_img_2.png"
+            ]
+        },
+        {
+            "slide_number": 7,
+            "page_content": "Slide 7",
+            "text": "\uf0b7 In the toolbox, select physical properties and double \nclick the density. Then, select the linear elastic and \ndouble click the isotropic elasticity \n\uf0b7 In the properties of outline row. Give the value for each \nproperty to the corresponding units. \n\uf0b7 The values are taken from ASME_BPVC_IID-M_2015 \nfor the corresponding materials.  \n\uf0b7 Select UPDATE PROJECT for updating the data. \nThen, select RETURN TO PROJECT.  \n \n \n \n \n \n \n \n \n \n \n \n \n \n\uf0b7 Then, you will see the tick mark as shown in below figure. This Tick mark tells you that \nyou have updated the engineering data & question mark in Geometry, Model, and Setup \nindicates such data still needs to be updated.",
+            "images": [
+                "slide_7_img_1.png",
+                "slide_7_img_2.png",
+                "slide_7_img_3.png"
+            ]
+        },
+        {
+            "slide_number": 8,
+            "page_content": "Slide 8",
+            "text": "4.2. GEOMETRY \n\uf0b7 In the static structural, double click the geometry. A design modeller will open to draw \n(or) import the geometry. \n\uf0b7 To import the geometry, select the File                Import external geometry file. \n      \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n\uf0b7 Select the source file and then open it. \n\uf0b7 Select the generate option in the \nworkspace to generate the geometry. \n\uf0b7 Close the design modeller and save it. \n\uf0b7 Then, you will see the tick mark in the \ngeometry box.",
+            "images": [
+                "slide_8_img_1.png",
+                "slide_8_img_2.png"
+            ]
+        },
+        {
+            "slide_number": 9,
+            "page_content": "Slide 9",
+            "text": "4.3.MODEL \n\uf0b7 In the static structural, double click the model. A static structural - Mechanical will \nopen to analyse the model. \n\uf0b7 In the toolbar, select geometry and then give name for each parts.  \n \n \n \n \n \n \n \n \n \n \n \n\uf0b7 In the lowest part of the toolbar, select material option and then select corresponding \nmaterial instead of structural steel.",
+            "images": [
+                "slide_9_img_1.png",
+                "slide_9_img_2.png"
+            ]
+        },
+        {
+            "slide_number": 10,
+            "page_content": "Slide 10",
+            "text": "\uf0b7 Then, mesh the model automatically by update option in the toolbar. For accurate \nresults, Increase the nodes and elements of the model by Mesh sizing option. \n\uf0b7 Select the Mesh option               Insert               Sizing option.  \n \n \n\uf0b7 Select the body (or) face for meshing and then apply. \n\uf0b7 Provide a suitable value in element size instead of default value. \n \n \n \n \n \n \n \n\uf0b7 Meshing should be done appropriately to get the accurate results.",
+            "images": [
+                "slide_10_img_1.png",
+                "slide_10_img_2.png"
+            ]
+        },
+        {
+            "slide_number": 11,
+            "page_content": "Slide 11",
+            "text": "4.4. SETUP \n\uf0b7 Select the static structural and apply the boundary condition (like force, moment, \npressure, supports etc). \n\uf0b7 To assign a support, select the support in the toolbar and then select the appropriate \nsupport depending upon the requirements. \n \n \n \n \n  \n \n \n \n\uf0b7 After selecting the support, select the required \nface to be applied. \n\uf0b7 To apply pressure, select loads           pressure.     \n\uf0b7 In the pressure dialog box, select the required  \nface to be apply and give the value of pressure.   \n\uf0b7 To apply loads and moment, select  \nLoads          Force (or) moments. \n\uf0b7 In the force dialog box, select the required face \nto apply and provide the values in their \nrespective directions. \n\uf0b7 Likewise in the moment dialog box, select the \nrequired face to apply and provide the values in \ntheir respective directions.",
+            "images": [
+                "slide_11_img_1.png",
+                "slide_11_img_2.png",
+                "slide_11_img_3.png"
+            ]
+        },
+        {
+            "slide_number": 12,
+            "page_content": "Slide 12",
+            "text": "4.5. SOLUTION \n\uf0b7 Select the solution option and then select the required stress to be viewed. \n\uf0b7 For equivalent stresses, select stress in the toolbar and then select equivalent (von-Mises) \nstress.  \n\uf0b7 For other stresses, select stress          maximum shear (or) normal (or) maximum \nprincipal \n \n \n \n \n \n \n \n \n \n\uf0b7 If you need stress for a specified face (or) body, Select the appropriate face (or) body to \nview the required stress. \n\uf0b7 For total displacement, select deformation           total (or) directional. If you want \ndeformation for a specified face (or) body, Select the appropriate face (or) body to view \nthe required deformation.",
+            "images": [
+                "slide_12_img_1.png",
+                "slide_12_img_2.png"
+            ]
+        },
+        {
+            "slide_number": 13,
+            "page_content": "Slide 13",
+            "text": "\uf0b7 For safety factor, Solution           Stress tool          Max tensile stress. \n\uf0b7 You will get safety factor for your model in its intended environment. \n \n \n\uf0b7 Using the Solve command, we can run the analysis and the output results can be \nobtained.",
+            "images": [
+                "slide_13_img_1.png"
+            ]
+        },
+        {
+            "slide_number": 14,
+            "page_content": "Slide 14",
+            "text": "4.6. RESULTS \n\uf0b7 Here, the equivalent stress results shows the values of variation of equivalent stress \nacross the model. So that maximum and minimum equivalent stress can be determined. \n \n \n\uf0b7 Here, the total deformation results shows the value of variation of total deformation \nacross the model. So that max and min total deformation can be determined.",
+            "images": [
+                "slide_14_img_1.png",
+                "slide_14_img_2.png"
+            ]
+        },
+        {
+            "slide_number": 15,
+            "page_content": "Slide 15",
+            "text": "\uf0b7 Here, the safety factor results shows the value of safety factor. \n \n\uf0b7 We can also take the figure of the workspace by the figure command. \n \n \n\uf0b7 Compare the results of equivalent stress with the allowable stress. If the equivalent stress \nis within the allowable stress then the design is safe.  \n5. FATIGUE ANALYSIS \n \n \nThis analysis is used to determine the capability of the material to survive under the \nrepeated loading. While many parts may work well initially, they often fail in service due \nto fatigue failure caused by repeated cyclic loading. \n \n5.1. FATIGUE TOOL \nDetermines life, damage, and factor of safety information using a stress-life or strain-\nlife approach. The Fatigue Tool is available only for static structural and transient \nstructural analyses. Fatigue results can be added before or after a stress solution has been \nperformed. To create fatigue results, a fatigue tool must first be inserted into the tree. \nSteps involved in fatigue analysis.",
+            "images": [
+                "slide_15_img_1.png",
+                "slide_15_img_2.png"
+            ]
+        },
+        {
+            "slide_number": 16,
+            "page_content": "Slide 16",
+            "text": "\uf0b7 To insert the fatigue tool, select Solution           Insert           Fatigue          Fatigue tool. \n \n \n \n \n \n\uf0b7 A worksheet will open like the fig \nshown below. \n\uf0b7 In the fatigue dialog box, give the value \nas 1 for fatigue strength factor. \n\uf0b7 You can give loading type depending on \nthe requirements. Normally, we use \nfully reversed. \n \nTypes of loading \n\uf0fc Zero based \n\uf0fc Fully reversed \n\uf0fc Ratio \n\uf0fc History data \n\uf0fc Non-proportional loading \n \n\uf0b7 We can choose the analysis type as stress life (or) strain life. Stress life is concerned with \ntotal life and strain life is concerned with crack initiation.",
+            "images": [
+                "slide_16_img_1.png",
+                "slide_16_img_2.png"
+            ]
+        },
+        {
+            "slide_number": 17,
+            "page_content": "Slide 17",
+            "text": "\uf0b7 We can choose the mean stress theory depending upon the requirements. Types of mean \nstress theory for stress life analysis type \n \n\uf0fc S-N Curve \n\uf0fc Goodman \n\uf0fc Gerberg \n\uf0fc Soderberg \n\uf0b7 Types of mean stress theory for strain life analysis type \n\uf0fc None \n\uf0fc Marrow \n\uf0fc SWT(Smith-watson-topper) \n\uf0b7 Generally, we use the equivalent(von-Mises) as the stress component. \n \nUNITS NAME  \nThis field allows you to specify the name for the Life Units. The unit options include:",
+            "images": [
+                "slide_17_img_1.png"
+            ]
+        },
+        {
+            "slide_number": 18,
+            "page_content": "Slide 18",
+            "text": "\uf0b7 \ncycles  \n\uf0b7 \nblocks  \n\uf0b7 \nseconds  \n\uf0b7 \nminutes  \n\uf0b7 \nhours  \n\uf0b7 \ndays  \n\uf0b7 \nmonths  \n\uf0b7 \nUser Defined  \nUser Defined  \nSelecting the User Defined option displays the Custom Units Name field. Enter the \nname for your customized unit name in this field. The specified unit is reflected in the Details \nview for all applicable fatigue settings.  \n1 \u201cUNIT\u201d IS EQUAL TO  \nWhere \"unit\" is either cycle or block based on the Units Name selection. Modify the \nfield\u2019s value based on the desired number of cycles or blocks for the units.  \n \n \n5.2. SOLUTION \n\uf0b7 Select the solution option and then select Fatigue            Insert           Life to determine \nthe available life for the given fatigue analysis.",
+            "images": []
+        },
+        {
+            "slide_number": 19,
+            "page_content": "Slide 19",
+            "text": "\uf0b7 Similarly, for damage and safety factor. Select the solution option and select  \nFatigue            Insert           damage (or) safety factor to determine the available life for \nthe given fatigue analysis.  \n\uf0b7 Fatigue damage is defined as the ratio of design life to available life. \n\uf0b7 \nThe result is a contour plot of the safety of factor (FS) with respect to a fatigue failure at a given \ndesign life. Maximum FS reported is 15. \n \n5.3. RESULTS \n\uf0b7 Here, the results of life represent the number of cycles until the part will fail due to \nfatigue. Thus, if the given load history represents one month of loading and the life was \nfound to be 120, the expected model life would be 120 months.",
+            "images": [
+                "slide_19_img_1.png"
+            ]
+        },
+        {
+            "slide_number": 20,
+            "page_content": "Slide 20",
+            "text": "",
+            "images": [
+                "slide_20_img_1.png"
+            ]
+        },
+        {
+            "slide_number": 21,
+            "page_content": "Slide 21",
+            "text": "\uf0b7 Fatigue damage is defined as the ratio of design life to available life. The default \ndesign life may be set through the option dialog box. A damage of greater than 1 \nindicates that the part will fail before the design life due to fatigue.",
+            "images": [
+                "slide_21_img_1.png"
+            ]
+        },
+        {
+            "slide_number": 22,
+            "page_content": "Slide 22",
+            "text": "\uf0b7 Here, the safety factor results shows the value of safety factor for the given fatigue \nanalysis.",
+            "images": [
+                "slide_22_img_1.png"
+            ]
+        }
+    ]
+}

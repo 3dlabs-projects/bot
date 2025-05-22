@@ -1,0 +1,26 @@
+{
+    "john": "9876543210",
+    "alice": "9123456789",
+    "bob": "7000123456",
+    "6694915001": {
+        "username": "mohamed8545",
+        "phone": "9159978545",
+        "full_name": "Mohamed Afsal",
+        "qualification": "Msc CS",
+        "experience": "Fresher"
+    },
+    "8026174258": {
+        "username": "khader1204",
+        "phone": "9843511204",
+        "full_name": "Khader",
+        "qualification": "Engineering",
+        "experience": "Fresher"
+    },
+    "1429090115": {
+        "username": "thoufeeq3306",
+        "phone": "7305273306",
+        "full_name": "Thoufeeq",
+        "qualification": "B.ca",
+        "experience": "Freshers"
+    }
+}

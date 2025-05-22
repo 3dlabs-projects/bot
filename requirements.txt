@@ -1,3 +1,3 @@
 python-telegram-bot==20.0
 
-BOT_TOKEN = '7910184229:AAFAVUchZ4NwgWpqFYNtZHEL6Da14FtFkxY'
+

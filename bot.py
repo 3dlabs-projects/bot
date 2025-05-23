@@ -1,7 +1,6 @@
-
 import os
 import json
-import fitz  
+import fitz  # PyMuPDF
 from telegram import Update
 from telegram.constants import ParseMode
 from telegram.ext import (
@@ -12,18 +11,23 @@ from telegram.ext import (
     MessageHandler,
     filters,
 )
-from transformers import pipeline
+import logging
+import datetime
 
-# 🔐 Replace with your actual Telegram ID (as the bot owner)
+# Configure logging
+logging.basicConfig(
+    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
+    level=logging.INFO
+)
+logger = logging.getLogger(__name__)
+
+# 🔐 Bot configuration
 OWNER_ID = 6694915001
-BOT_TOKEN = '7910184229:AAFAVUchZ4NwgWpqFYNtZHEL6Da14FtFkxY'
-quiz_generator = pipeline('text2text-generation', model='google/flan-t5-small')
+BOT_TOKEN = os.getenv('BOT_TOKEN', '7910184229:AAFAVUchZ4NwgWpqFYNtZHEL6Da14FtFkxY')
 
-# Conversation states for registration
+# Conversation states
 FULL_NAME, QUALIFICATION, EXPERIENCE, PHONE_NUMBER = range(4)
-# Conversation states for question upload
 UPLOAD_QUESTION, UPLOAD_OPTION_A, UPLOAD_OPTION_B, UPLOAD_OPTION_C, UPLOAD_OPTION_D, UPLOAD_CORRECT_ANSWER = range(6)
-# Conversation states for MCQ answering
 ANSWER_Q1, ANSWER_Q2, ANSWER_Q3, ANSWER_Q4, ANSWER_Q5 = range(10, 15)
 
 # Global stores
@@ -31,43 +35,62 @@ user_progress = {}
 authenticated_users = set()
 user_data = {}
 pending_approvals = {}
-question_data = {}  # Temporary storage for question upload
+question_data = {}
 
 def load_user_progress():
     global user_progress
     if os.path.exists("user_data.json"):
-        with open("user_data.json", "r", encoding="utf-8") as f:
-            user_progress = json.load(f)
+        try:
+            with open("user_data.json", "r", encoding="utf-8") as f:
+                user_progress = json.load(f)
+        except Exception as e:
+            logger.error(f"Error loading user progress: {e}")
 
 def load_users():
     if os.path.exists("users.json"):
-        with open("users.json", "r", encoding="utf-8") as f:
-            return json.load(f)
+        try:
+            with open("users.json", "r", encoding="utf-8") as f:
+                return json.load(f)
+        except Exception as e:
+            logger.error(f"Error loading users: {e}")
     return {}
 
 def save_user_progress():
-    with open("user_data.json", "w", encoding="utf-8") as f:
-        json.dump(user_progress, f, indent=4)
+    try:
+        with open("user_data.json", "w", encoding="utf-8") as f:
+            json.dump(user_progress, f, indent=4)
+    except Exception as e:
+        logger.error(f"Error saving user progress: {e}")
 
 def save_users(users):
-    with open("users.json", "w", encoding="utf-8") as f:
-        json.dump(users, f, indent=4)
+    try:
+        with open("users.json", "w", encoding="utf-8") as f:
+            json.dump(users, f, indent=4)
+    except Exception as e:
+        logger.error(f"Error saving users: {e}")
 
 def load_questions(course_name):
     course_dir = os.path.join("courses", course_name)
     questions_path = os.path.join(course_dir, "questions.json")
     if os.path.exists(questions_path):
-        with open(questions_path, "r", encoding="utf-8") as f:
-            return json.load(f)
+        try:
+            with open(questions_path, "r", encoding="utf-8") as f:
+                return json.load(f)
+        except Exception as e:
+            logger.error(f"Error loading questions: {e}")
     return {"questions": []}
 
 def save_questions(course_name, questions):
     course_dir = os.path.join("courses", course_name)
     os.makedirs(course_dir, exist_ok=True)
-    with open(os.path.join(course_dir, "questions.json"), "w", encoding="utf-8") as f:
-        json.dump(questions, f, indent=4)
+    try:
+        with open(os.path.join(course_dir, "questions.json"), "w", encoding="utf-8") as f:
+            json.dump(questions, f, indent=4)
+    except Exception as e:
+        logger.error(f"Error saving questions: {e}")
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    logger.info(f"User {update.effective_user.id} started bot")
     await update.message.reply_text(
         "👋 Welcome to the Learning Bot!\n\n"
         "If you're new, please register with /register\n"
@@ -140,7 +163,6 @@ async def cancel(update: Update, context: ContextTypes.DEFAULT_TYPE):
         del user_data[user_id]
     if user_id in question_data:
         del question_data[user_id]
-    # Clear quiz state if exists
     if user_id in user_progress and "quiz_answers" in user_progress[user_id]:
         del user_progress[user_id]["quiz_answers"]
         del user_progress[user_id]["current_question_index"]
@@ -165,7 +187,8 @@ async def login(update: Update, context: ContextTypes.DEFAULT_TYPE):
         await update.message.reply_text("❌ Invalid username or phone number.")
 
 async def list_courses(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    if str(update.message.from_user.id) not in authenticated_users:
+    user_id = str(update.message.from_user.id)
+    if user_id not in authenticated_users:
         await update.message.reply_text("🔐 Please login first using /login")
         return
 
@@ -181,7 +204,6 @@ async def list_courses(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 async def start_course(update: Update, context: ContextTypes.DEFAULT_TYPE):
     user_id = str(update.message.from_user.id)
-
     if user_id not in authenticated_users:
         await update.message.reply_text("🔐 Please login first using /login")
         return
@@ -204,7 +226,7 @@ async def start_course(update: Update, context: ContextTypes.DEFAULT_TYPE):
         course_name in user_progress[user_id]["approved_courses"]):
         user_progress[user_id]["current_course"] = course_name
         user_progress[user_id]["slide_index"] = -1
-        user_progress[user_id]["current_slide_group"] = 0  # Initialize slide group
+        user_progress[user_id]["current_slide_group"] = 0
         save_user_progress()
         await update.message.reply_text(f"✅ Starting course: {course_name}\nUse /next to begin.")
         return
@@ -230,13 +252,11 @@ async def approve(update: Update, context: ContextTypes.DEFAULT_TYPE):
         return
 
     user_id = context.args[0]
-
     if user_id not in user_progress or "pending_course" not in user_progress[user_id]:
         await update.message.reply_text("⚠️ No pending course request found for this user.")
         return
 
     course = user_progress[user_id].pop("pending_course")
-
     if "approved_courses" not in user_progress[user_id]:
         user_progress[user_id]["approved_courses"] = []
     if course not in user_progress[user_id]["approved_courses"]:
@@ -276,7 +296,6 @@ async def reject(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 async def next_slide(update: Update, context: ContextTypes.DEFAULT_TYPE):
     user_id = str(update.message.from_user.id)
-
     if user_id not in authenticated_users:
         await update.message.reply_text("🔐 Please login first using /login")
         return
@@ -303,17 +322,12 @@ async def next_slide(update: Update, context: ContextTypes.DEFAULT_TYPE):
         await update.message.reply_text(f"❌ Error loading course: {str(e)}")
         return
 
-    # Increment slide index
     user_progress[user_id]["slide_index"] += 1
     current_index = user_progress[user_id]["slide_index"]
-    # Calculate current slide group (0-based: slides 0-4 are group 0, 5-9 are group 1, etc.)
     current_slide_group = (current_index // 5)
-
-    # Update slide group in user_progress
     user_progress[user_id]["current_slide_group"] = current_slide_group
     save_user_progress()
 
-    # Check if all slides are completed
     if current_index >= len(course_data["slides"]):
         await update.message.reply_text("🎉 You've completed this course!")
         del user_progress[user_id]["current_course"]
@@ -326,15 +340,12 @@ async def next_slide(update: Update, context: ContextTypes.DEFAULT_TYPE):
         save_user_progress()
         return
 
-    # Check if 5 slides have been viewed (indices 4, 9, 14, etc.)
     if (current_index + 1) % 5 == 0 and questions["questions"]:
-        # Calculate required question indices (e.g., group 0: questions 0-4, group 1: questions 5-9)
         start_question_index = current_slide_group * 5
         end_question_index = start_question_index + 5
         if len(questions["questions"]) < end_question_index:
             await update.message.reply_text("⚠️ Not enough questions available for this quiz. Contact admin.")
             return
-        # Initialize quiz state
         user_progress[user_id]["quiz_answers"] = []
         user_progress[user_id]["current_question_index"] = 0
         user_progress[user_id]["start_question_index"] = start_question_index
@@ -384,13 +395,12 @@ async def send_slide(update: Update, slide: dict, course_name: str):
                     await update.message.reply_text(f"⚠️ Error sending image: {str(e)}")
             else:
                 await update.message.reply_text(f"⚠️ Image {image_file} not found.")
-
     except Exception as e:
+        logger.error(f"Error sending slide: {e}")
         await update.message.reply_text(
             "📄 Here's the slide content (formatting simplified due to error):\n\n" + 
             slide.get('text', 'No content available')
         )
-        print(f"Error sending slide: {str(e)}")
 
 async def send_question(update: Update, context: ContextTypes.DEFAULT_TYPE, course_name: str, question: dict):
     response = f"❓ {question['question']}\n"
@@ -422,18 +432,16 @@ async def handle_answer(update: Update, context: ContextTypes.DEFAULT_TYPE, ques
 
     if answer not in ['A', 'B', 'C', 'D']:
         await update.message.reply_text("⚠️ Invalid answer. Please enter A, B, C, or D:")
-        return question_index + 10  # Return to the same state
+        return question_index + 10
 
     course_name = user_progress[user_id]["current_course"]
     questions = load_questions(course_name)
     start_question_index = user_progress[user_id]["start_question_index"]
 
-    # Store the answer
     user_progress[user_id]["quiz_answers"].append(answer)
     user_progress[user_id]["current_question_index"] = question_index + 1
     save_user_progress()
 
-    # If this is the last question, validate all answers
     if question_index == 4:
         correct = True
         for i, ans in enumerate(user_progress[user_id]["quiz_answers"]):
@@ -456,7 +464,6 @@ async def handle_answer(update: Update, context: ContextTypes.DEFAULT_TYPE, ques
             await send_question(update, context, course_name, questions["questions"][start_question_index])
             return ANSWER_Q1
 
-    # Send the next question
     await send_question(update, context, course_name, questions["questions"][start_question_index + question_index + 1])
     return next_state
 
@@ -481,32 +488,38 @@ async def handle_pdf_upload(update: Update, context: ContextTypes.DEFAULT_TYPE):
     os.makedirs(course_dir, exist_ok=True)
 
     slides = []
-    pdf_reader = fitz.open(file_path)
-    for page_num in range(len(pdf_reader)):
-        page = pdf_reader[page_num]
-        text = page.get_text("text")
+    try:
+        pdf_reader = fitz.open(file_path)
+        for page_num in range(len(pdf_reader)):
+            page = pdf_reader[page_num]
+            text = page.get_text("text")
 
-        images = []
-        image_list = page.get_images(full=True)
-        for img_index, img in enumerate(image_list):
-            xref = img[0]
-            base_image = pdf_reader.extract_image(xref)
-            image_bytes = base_image["image"]
-            image_ext = base_image["ext"]
-            image_filename = f"slide_{page_num+1}_img_{img_index+1}.{image_ext}"
+            images = []
+            image_list = page.get_images(full=True)
+            for img_index, img in enumerate(image_list):
+                xref = img[0]
+                base_image = pdf_reader.extract_image(xref)
+                image_bytes = base_image["image"]
+                image_ext = base_image["ext"]
+                image_filename = f"slide_{page_num+1}_img_{img_index+1}.{image_ext}"
 
-            image_path = os.path.join(course_dir, image_filename)
-            with open(image_path, "wb") as img_file:
-                img_file.write(image_bytes)
-            
-            images.append(image_filename)
+                image_path = os.path.join(course_dir, image_filename)
+                with open(image_path, "wb") as img_file:
+                    img_file.write(image_bytes)
+                
+                images.append(image_filename)
 
-        slides.append({
-            "slide_number": page_num + 1,
-            "page_content": f"Slide {page_num + 1}",
-            "text": text.strip(),
-            "images": images
-        })
+            slides.append({
+                "slide_number": page_num + 1,
+                "page_content": f"Slide {page_num + 1}",
+                "text": text.strip(),
+                "images": images
+            })
+        pdf_reader.close()
+    except Exception as e:
+        logger.error(f"Error processing PDF: {e}")
+        await update.message.reply_text(f"⚠️ Error processing PDF: {str(e)}")
+        return
 
     course_json = {
         "course_name": course_name,
@@ -514,52 +527,15 @@ async def handle_pdf_upload(update: Update, context: ContextTypes.DEFAULT_TYPE):
         "slides": slides
     }
 
-    with open(os.path.join(course_dir, "slides.json"), "w", encoding="utf-8") as f:
-        json.dump(course_json, f, indent=4)
+    try:
+        with open(os.path.join(course_dir, "slides.json"), "w", encoding="utf-8") as f:
+            json.dump(course_json, f, indent=4)
+    except Exception as e:
+        logger.error(f"Error saving slides: {e}")
+        await update.message.reply_text(f"⚠️ Error saving course data: {str(e)}")
+        return
 
     await update.message.reply_text(f"✅ PDF processed successfully! Course '{course_name}' created.")
-
-async def generate_tests(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    if update.message.from_user.id != OWNER_ID:
-        await update.message.reply_text("🚫 You are not authorized to generate tests.")
-        return
-
-    if not context.args:
-        await update.message.reply_text("⚠️ Usage: /generate_tests <course_name>")
-        return
-
-    course_name = " ".join(context.args)
-    course_dir = os.path.join("courses", course_name)
-    slides_path = os.path.join(course_dir, "slides.json")
-
-    if not os.path.exists(slides_path):
-        await update.message.reply_text(f"❌ Course '{course_name}' not found.")
-        return
-
-    await update.message.reply_text("🤖 Generating quizzes and technical tests... Please wait.")
-
-    try:
-        with open(slides_path, "r", encoding="utf-8") as f:
-            course_data = json.load(f)
-
-        all_text = "\n".join(slide["text"] for slide in course_data["slides"])
-
-        quiz_prompt = f"Create 10 multiple choice questions with 4 options each based on:\n\n{all_text}\nMake them educational and relevant to the content."
-        quiz_output = quiz_generator(quiz_prompt, max_length=1000, num_return_sequences=1)
-        mcq_text = quiz_output[0]['generated_text']
-
-        tech_prompt = f"Create 3 technical test questions with short answers based on:\n\n{all_text}\nMake them simple and technical."
-        tech_output = quiz_generator(tech_prompt, max_length=400, num_return_sequences=1)
-        tech_text = tech_output[0]['generated_text']
-
-        with open(os.path.join(course_dir, "questions.txt"), "w", encoding="utf-8") as f:
-            f.write(mcq_text)
-        with open(os.path.join(course_dir, "technical_tests.txt"), "w", encoding="utf-8") as f:
-            f.write(tech_text)
-
-        await update.message.reply_text(f"✅ Quiz and Technical Tests generated for '{course_name}'!")
-    except Exception as e:
-        await update.message.reply_text(f"⚠️ Error during generation: {str(e)}")
 
 async def start_question_upload(update: Update, context: ContextTypes.DEFAULT_TYPE):
     if update.message.from_user.id != OWNER_ID:
@@ -695,8 +671,23 @@ async def view_questions(update: Update, context: ContextTypes.DEFAULT_TYPE):
     else:
         await update.message.reply_text(response)
 
+async def daily_reminder(context: ContextTypes.DEFAULT_TYPE):
+    chat_id = context.job.context
+    logger.info(f"Sending daily reminder to chat {chat_id}")
+    await context.bot.send_message(
+        chat_id=chat_id,
+        text="📚 Reminder: Continue your learning today! Use /courses to view available courses."
+    )
+
+async def error_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    logger.error(f"Update {update} caused error {context.error}")
+
 def main():
     load_user_progress()
+    if not BOT_TOKEN:
+        logger.error("BOT_TOKEN environment variable not set")
+        return
+
     app = ApplicationBuilder().token(BOT_TOKEN).build()
 
     reg_handler = ConversationHandler(
@@ -744,14 +735,20 @@ def main():
     app.add_handler(CommandHandler("start_course", start_course))
     app.add_handler(CommandHandler("next", next_slide))
     app.add_handler(MessageHandler(filters.Document.PDF, handle_pdf_upload))
-    app.add_handler(CommandHandler("generate_tests", generate_tests))
+    app.add_handler(CommandHandler("view_questions", view_questions))
     app.add_handler(CommandHandler("approve", approve))
     app.add_handler(CommandHandler("reject", reject))
-    app.add_handler(CommandHandler("view_questions", view_questions))
+    app.add_handler(CommandHandler("error", error_handler))
 
-    app.add_error_handler(lambda update, context: print(f"Update {update} caused error {context.error}"))
+    # Schedule daily reminder at 10:00 AM IST (4:30 AM UTC)
+    app.job_queue.run_daily(
+        daily_reminder,
+        time=datetime.time(hour=4, minute=30, second=0),
+        days=(0, 1, 2, 3, 4, 5, 6),
+        context=str(OWNER_ID)  # Send to owner; adjust as needed
+    )
 
-    print("🤖 Bot is running...")
+    logger.info("Bot is starting...")
     app.run_polling()
 
 if __name__ == "__main__":

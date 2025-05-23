@@ -672,24 +672,54 @@ async def view_questions(update: Update, context: ContextTypes.DEFAULT_TYPE):
         await update.message.reply_text(response)
 
 async def daily_reminder(context: ContextTypes.DEFAULT_TYPE):
-    chat_id = context.job.context
-    logger.info(f"Sending daily reminder to chat {chat_id}")
-    await context.bot.send_message(
-        chat_id=chat_id,
-        text="📚 Reminder: Continue your learning today! Use /courses to view available courses."
-    )
+    """Send daily reminder to users"""
+    try:
+        chat_id = context.job.data  # Changed from context.job.context
+        logger.info(f"Sending daily reminder to {chat_id}")
+        await context.bot.send_message(
+            chat_id=chat_id,
+            text="📚 Daily reminder: Don't forget to study today! Use /courses to continue learning."
+        )
+    except Exception as e:
+        logger.error(f"Error in daily reminder: {e}")
 
-async def error_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
+async def error_handler(update: object, context: ContextTypes.DEFAULT_TYPE) -> None:
+    """Log errors and notify admin"""
     logger.error(f"Update {update} caused error {context.error}")
+    
+    if OWNER_ID:
+        tb_list = traceback.format_exception(None, context.error, context.error.__traceback__)
+        tb_string = "".join(tb_list)
+        
+        update_str = update.to_dict() if isinstance(update, Update) else str(update)
+        message = (
+            f"An exception was raised while handling an update\n"
+            f"<pre>update = {html.escape(json.dumps(update_str, indent=2, ensure_ascii=False))}"
+            "</pre>\n\n"
+            f"<pre>context.chat_data = {html.escape(str(context.chat_data))}</pre>\n\n"
+            f"<pre>context.user_data = {html.escape(str(context.user_data))}</pre>\n\n"
+            f"<pre>{html.escape(tb_string))}</pre>"
+        )
+        
+        try:
+            await context.bot.send_message(
+                chat_id=OWNER_ID,
+                text=message,
+                parse_mode=ParseMode.HTML
+            )
+        except Exception as e:
+            logger.error(f"Couldn't send error message to admin: {e}")
 
 def main():
     load_user_progress()
+    
     if not BOT_TOKEN:
-        logger.error("BOT_TOKEN environment variable not set")
+        logger.error("No BOT_TOKEN provided")
         return
 
-    app = ApplicationBuilder().token(BOT_TOKEN).build()
+    application = ApplicationBuilder().token(BOT_TOKEN).build()
 
+    # Register handlers
     reg_handler = ConversationHandler(
         entry_points=[CommandHandler("register", register)],
         states={
@@ -726,23 +756,36 @@ def main():
         fallbacks=[CommandHandler("cancel", cancel)]
     )
 
-    app.add_handler(CommandHandler("start", start))
-    app.add_handler(reg_handler)
-    app.add_handler(question_conv_handler)
-    app.add_handler(quiz_handler)
-    app.add_handler(CommandHandler("login", login))
-    app.add_handler(CommandHandler("courses", list_courses))
-    app.add_handler(CommandHandler("start_course", start_course))
-    app.add_handler(CommandHandler("next", next_slide))
-    app.add_handler(MessageHandler(filters.Document.PDF, handle_pdf_upload))
-    app.add_handler(CommandHandler("view_questions", view_questions))
-    app.add_handler(CommandHandler("approve", approve))
-    app.add_handler(CommandHandler("reject", reject))
-    app.add_handler(CommandHandler("error", error_handler))
+    # Add all handlers
+    application.add_handler(CommandHandler("start", start))
+    application.add_handler(reg_handler)
+    application.add_handler(question_conv_handler)
+    application.add_handler(quiz_handler)
+    application.add_handler(CommandHandler("login", login))
+    application.add_handler(CommandHandler("courses", list_courses))
+    application.add_handler(CommandHandler("start_course", start_course))
+    application.add_handler(CommandHandler("next", next_slide))
+    application.add_handler(MessageHandler(filters.Document.PDF, handle_pdf_upload))
+    application.add_handler(CommandHandler("view_questions", view_questions))
+    application.add_handler(CommandHandler("approve", approve))
+    application.add_handler(CommandHandler("reject", reject))
+    
+    # Add error handler
+    application.add_error_handler(error_handler)
 
+    # Schedule daily reminders (corrected version)
+    job_queue = application.job_queue
+    if job_queue:
+        job_queue.run_daily(
+            callback=daily_reminder,
+            time=datetime.time(hour=9, minute=0),  # 9 AM
+            days=(0, 1, 2, 3, 4, 5, 6),  # Every day
+            data=OWNER_ID,  # Changed from context=
+            name="daily_reminder"
+        )
 
     logger.info("Bot is starting...")
-    app.run_polling()
+    application.run_polling(allowed_updates=Update.ALL_TYPES)
 
 if __name__ == "__main__":
     main()

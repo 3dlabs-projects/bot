@@ -740,12 +740,6 @@ def main():
     app.add_handler(CommandHandler("reject", reject))
     app.add_handler(CommandHandler("error", error_handler))
 
-    # Schedule daily reminder at 10:00 AM IST (4:30 AM UTC)
-    app.job_queue.run_daily(
-    callback=your_daily_task,
-    time=datetime.time(hour=12, minute=0),
-    data=some_context_data  # Note: 'data' instead of 'context'
-)
 
     logger.info("Bot is starting...")
     app.run_polling()

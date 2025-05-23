@@ -1,7 +1,7 @@
 
 import os
 import json
-import fitz  # PyMuPDF
+import fitz  
 from telegram import Update
 from telegram.constants import ParseMode
 from telegram.ext import (

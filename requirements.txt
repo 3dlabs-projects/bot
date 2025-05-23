@@ -1,5 +1,9 @@
 python-telegram-bot==20.0
 PyMuPDF
+PyMuPDF
+transformers
+torch
+sentencepiece  
 
 
 

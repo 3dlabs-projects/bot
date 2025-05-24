@@ -1,5 +1,8 @@
 from flask import Flask
 import threading
+from threading import Thread
+import time
+import requests
 import traceback
 import html
 import os
@@ -712,16 +715,29 @@ async def error_handler(update: object, context: ContextTypes.DEFAULT_TYPE) -> N
             )
         except Exception as e:
             logger.error(f"Couldn't send error message to admin: {e}")
-def run_flask_server():
-    """Run a simple Flask server to keep the Render service alive"""
-    server = Flask(__name__)
+def run_flask_app():
+    app = Flask(__name__)
     
-    @server.route('/')
+    @app.route('/')
     def home():
-        return "Telegram Bot is running", 200
-    
+        return "Bot is running", 200
+        
+    @app.route('/ping')
+    def ping():
+        return "pong", 200  # Required for keep-alive
+        
     port = int(os.environ.get("PORT", 5000))
-    server.run(host="0.0.0.0", port=port)
+    app.run(host='0.0.0.0', port=port)
+ def keep_alive():
+    """Pings the Flask server every 10 minutes to prevent shutdown"""
+    while True:
+        try:
+            # Ping your own Render URL
+            requests.get(f"https://{os.environ.get('RENDER_EXTERNAL_URL')}/ping")
+            time.sleep(600)  # Ping every 10 minutes
+        except Exception as e:
+            logger.error(f"Keep-alive ping failed: {e}")
+            time.sleep(60)  # Retry after 1 minute if failed
 
 def main():
     load_user_progress()
@@ -731,9 +747,15 @@ def main():
         return
 
     application = ApplicationBuilder().token(BOT_TOKEN).build()
+      # Start Flask server in a non-daemon thread (essential for Render)
     flask_thread = threading.Thread(target=run_flask_server)
-    flask_thread.daemon = True
+    flask_thread.daemon = False  # Must be False to keep alive
     flask_thread.start()
+
+    # Start keep-alive pinger
+    keepalive_thread = threading.Thread(target=keep_alive)
+    keepalive_thread.daemon = True
+    keepalive_thread.start()
 
     # Register handlers
     reg_handler = ConversationHandler(

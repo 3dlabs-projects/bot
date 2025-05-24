@@ -1,3 +1,7 @@
+from flask import Flask
+import threading
+import traceback
+import html
 import os
 import json
 import fitz  # PyMuPDF
@@ -708,6 +712,16 @@ async def error_handler(update: object, context: ContextTypes.DEFAULT_TYPE) -> N
             )
         except Exception as e:
             logger.error(f"Couldn't send error message to admin: {e}")
+def run_flask_server():
+    """Run a simple Flask server to keep the Render service alive"""
+    server = Flask(__name__)
+    
+    @server.route('/')
+    def home():
+        return "Telegram Bot is running", 200
+    
+    port = int(os.environ.get("PORT", 5000))
+    server.run(host="0.0.0.0", port=port)
 
 def main():
     load_user_progress()

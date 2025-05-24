@@ -731,6 +731,9 @@ def main():
         return
 
     application = ApplicationBuilder().token(BOT_TOKEN).build()
+    flask_thread = threading.Thread(target=run_flask_server)
+    flask_thread.daemon = True
+    flask_thread.start()
 
     # Register handlers
     reg_handler = ConversationHandler(

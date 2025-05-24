@@ -728,7 +728,7 @@ def run_flask_app():
         
     port = int(os.environ.get("PORT", 5000))
     app.run(host='0.0.0.0', port=port)
- def keep_alive():
+def keep_alive():
     """Pings the Flask server every 10 minutes to prevent shutdown"""
     while True:
         try:

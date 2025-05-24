@@ -3,8 +3,7 @@ PyMuPDF==1.24.10
 transformers==4.30.2
 torch==2.0.1
 sentencepiece==0.1.99
-numpy==1.26.4  # More specific pinning
+numpy<2.0.0  # Explicitly pin to avoid NumPy 2.x issues
 huggingface-hub==0.19.4
 accelerate==0.20.3
-protobuf==3.20.3
-Flask==2.3.2  # If using web server workaround
+protobuf==3.20.3  # Often needed for transformers

@@ -732,15 +732,15 @@ def run_flask_server():
     app.run(host='0.0.0.0', port=port, debug=False, use_reloader=False)
 
 def keep_alive():
-    """Pings the Flask server periodically to prevent shutdown"""
     while True:
         try:
             if 'RENDER_EXTERNAL_URL' in os.environ:
-                requests.get(f"https://{os.environ['RENDER_EXTERNAL_URL']}/ping")
-            time.sleep(300)  # Ping every 5 minutes
+                url = f"https://{os.environ['RENDER_EXTERNAL_URL'].replace('https://', '')}/ping"
+                requests.get(url, timeout=10)  # Add timeout
+            time.sleep(300)  # Ping every 5 minutes (free tier allows this)
         except Exception as e:
-            logger.error(f"Keep-alive ping failed: {e}")
-            time.sleep(60)  # Retry after 1 minute
+            logger.error(f"Keep-alive failed: {e}")
+            time.sleep(60)  # Retry sooner on failure
 
 def main():
     load_user_progress()

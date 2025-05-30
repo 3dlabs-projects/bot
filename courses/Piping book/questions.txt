@@ -1,1 +1,260 @@
-What is the name of the drawing that should be used in reference drawing?
+```json
+{
+  "questions": [
+    // Pages 1–5: Introduction to ANSYS
+    {
+      "question": "What is the primary function of ANSYS software?",
+      "options": {
+        "A": "Creating architectural blueprints",
+        "B": "Simulating and analyzing engineering designs",
+        "C": "Managing project budgets",
+        "D": "Editing video content"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "question": "Which industry commonly uses ANSYS for product development?",
+      "options": {
+        "A": "Fashion design",
+        "B": "Aerospace engineering",
+        "C": "Graphic arts",
+        "D": "Culinary arts"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "question": "What is a key benefit of using ANSYS for simulations?",
+      "options": {
+        "A": "Increasing physical testing requirements",
+        "B": "Reducing prototype development time",
+        "C": "Simplifying payroll systems",
+        "D": "Enhancing social media campaigns"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "question": "Which standard is often referenced for ANSYS structural analysis?",
+      "options": {
+        "A": "ISO 9001",
+        "B": "ASME BPVC VIII-2",
+        "C": "IEEE 802.11",
+        "D": "ASTM D638"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "question": "What does ANSYS enable engineers to predict?",
+      "options": {
+        "A": "Market trends",
+        "B": "Material behavior under loads",
+        "C": "Employee performance",
+        "D": "Weather patterns"
+      },
+      "correct_answer": "B"
+    },
+    // Pages 6–10: Setting up Static Structural Analysis
+    {
+      "question": "What is the initial step in ANSYS Workbench for static analysis?",
+      "options": {
+        "A": "Defining boundary conditions",
+        "B": "Setting up engineering data",
+        "C": "Generating the mesh",
+        "D": "Solving the model"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "question": "Where do you define material properties in ANSYS?",
+      "options": {
+        "A": "Geometry module",
+        "B": "Engineering Data workspace",
+        "C": "Mesh settings",
+        "D": "Solution output"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "question": "How can a custom material be added in ANSYS?",
+      "options": {
+        "A": "Modify the CAD file",
+        "B": "Use 'New Material' in Engineering Data",
+        "C": "Adjust solver settings",
+        "D": "Import a mesh file"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "question": "What properties are required for a linear elastic material?",
+      "options": {
+        "A": "Young’s Modulus and Poisson’s Ratio",
+        "B": "Thermal conductivity and emissivity",
+        "C": "Viscosity and density",
+        "D": "Electrical conductivity and permittivity"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "question": "What does a checkmark in ANSYS Workbench indicate?",
+      "options": {
+        "A": "An error in the step",
+        "B": "Step is successfully completed",
+        "C": "Step is in progress",
+        "D": "Step is optional"
+      },
+      "correct_answer": "B"
+    },
+    // Pages 11–15: Meshing and Boundary Conditions
+    {
+      "question": "What is the purpose of meshing in ANSYS?",
+      "options": {
+        "A": "Applying loads",
+        "B": "Dividing geometry into finite elements",
+        "C": "Visualizing results",
+        "D": "Exporting CAD models"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "question": "How do you improve mesh quality in specific regions?",
+      "options": {
+        "A": "Increase material density",
+        "B": "Use mesh sizing controls",
+        "C": "Apply fixed supports",
+        "D": "Change result units"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "question": "What does a 'Fixed Support' boundary condition do?",
+      "options": {
+        "A": "Allows rotation only",
+        "B": "Constrains all degrees of freedom",
+        "C": "Applies a pressure load",
+        "D": "Refines the mesh"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "question": "Which load simulates internal pressure in a pipe?",
+      "options": {
+        "A": "Force",
+        "B": "Pressure",
+        "C": "Moment",
+        "D": "Temperature"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "question": "Where do you import CAD geometry in ANSYS?",
+      "options": {
+        "A": "Mesh module",
+        "B": "Geometry module",
+        "C": "Solution module",
+        "D": "Results module"
+      },
+      "correct_answer": "B"
+    },
+    // Pages 16–20: Solution Results
+    {
+      "question": "Which result helps assess material yielding?",
+      "options": {
+        "A": "Total deformation",
+        "B": "von Mises stress",
+        "C": "Temperature distribution",
+        "D": "Reaction force"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "question": "What does a safety factor of 2.0 mean?",
+      "options": {
+        "A": "Design fails at applied load",
+        "B": "Design can handle double the load",
+        "C": "Material is at yield point",
+        "D": "Analysis is incomplete"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "question": "What should deformation results be compared to?",
+      "options": {
+        "A": "Material density",
+        "B": "Design tolerances",
+        "C": "Mesh size",
+        "D": "Load magnitude"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "question": "Which result is best for worst-case stress analysis?",
+      "options": {
+        "A": "Maximum shear stress",
+        "B": "von Mises stress",
+        "C": "Principal stress",
+        "D": "Thermal stress"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "question": "What indicates a successful solution in ANSYS?",
+      "options": {
+        "A": "Red exclamation mark",
+        "B": "Green checkmark",
+        "C": "Yellow warning",
+        "D": "Blue progress bar"
+      },
+      "correct_answer": "B"
+    },
+    // Pages 21–25: Fatigue Analysis
+    {
+      "question": "Which tool analyzes cyclic loading in ANSYS?",
+      "options": {
+        "A": "Static Structural",
+        "B": "Fatigue Tool",
+        "C": "Thermal Analysis",
+        "D": "Modal Analysis"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "question": "What does a fatigue damage value >1 indicate?",
+      "options": {
+        "A": "Infinite component life",
+        "B": "Failure before design life",
+        "C": "Stable performance",
+        "D": "Invalid material data"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "question": "What does 'Fully Reversed' loading mean in fatigue?",
+      "options": {
+        "A": "Load from zero to maximum",
+        "B": "Equal positive and negative loads",
+        "C": "Constant load",
+        "D": "Random load changes"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "question": "Which fatigue theory is most conservative for ductile materials?",
+      "options": {
+        "A": "Gerber",
+        "B": "Goodman",
+        "C": "Soderberg",
+        "D": "Morrow"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "question": "Why is fatigue safety factor capped at 15?",
+      "options": {
+        "A": "Software bug",
+        "B": "Values >15 indicate infinite life",
+        "C": "Hardware limitation",
+        "D": "Regulatory requirement"
+      },
+      "correct_answer": "B"
+    }
+  ]
+}
